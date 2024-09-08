@@ -1,0 +1,766 @@
+URL: https://arxiv.org/abs/2409.03005
+Title: PIETRA: Physics-Informed Evidential Learning for Traversing Out-of-Distribution Terrain
+
+Original Abstract:
+Self-supervised learning is a powerful approach for developing traversability models for off-road navigation, but these models often struggle with inputs unseen during training. Existing methods utilize techniques like evidential deep learning to quantify model uncertainty, helping to identify and avoid out-of-distribution terrain. However, always avoiding out-of-distribution terrain can be overly conservative, e.g., when novel terrain can be effectively analyzed using a physics-based model. To overcome this challenge, we introduce Physics-Informed Evidential Traversability (PIETRA), a self-supervised learning framework that integrates physics priors directly into the mathematical formulation of evidential neural networks and introduces physics knowledge implicitly through an uncertainty-aware, physics-informed training loss. Our evidential network seamlessly transitions between learned and physics-based predictions for out-of-distribution inputs. Additionally, the physics-informed loss regularizes the learned model, ensuring better alignment with the physics model. Extensive simulations and hardware experiments demonstrate that PIETRA improves both learning accuracy and navigation performance in environments with significant distribution shifts.
+
+Translated Abstract:
+자기 지도 학습은 오프로드 내비게이션을 위한 통과 가능성 모델을 개발하는 데 강력한 방법이지만, 이런 모델은 훈련 중에 보지 못한 입력에 대해 잘 작동하지 않아. 기존 방법들은 증거 기반 심층 학습 같은 기술을 사용해서 모델의 불확실성을 정량화하고, 분포 외의 지형을 식별하고 피하는 데 도움을 주고 있어. 하지만, 항상 분포 외의 지형을 피하는 건 너무 조심스러울 수 있어. 예를 들어, 새로운 지형이 물리 기반 모델을 활용해서 잘 분석될 수 있을 때 그렇지.
+
+이런 문제를 해결하기 위해 우리는 물리 정보 기반 증거 통과 가능성(PIETRA)을 소개해. PIETRA는 자기 지도 학습 프레임워크로, 물리적 정보를 증거 신경망의 수학적 공식에 직접 통합하고, 불확실성을 고려한 물리 기반 훈련 손실을 통해 물리적 지식을 암묵적으로 도입해. 우리의 증거 네트워크는 학습된 예측과 물리 기반 예측 사이를 매끄럽게 전환할 수 있어. 게다가, 물리 정보 기반 손실은 학습된 모델을 규제해서 물리 모델과 더 잘 맞도록 도와줘.
+
+광범위한 시뮬레이션과 하드웨어 실험을 통해 PIETRA가 상당한 분포 변화가 있는 환경에서 학습 정확도와 내비게이션 성능을 모두 향상시킨다는 걸 보여줬어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03107
+Title: RoboKoop: Efficient Control Conditioned Representations from Visual Input in Robotics using Koopman Operator
+
+Original Abstract:
+Developing agents that can perform complex control tasks from high-dimensional observations is a core ability of autonomous agents that requires underlying robust task control policies and adapting the underlying visual representations to the task. Most existing policies need a lot of training samples and treat this problem from the lens of two-stage learning with a controller learned on top of pre-trained vision models. We approach this problem from the lens of Koopman theory and learn visual representations from robotic agents conditioned on specific downstream tasks in the context of learning stabilizing control for the agent. We introduce a Contrastive Spectral Koopman Embedding network that allows us to learn efficient linearized visual representations from the agent's visual data in a high dimensional latent space and utilizes reinforcement learning to perform off-policy control on top of the extracted representations with a linear controller. Our method enhances stability and control in gradient dynamics over time, significantly outperforming existing approaches by improving efficiency and accuracy in learning task policies over extended horizons.
+
+Translated Abstract:
+복잡한 제어 작업을 수행할 수 있는 에이전트를 개발하는 것은 자율 에이전트의 핵심 능력 중 하나야. 이 능력을 위해서는 강력한 작업 제어 정책과 작업에 맞춰 시각적 표현을 조정하는 것이 필요해. 대부분의 기존 정책은 많은 훈련 샘플이 필요하고, 사전 훈련된 비전 모델 위에 컨트롤러를 학습하는 두 단계 학습 방식으로 이 문제를 다루고 있어.
+
+우리는 이 문제를 쿠프만 이론의 관점에서 접근하고, 특정 하위 작업에 조건화된 로봇 에이전트로부터 시각적 표현을 학습해. 이 과정은 에이전트를 위한 안정화 제어를 배우는 맥락에서 이루어져. 우리는 Contrastive Spectral Koopman Embedding 네트워크를 도입하여, 에이전트의 시각 데이터로부터 고차원 잠재 공간에서 효율적인 선형화된 시각적 표현을 학습할 수 있게 해. 그리고 강화 학습을 활용해 추출된 표현 위에서 오프 폴리시 제어를 수행하는 선형 컨트롤러를 사용해.
+
+우리 방법은 시간이 지남에 따라 경량 동역학에서 안정성과 제어를 향상시켜, 기존 접근 방식보다 훨씬 더 나은 성능을 보여줘. 작업 정책 학습의 효율성과 정확성을 향상시켜 긴 시간 동안 더 좋은 결과를 내는 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03114
+Title: Developing, Analyzing, and Evaluating Self-Drive Algorithms Using Drive-by-Wire Electric Vehicles
+
+Original Abstract:
+Reliable lane-following algorithms are essential for safe and effective autonomous driving. This project was primarily focused on developing and evaluating different lane-following programs to find the most reliable algorithm for a Vehicle to Everything (V2X) project. The algorithms were first tested on a simulator and then with real vehicles equipped with a drive-by-wire system using ROS (Robot Operating System). Their performance was assessed through reliability, comfort, speed, and adaptability metrics. The results show that the two most reliable approaches detect both lane lines and use unsupervised learning to separate them. These approaches proved to be robust in various driving scenarios, making them suitable candidates for integration into the V2X project.
+
+Translated Abstract:
+신뢰할 수 있는 차선 추적 알고리즘은 안전하고 효과적인 자율주행에 필수적이야. 이 프로젝트는 다양한 차선 추적 프로그램을 개발하고 평가하는 데 주로 집중했어. 그 목표는 V2X 프로젝트에 가장 신뢰할 수 있는 알고리즘을 찾는 거였지.
+
+알고리즘은 먼저 시뮬레이터에서 테스트하고, 그 다음에는 ROS(로봇 운영 체제)를 사용한 드라이브 바이 와이어 시스템이 장착된 실제 차량으로 실험했어. 성능은 신뢰성, 편안함, 속도, 적응력 같은 기준으로 평가했어.
+
+결과를 보면, 가장 신뢰할 수 있는 두 가지 접근 방식이 차선과 차선을 구분하는 비지도 학습을 사용해서 차선의 라인을 모두 검출했어. 이 방법들은 다양한 주행 상황에서도 강력한 성능을 보였고, V2X 프로젝트에 통합하기에 적합한 후보로 확인됐어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03120
+Title: Approximate Environment Decompositions for Robot Coverage Planning using Submodular Set Cover
+
+Original Abstract:
+In this paper, we investigate the problem of decomposing 2D environments for robot coverage planning. Coverage path planning (CPP) involves computing a cost-minimizing path for a robot equipped with a coverage or sensing tool so that the tool visits all points in the environment. CPP is an NP-Hard problem, so existing approaches simplify the problem by decomposing the environment into the minimum number of sectors. Sectors are sub-regions of the environment that can each be covered using a lawnmower path (i.e., along parallel straight-line paths) oriented at an angle. However, traditional methods either limit the coverage orientations to be axis-parallel (horizontal/vertical) or provide no guarantees on the number of sectors in the decomposition. We introduce an approach to decompose the environment into possibly overlapping rectangular sectors. We provide an approximation guarantee on the number of sectors computed using our approach for a given environment. We do this by leveraging the submodular property of the sector coverage function, which enables us to formulate the decomposition problem as a submodular set cover (SSC) problem with well-known approximation guarantees for the greedy algorithm. Our approach improves upon existing coverage planning methods, as demonstrated through an evaluation using maps of complex real-world environments.
+
+Translated Abstract:
+이 논문에서는 로봇의 커버리지 계획을 위해 2D 환경을 분해하는 문제를 다룹니다. 커버리지 경로 계획(CPP)은 로봇이 환경의 모든 지점을 방문하도록 도구를 사용하는 최적 경로를 계산하는 과정이에요. CPP는 NP-하드 문제라서 기존 방법들은 환경을 최소한의 섹터로 나누어서 문제를 간단하게 만들어요. 
+
+섹터는 환경의 하위 영역으로, 각각은 잔디 깎는 기계처럼 평행한 직선 경로로 커버할 수 있는 지역이에요. 하지만 전통적인 방법들은 커버리지 방향을 축에 평행하게(수평/수직) 제한하거나, 분해된 섹터의 수에 대한 보장을 제공하지 않아요. 
+
+우리는 환경을 겹칠 수도 있는 직사각형 섹터로 분해하는 방법을 제안해요. 이 방법을 사용해서 계산된 섹터의 수에 대한 근사 보장을 제공합니다. 이는 섹터 커버리지 함수의 서브모듈러 성질을 활용해서, 분해 문제를 서브모듈러 집합 커버(SSC) 문제로 만들어 잘 알려진 탐욕 알고리즘의 근사 보장을 받을 수 있게 해요. 
+
+우리의 접근 방식은 복잡한 실제 환경의 맵을 사용한 평가를 통해 기존 커버리지 계획 방법보다 개선된 성능을 보여줍니다.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03160
+Title: Autonomous Drifting Based on Maximal Safety Probability Learning
+
+Original Abstract:
+This paper proposes a novel learning-based framework for autonomous driving based on the concept of maximal safety probability. Efficient learning requires rewards that are informative of desirable/undesirable states, but such rewards are challenging to design manually due to the difficulty of differentiating better states among many safe states. On the other hand, learning policies that maximize safety probability does not require laborious reward shaping but is numerically challenging because the algorithms must optimize policies based on binary rewards sparse in time. Here, we show that physics-informed reinforcement learning can efficiently learn this form of maximally safe policy. Unlike existing drift control methods, our approach does not require a specific reference trajectory or complex reward shaping, and can learn safe behaviors only from sparse binary rewards. This is enabled by the use of the physics loss that plays an analogous role to reward shaping. The effectiveness of the proposed approach is demonstrated through lane keeping in a normal cornering scenario and safe drifting in a high-speed racing scenario.
+
+Translated Abstract:
+이 논문은 자율주행을 위한 새로운 학습 기반 프레임워크를 제안해. 이 프레임워크는 최대 안전 확률이라는 개념에 기반하고 있어.
+
+효율적인 학습을 하려면 원하는 상태와 원하지 않는 상태에 대한 정보를 주는 보상이 필요해. 하지만 안전한 상태가 많아서 어떤 상태가 더 좋은지 구별하기 어려워서 보상을 수동으로 설계하는 건 힘들어. 반면, 안전 확률을 최대화하는 정책을 학습하는 건 보상 shaping을 복잡하게 할 필요가 없지만, 알고리즘이 시간적으로 희소한 이진 보상에 기반해 정책을 최적화해야 해서 수치적으로는 도전적이야.
+
+여기서는 물리 정보 기반 강화 학습이 이런 형태의 최대 안전 정책을 효율적으로 학습할 수 있음을 보여줘. 기존의 드리프트 제어 방법과는 달리, 우리 방법은 특정 참조 궤적이나 복잡한 보상 shaping이 필요 없고, 희소한 이진 보상만으로 안전한 행동을 배울 수 있어. 이건 보상 shaping과 유사한 역할을 하는 물리 손실을 사용함으로써 가능해.
+
+제안한 접근 방식의 효과는 일반적인 코너링 상황에서의 차선 유지와 고속 레이싱 상황에서의 안전한 드리프트를 통해 입증됐어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03166
+Title: Continual Skill and Task Learning via Dialogue
+
+Original Abstract:
+Continual and interactive robot learning is a challenging problem as the robot is present with human users who expect the robot to learn novel skills to solve novel tasks perpetually with sample efficiency. In this work we present a framework for robots to query and learn visuo-motor robot skills and task relevant information via natural language dialog interactions with human users. Previous approaches either focus on improving the performance of instruction following agents, or passively learn novel skills or concepts. Instead, we used dialog combined with a language-skill grounding embedding to query or confirm skills and/or tasks requested by a user. To achieve this goal, we developed and integrated three different components for our agent. Firstly, we propose a novel visual-motor control policy ACT with Low Rank Adaptation (ACT-LoRA), which enables the existing SoTA ACT model to perform few-shot continual learning. Secondly, we develop an alignment model that projects demonstrations across skill embodiments into a shared embedding allowing us to know when to ask questions and/or demonstrations from users. Finally, we integrated an existing LLM to interact with a human user to perform grounded interactive continual skill learning to solve a task. Our ACT-LoRA model learns novel fine-tuned skills with a 100% accuracy when trained with only five demonstrations for a novel skill while still maintaining a 74.75% accuracy on pre-trained skills in the RLBench dataset where other models fall significantly short. We also performed a human-subjects study with 8 subjects to demonstrate the continual learning capabilities of our combined framework. We achieve a success rate of 75% in the task of sandwich making with the real robot learning from participant data demonstrating that robots can learn novel skills or task knowledge from dialogue with non-expert users using our approach.
+
+Translated Abstract:
+로봇의 지속적이고 상호작용적인 학습은 어려운 문제야. 로봇이 인간 사용자와 함께 있을 때, 사용자들은 로봇이 새로운 기술을 배워서 새로운 작업을 효율적으로 해결하기를 기대하거든. 이 연구에서는 로봇이 인간 사용자와 자연어 대화를 통해 시각-운동 로봇 기술과 작업 관련 정보를 배우고 질문할 수 있는 프레임워크를 제안해.
+
+이전의 연구들은 주로 지시를 따르는 에이전트의 성능을 개선하거나, 새로운 기술이나 개념을 수동적으로 배우는 데 초점을 맞췄어. 하지만 우리는 대화를 사용해 사용자가 요청한 기술이나 작업을 질문하거나 확인할 수 있도록 언어-기술 연결 임베딩을 결합했어. 이를 위해 우리 에이전트를 위해 세 가지 다른 구성 요소를 개발하고 통합했어.
+
+첫 번째로, 우리는 Low Rank Adaptation(ACT-LoRA)이라는 새로운 시각-운동 제어 정책을 제안해. 이 모델은 기존의 SoTA ACT 모델이 몇 번의 샘플로 지속 학습을 할 수 있게 해줘. 두 번째로, 우리는 기술 구현 간의 시연을 공유 임베딩으로 투사하는 정렬 모델을 개발했어. 이 모델 덕분에 사용자에게 질문이나 시연을 요청할 시점을 알 수 있어. 마지막으로, 우리는 기존의 대형 언어 모델(LLM)을 통합해 인간 사용자와 상호작용하며 기반이 있는 계속적인 기술 학습을 통해 작업을 수행할 수 있도록 했어.
+
+우리의 ACT-LoRA 모델은 새로운 기술에 대해 단 5개의 시연으로 100% 정확도로 학습하는 반면, RLBench 데이터셋에서 다른 모델들이 크게 부족한 상황에서도 미리 훈련된 기술에 대해서는 74.75%의 정확도를 유지해. 또한, 우리는 8명의 참가자를 대상으로 인간 주제 연구를 수행해 우리의 통합 프레임워크의 지속 학습 능력을 입증했어. 우리는 실제 로봇이 참가자의 데이터를 학습하여 샌드위치 만들기 작업에서 75%의 성공률을 달성했다는 것을 보여줬어. 이 연구는 로봇이 비전문가 사용자와의 대화를 통해 새로운 기술이나 작업 지식을 배울 수 있다는 것을 입증해.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03170
+Title: Solving Stochastic Orienteering Problems with Chance Constraints Using Monte Carlo Tree Search
+
+Original Abstract:
+We present a new Monte Carlo Tree Search (MCTS) algorithm to solve the stochastic orienteering problem with chance constraints, i.e., a version of the problem where travel costs are random, and one is assigned a bound on the tolerable probability of exceeding the budget. The algorithm we present is online and anytime, i.e., it alternates planning and execution, and the quality of the solution it produces increases as the allowed computational time increases. Differently from most former MCTS algorithms, for each action available in a state the algorithm maintains estimates of both its value and the probability that its execution will eventually result in a violation of the chance constraint. Then, at action selection time, our proposed solution prunes away trajectories that are estimated to violate the failure probability. Extensive simulation results show that this approach can quickly produce high-quality solutions and is competitive with the optimal but time-consuming solution.
+
+Translated Abstract:
+우리는 확률 제약이 있는 확률 지향 문제를 해결하기 위한 새로운 몬테카를로 트리 탐색(MCTS) 알고리즘을 제안해. 이 문제는 여행 비용이 랜덤하고, 예산을 초과할 확률에 제한이 있는 버전이야.
+
+우리가 제안하는 알고리즘은 온라인이고 언제든지 사용할 수 있어. 즉, 계획과 실행을 번갈아 가며 진행하고, 주어진 계산 시간이 길어질수록 솔루션의 품질도 높아져.
+
+대부분의 기존 MCTS 알고리즘과 다르게, 이 알고리즘은 각 상태에서 사용할 수 있는 행동에 대해 그 가치와 실행했을 때 확률 제약을 위반할 가능성을 모두 추정해. 그런 다음 행동을 선택할 때, 실패 확률을 위반할 것으로 예상되는 경로는 잘라내는 방식이야.
+
+광범위한 시뮬레이션 결과를 보면, 이 접근법이 빠르게 고품질 솔루션을 만들어내고, 최적이지만 시간이 많이 걸리는 솔루션과 경쟁력이 있다는 걸 보여줘.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03193
+Title: Upper-Limb Rehabilitation with a Dual-Mode Individualized Exoskeleton Robot: A Generative-Model-Based Solution
+
+Original Abstract:
+Several upper-limb exoskeleton robots have been developed for stroke rehabilitation, but their rather low level of individualized assistance typically limits their effectiveness and practicability. Individualized assistance involves an upper-limb exoskeleton robot continuously assessing feedback from a stroke patient and then meticulously adjusting interaction forces to suit specific conditions and online changes. This paper describes the development of a new upper-limb exoskeleton robot with a novel online generative capability that allows it to provide individualized assistance to support the rehabilitation training of stroke patients. Specifically, the upper-limb exoskeleton robot exploits generative models to customize the fine and fit trajectory for the patient, as medical conditions, responses, and comfort feedback during training generally differ between patients. This generative capability is integrated into the two working modes of the upper-limb exoskeleton robot: an active mirroring mode for patients who retain motor abilities on one side of the body and a passive following mode for patients who lack motor ability on both sides of the body. The performance of the upper-limb exoskeleton robot was illustrated in experiments involving healthy subjects and stroke patients.
+
+Translated Abstract:
+여러 가지 상지 외골격 로봇이 뇌졸중 재활을 위해 개발되었지만, 개인 맞춤형 지원 수준이 낮아서 효과성과 실용성이 제한되는 경우가 많아. 개인 맞춤형 지원은 상지 외골격 로봇이 뇌졸중 환자의 피드백을 계속 평가하고, 특정 상황과 온라인 변화에 맞춰 상호작용 힘을 세심하게 조정하는 걸 의미해.
+
+이 논문에서는 뇌졸중 환자의 재활 훈련을 지원하기 위해 개인 맞춤형 지원을 제공할 수 있는 새로운 상지 외골격 로봇의 개발을 설명해. 특히 이 로봇은 생성 모델을 활용해서 환자에게 맞는 미세한 경로를 맞춤화하는데, 왜냐하면 환자마다 의학적 상태, 반응, 훈련 중 편안함에 대한 피드백이 다르기 때문이야.
+
+이 생성 기능은 상지 외골격 로봇의 두 가지 작동 모드에 통합되어 있어: 한쪽 몸에 운동 능력이 남아 있는 환자를 위한 능동 미러링 모드와 양쪽 몸에 운동 능력이 없는 환자를 위한 수동 추종 모드가 있어. 상지 외골격 로봇의 성능은 건강한 피실험자와 뇌졸중 환자를 대상으로 한 실험에서 보여졌어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03230
+Title: Improving agent performance in fluid environments by perceptual pretraining
+
+Original Abstract:
+In this paper, we construct a pretraining framework for fluid environment perception, which includes an information compression model and the corresponding pretraining method. We test this framework in a two-cylinder problem through numerical simulation. The results show that after unsupervised pretraining with this framework, the intelligent agent can acquire key features of surrounding fluid environment, thereby adapting more quickly and effectively to subsequent multi-scenario tasks. In our research, these tasks include perceiving the position of the upstream obstacle and actively avoiding shedding vortices in the flow field to achieve drag reduction. Better performance of the pretrained agent is discussed in the sensitivity analysis.
+
+Translated Abstract:
+이 논문에서는 유체 환경 인식을 위한 사전 훈련 프레임워크를 구축했어. 이 프레임워크는 정보 압축 모델과 그에 따른 사전 훈련 방법을 포함하고 있어. 우리는 이 프레임워크를 이용해 두 개의 실린더 문제를 수치 시뮬레이션으로 테스트했어.
+
+결과적으로, 이 프레임워크로 비지도 사전 훈련을 받은 지능형 에이전트는 주변 유체 환경의 주요 특징을 잘 파악할 수 있었고, 이후 다양한 시나리오의 작업에 더 빠르고 효과적으로 적응할 수 있었어. 우리 연구에서 이러한 작업에는 상류 장애물의 위치를 인식하고, 흐름에서 발생하는 와류를 적극적으로 피해서 항력 감소를 이루는 것들이 포함돼.
+
+사전 훈련된 에이전트의 성능 향상에 대해서는 민감도 분석을 통해 논의할 예정이야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03299
+Title: Bringing the RT-1-X Foundation Model to a SCARA robot
+
+Original Abstract:
+Traditional robotic systems require specific training data for each task, environment, and robot form. While recent advancements in machine learning have enabled models to generalize across new tasks and environments, the challenge of adapting these models to entirely new settings remains largely unexplored. This study addresses this by investigating the generalization capabilities of the RT-1-X robotic foundation model to a type of robot unseen during its training: a SCARA robot from UMI-RTX.
+Initial experiments reveal that RT-1-X does not generalize zero-shot to the unseen type of robot. However, fine-tuning of the RT-1-X model by demonstration allows the robot to learn a pickup task which was part of the foundation model (but learned for another type of robot). When the robot is presented with an object that is included in the foundation model but not in the fine-tuning dataset, it demonstrates that only the skill, but not the object-specific knowledge, has been transferred.
+
+Translated Abstract:
+전통적인 로봇 시스템은 각 작업, 환경, 로봇 형태에 맞는 특정 훈련 데이터가 필요해. 최근 머신러닝 발전 덕분에 모델들이 새로운 작업과 환경에 일반화할 수 있게 됐지만, 완전히 새로운 환경에 모델을 적응시키는 건 아직 잘 연구되지 않았어. 이 연구는 RT-1-X 로봇 기반 모델이 훈련 중에 본 적 없는 SCARA 로봇에 대해 일반화할 수 있는 능력을 조사해.
+
+초기 실험 결과, RT-1-X는 보지 못한 로봇 형태에 대해 제로샷 일반화가 잘 안 된다는 걸 보여줬어. 하지만 RT-1-X 모델을 데모로 세밀하게 조정하면 로봇이 기본 모델의 일부인 픽업 작업을 배울 수 있어. 이 작업은 다른 유형의 로봇을 위해 배운 거였지. 로봇이 기본 모델에 포함되지만 세밀 조정 데이터셋에는 없는 물체를 받았을 때, 오직 기술만 전이되고 물체에 대한 구체적인 지식은 전이되지 않았다는 걸 보여줬어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03332
+Title: Masked Sensory-Temporal Attention for Sensor Generalization in Quadruped Locomotion
+
+Original Abstract:
+With the rising focus on quadrupeds, a generalized policy capable of handling different robot models and sensory inputs will be highly beneficial. Although several methods have been proposed to address different morphologies, it remains a challenge for learning-based policies to manage various combinations of proprioceptive information. This paper presents Masked Sensory-Temporal Attention (MSTA), a novel transformer-based model with masking for quadruped locomotion. It employs direct sensor-level attention to enhance sensory-temporal understanding and handle different combinations of sensor data, serving as a foundation for incorporating unseen information. This model can effectively understand its states even with a large portion of missing information, and is flexible enough to be deployed on a physical system despite the long input sequence.
+
+Translated Abstract:
+최근에 네 발 달린 로봇에 대한 관심이 높아지고 있어서, 다양한 로봇 모델과 센서 입력을 처리할 수 있는 일반화된 정책이 필요해. 여러 방법들이 다양한 형태를 다루기 위해 제안되긴 했지만, 학습 기반 정책이 여러 프로프리오셉티브 정보 조합을 관리하는 건 여전히 도전과제야.
+
+이 논문에서는 Masked Sensory-Temporal Attention (MSTA)라는 새로운 변환기 모델을 소개해. 이 모델은 네 발 달린 로봇의 움직임을 위해 마스킹 기능을 사용해. 직접 센서 수준의 주의를 활용해서 감각적 시간 이해를 높이고, 다양한 센서 데이터 조합을 처리할 수 있어. 그리고 보지 못한 정보를 통합하는 기초가 되지.
+
+이 모델은 많은 정보가 빠진 상태에서도 자신의 상태를 효과적으로 이해할 수 있고, 긴 입력 시퀀스에도 불구하고 실제 시스템에 적용할 만큼 유연해.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03369
+Title: Fast Payload Calibration for Sensorless Contact Estimation Using Model Pre-training
+
+Original Abstract:
+Force and torque sensing is crucial in robotic manipulation across both collaborative and industrial settings. Traditional methods for dynamics identification enable the detection and control of external forces and torques without the need for costly sensors. However, these approaches show limitations in scenarios where robot dynamics, particularly the end-effector payload, are subject to changes. Moreover, existing calibration techniques face trade-offs between efficiency and accuracy due to concerns over joint space coverage. In this paper, we introduce a calibration scheme that leverages pre-trained Neural Network models to learn calibrated dynamics across a wide range of joint space in advance. This offline learning strategy significantly reduces the need for online data collection, whether for selection of the optimal model or identification of payload features, necessitating merely a 4-second trajectory for online calibration. This method is particularly effective in tasks that require frequent dynamics recalibration for precise contact estimation. We further demonstrate the efficacy of this approach through applications in sensorless joint and task compliance, accounting for payload variability.
+
+Translated Abstract:
+로봇 조작에서 힘과 토크 센싱은 협동 작업과 산업 환경 모두에서 매우 중요해. 전통적인 동역학 식별 방법은 비싼 센서 없이도 외부 힘과 토크를 감지하고 제어할 수 있게 해주지만, 로봇의 동역학, 특히 말단 장치의 하중이 변할 때는 한계가 있어. 게다가 기존의 보정 기술은 관절 공간 커버리지 문제로 인해 효율과 정확성 사이에서 트레이드오프가 생기곤 해.
+
+이 논문에서는 미리 훈련된 신경망 모델을 활용해 다양한 관절 공간에서 보정된 동역학을 미리 학습하는 보정 방안을 제안해. 이 오프라인 학습 방식은 최적 모델 선택이나 하중 특성 식별을 위해 온라인 데이터 수집이 필요한 상황을 크게 줄여줘. 온라인 보정을 위해서는 단 4초의 경로만 필요해. 이 방법은 정밀한 접촉 추정을 위해 잦은 동역학 재보정이 필요한 작업에 특히 효과적이야. 우리는 하중 변동을 고려한 센서 없는 관절 및 작업 적합성 응용을 통해 이 접근법의 효과를 더 보여줄 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03403
+Title: RoVi-Aug: Robot and Viewpoint Augmentation for Cross-Embodiment Robot Learning
+
+Original Abstract:
+Scaling up robot learning requires large and diverse datasets, and how to efficiently reuse collected data and transfer policies to new embodiments remains an open question. Emerging research such as the Open-X Embodiment (OXE) project has shown promise in leveraging skills by combining datasets including different robots. However, imbalances in the distribution of robot types and camera angles in many datasets make policies prone to overfit. To mitigate this issue, we propose RoVi-Aug, which leverages state-of-the-art image-to-image generative models to augment robot data by synthesizing demonstrations with different robots and camera views. Through extensive physical experiments, we show that, by training on robot- and viewpoint-augmented data, RoVi-Aug can zero-shot deploy on an unseen robot with significantly different camera angles. Compared to test-time adaptation algorithms such as Mirage, RoVi-Aug requires no extra processing at test time, does not assume known camera angles, and allows policy fine-tuning. Moreover, by co-training on both the original and augmented robot datasets, RoVi-Aug can learn multi-robot and multi-task policies, enabling more efficient transfer between robots and skills and improving success rates by up to 30%.
+
+Translated Abstract:
+로봇 학습을 확장하려면 크고 다양한 데이터셋이 필요해. 그런데 수집된 데이터를 어떻게 효율적으로 재사용하고, 새로운 로봇에 정책을 전이할지는 여전히 풀어야 할 문제야. 최근에 나온 Open-X Embodiment (OXE) 프로젝트 같은 연구들은 다양한 로봇을 포함한 데이터셋을 결합해서 기술을 활용하는 데 가능성을 보여줬어. 
+
+하지만 많은 데이터셋에서 로봇 종류와 카메라 각도의 분포가 불균형해서 정책이 과적합되는 경향이 있어. 이 문제를 해결하기 위해 우리는 RoVi-Aug를 제안해. RoVi-Aug는 최신 이미지-투-이미지 생성 모델을 활용해서 다양한 로봇과 카메라 뷰로 시연을 합성함으로써 로봇 데이터를 증강해. 
+
+우리는 광범위한 물리적 실험을 통해 로봇과 시점이 증강된 데이터로 학습하면, RoVi-Aug가 전혀 본 적 없는 로봇에 대해서도 카메라 각도가 크게 다른 상황에서 제로샷 배포가 가능하다는 것을 보여줬어. Mirage 같은 테스트 시간 적응 알고리즘과 비교했을 때, RoVi-Aug는 테스트 시간에 추가 처리가 필요 없고, 알려진 카메라 각도를 가정하지 않으며, 정책 미세 조정이 가능해. 
+
+게다가 원래 데이터셋과 증강된 데이터셋을 함께 학습함으로써 RoVi-Aug는 다중 로봇과 다중 작업 정책을 배울 수 있어. 이로 인해 로봇과 기술 간의 전이가 더 효율적으로 이루어지고 성공률이 최대 30%까지 향상될 수 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03421
+Title: F3T: A soft tactile unit with 3D force and temperature mathematical decoupling ability for robots
+
+Original Abstract:
+The human skin exhibits remarkable capability to perceive contact forces and environmental temperatures, providing intricate information essential for nuanced manipulation. Despite recent advancements in soft tactile sensors, a significant challenge remains in accurately decoupling signals - specifically, separating force from directional orientation and temperature - resulting in fail to meet the advanced application requirements of robots. This research proposes a multi-layered soft sensor unit (F3T) designed to achieve isolated measurements and mathematical decoupling of normal pressure, omnidirectional tangential forces, and temperature. We developed a circular coaxial magnetic film featuring a floating-mountain multi-layer capacitor, facilitating the physical decoupling of normal and tangential forces in all directions. Additionally, we incorporated an ion gel-based temperature sensing film atop the tactile sensor. This sensor is resilient to external pressure and deformation, enabling it to measure temperature and, crucially, eliminate capacitor errors induced by environmental temperature changes. This innovative design allows for the decoupled measurement of multiple signals, paving the way for advancements in higher-level robot motion control, autonomous decision-making, and task planning.
+
+Translated Abstract:
+사람의 피부는 접촉 힘과 환경 온도를 감지하는 놀라운 능력을 가지고 있어, 정밀한 조작에 필요한 복잡한 정보를 제공합니다. 최근 부드러운 촉각 센서가 발전했지만, 힘과 방향, 온도를 정확히 분리하는 데 여전히 큰 도전이 남아 있어 로봇의 고급 응용 요구 사항을 충족하지 못하고 있습니다.
+
+이 연구에서는 힘, 방향성 접촉 힘, 온도를 분리 측정할 수 있도록 설계된 다층 소프트 센서 유닛(F3T)을 제안합니다. 우리는 모든 방향에서의 정상 압력과 접촉 힘을 물리적으로 분리할 수 있도록 플로팅 마운틴 다층 커패시터를 갖춘 원형 동축 자기 필름을 개발했습니다. 
+
+또한, 촉각 센서 위에 이온 젤 기반의 온도 감지 필름을 추가했습니다. 이 센서는 외부 압력과 변형에 강해 온도를 측정할 수 있고, 환경 온도 변화로 인한 커패시터 오류를 제거하는 데 중요한 역할을 합니다. 
+
+이 혁신적인 설계 덕분에 여러 신호를 분리 측정할 수 있게 되어, 고급 로봇 동작 제어, 자율적 의사 결정, 작업 계획의 발전에 기여할 수 있는 길이 열립니다.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03429
+Title: Reinforcement Learning Approach to Optimizing Profilometric Sensor Trajectories for Surface Inspection
+
+Original Abstract:
+High-precision surface defect detection in manufacturing is essential for ensuring quality control. Laser triangulation profilometric sensors are key to this process, providing detailed and accurate surface measurements over a line. To achieve a complete and precise surface scan, accurate relative motion between the sensor and the workpiece is required. It is crucial to control the sensor pose to maintain optimal distance and relative orientation to the surface. It is also important to ensure uniform profile distribution throughout the scanning process. This paper presents a novel Reinforcement Learning (RL) based approach to optimize robot inspection trajectories for profilometric sensors. Building upon the Boustrophedon scanning method, our technique dynamically adjusts the sensor position and tilt to maintain optimal orientation and distance from the surface, while also ensuring a consistent profile distance for uniform and high-quality scanning. Utilizing a simulated environment based on the CAD model of the part, we replicate real-world scanning conditions, including sensor noise and surface irregularities. This simulation-based approach enables offline trajectory planning based on CAD models. Key contributions include the modeling of the state space, action space, and reward function, specifically designed for inspection applications using profilometric sensors. We use Proximal Policy Optimization (PPO) algorithm to efficiently train the RL agent, demonstrating its capability to optimize inspection trajectories with profilometric sensors. To validate our approach, we conducted several experiments where a model trained on a specific training piece was tested on various parts in simulation. Also, we conducted a real-world experiment by executing the optimized trajectory, generated offline from a CAD model, to inspect a part using a UR3e robotic arm model.
+
+Translated Abstract:
+제조업에서 고정밀 표면 결함 검출은 품질 관리를 위해 정말 중요해. 레이저 삼각 측량 프로파일 센서는 이 과정에서 핵심 역할을 해, 선을 따라 상세하고 정확한 표면 측정을 제공하거든. 완전하고 정확한 표면 스캔을 위해서는 센서와 작업물 사이의 상대적인 움직임이 정확해야 해. 센서의 위치를 잘 조정해서 표면과의 최적 거리와 방향을 유지하는 게 중요해. 또한 스캔하는 동안 균일한 프로파일 분포를 보장하는 것도 필요해.
+
+이 논문에서는 프로파일 센서를 위한 로봇 검사 경로를 최적화하는 새로운 강화 학습(RL) 기반 접근 방식을 소개해. 부스트로페돈 스캔 방법을 바탕으로, 우리의 기술은 센서의 위치와 기울기를 동적으로 조정해서 표면과의 최적 방향과 거리를 유지하고, 균일하고 고품질 스캔을 위해 일정한 프로파일 거리를 보장해. CAD 모델을 기반으로 한 시뮬레이션 환경을 사용해서, 센서 소음과 표면 불규칙성을 포함한 실제 스캔 조건을 재현해. 이 시뮬레이션 기반 접근 방식으로 CAD 모델을 기반으로 오프라인 경로 계획을 할 수 있어.
+
+주요 기여로는 프로파일 센서를 이용한 검사 응용을 위해 특별히 설계된 상태 공간, 행동 공간, 보상 함수의 모델링이 있어. 우리는 근접 정책 최적화(PPO) 알고리즘을 사용해서 RL 에이전트를 효과적으로 훈련시키고, 프로파일 센서를 이용한 검사 경로 최적화 능력을 보여줬어. 우리의 접근 방식을 검증하기 위해, 특정 훈련 조각에 대해 훈련된 모델을 다양한 부품에서 시뮬레이션으로 테스트하는 여러 실험을 진행했어. 또한, CAD 모델에서 오프라인으로 생성된 최적화된 경로를 실행해서 UR3e 로봇 팔 모델을 사용해 부품을 검사하는 실제 실험도 했어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03439
+Title: KiloBot: A Programming Language for Deploying Perception-Guided Industrial Manipulators at Scale
+
+Original Abstract:
+We would like industrial robots to handle unstructured environments with cameras and perception pipelines. In contrast to traditional industrial robots that replay offline-crafted trajectories, online behavior planning is required for these perception-guided industrial applications. Aside from perception and planning algorithms, deploying perception-guided manipulators also requires substantial effort in integration. One approach is writing scripts in a traditional language (such as Python) to construct the planning problem and perform integration with other algorithmic modules & external devices. While scripting in Python is feasible for a handful of robots and applications, deploying perception-guided manipulation at scale (e.g., more than 10000 robot workstations in over 2000 customer sites) becomes intractable. To resolve this challenge, we propose a Domain-Specific Language (DSL) for perception-guided manipulation applications. To scale up the deployment,our DSL provides: 1) an easily accessible interface to construct & solve a sub-class of Task and Motion Planning (TAMP) problems that are important in practical applications; and 2) a mechanism to implement flexible control flow to perform integration and address customized requirements of distinct industrial application. Combined with an intuitive graphical programming frontend, our DSL is mainly used by machine operators without coding experience in traditional programming languages. Within hours of training, operators are capable of orchestrating interesting sophisticated manipulation behaviors with our DSL. Extensive practical deployments demonstrate the efficacy of our method.
+
+Translated Abstract:
+우리는 산업 로봇이 카메라와 인식 파이프라인을 사용해서 비정형 환경을 다루기를 원해. 기존의 산업 로봇은 미리 만들어진 경로를 따라 움직이지만, 이런 인식 기반의 산업 응용 프로그램에서는 온라인 행동 계획이 필요해.
+
+인식과 계획 알고리즘 외에도, 인식 기반 조작기를 배포하려면 통합에 많은 노력이 필요해. 한 가지 방법은 파이썬 같은 전통적인 프로그래밍 언어로 스크립트를 작성해서 계획 문제를 구성하고 다른 알고리즘 모듈 및 외부 장치와 통합하는 거야. 파이썬으로 스크립트를 작성하는 건 몇몇 로봇과 응용 프로그램에선 가능하지만, 10,000개 이상의 로봇 작업장과 2,000개 이상의 고객 사이트에서 인식 기반 조작을 대규모로 배포하는 건 너무 복잡해.
+
+이 문제를 해결하기 위해, 우리는 인식 기반 조작 응용 프로그램을 위한 도메인 특화 언어(DSL)를 제안해. 이 DSL은 배포를 확장하기 위해 다음과 같은 기능을 제공해: 1) 실제 응용 프로그램에서 중요한 작업 및 움직임 계획(TAMP) 문제의 하위 클래스에 대한 접근하기 쉬운 인터페이스를 제공하고, 2) 통합을 수행하고 다양한 산업 응용 프로그램의 맞춤형 요구 사항을 해결하기 위한 유연한 제어 흐름을 구현하는 메커니즘을 제공해.
+
+직관적인 그래픽 프로그래밍 프론트엔드와 결합된 이 DSL은 전통적인 프로그래밍 언어에 대한 코딩 경험이 없는 기계 운영자들이 주로 사용해. 몇 시간의 교육만으로도 운영자들은 이 DSL을 사용해 흥미롭고 복잡한 조작 동작을 조정할 수 있어. 다양한 실용 배포 사례를 통해 우리의 방법이 효과적임을 보여줘.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03445
+Title: Neural HD Map Generation from Multiple Vectorized Tiles Locally Produced by Autonomous Vehicles
+
+Original Abstract:
+High-definition (HD) map is a fundamental component of autonomous driving systems, as it can provide precise environmental information about driving scenes. Recent work on vectorized map generation could produce merely 65% local map elements around the ego-vehicle at runtime by one tour with onboard sensors, leaving a puzzle of how to construct a global HD map projected in the world coordinate system under high-quality standards. To address the issue, we present GNMap as an end-to-end generative neural network to automatically construct HD maps with multiple vectorized tiles which are locally produced by autonomous vehicles through several tours. It leverages a multi-layer and attention-based autoencoder as the shared network, of which parameters are learned from two different tasks (i.e., pretraining and finetuning, respectively) to ensure both the completeness of generated maps and the correctness of element categories. Abundant qualitative evaluations are conducted on a real-world dataset and experimental results show that GNMap can surpass the SOTA method by more than 5% F1 score, reaching the level of industrial usage with a small amount of manual modification. We have already deployed it at Navinfo Co., Ltd., serving as an indispensable software to automatically build HD maps for autonomous driving systems.
+
+Translated Abstract:
+고해상도(HD) 맵은 자율주행 시스템의 기본 요소야. 이 맵은 운전 장면에 대한 정확한 환경 정보를 제공할 수 있거든. 최근에 벡터화된 맵 생성을 연구한 결과, 자율주행 차량이 onboard 센서를 이용해 한 바퀴 돌면서 주변 65% 정도의 로컬 맵 요소만 만들 수 있었어. 그래서 세계 좌표 시스템에 맞춰 고품질의 글로벌 HD 맵을 어떻게 만들어야 할지가 문제였어.
+
+이 문제를 해결하기 위해 우리는 GNMap이라는 생성적 신경망을 제안해. 이 네트워크는 여러 번 돌아다니며 자율주행 차량이 만든 벡터화된 타일들을 자동으로 결합해서 HD 맵을 만들어. 공유 네트워크로 다층 구조와 주의 기반의 오토인코더를 활용하고, 두 가지 다른 작업(사전 훈련과 미세 조정)에서 파라미터를 학습해. 이렇게 하면 생성된 맵의 완전성과 요소 카테고리의 정확성을 보장할 수 있어.
+
+실제 데이터셋을 가지고 다양한 질적 평가를 했고, 실험 결과 GNMap이 최신 기술보다 5% 이상의 F1 점수를 초과할 수 있다는 걸 보여줬어. 그래서 산업 사용 수준에 도달했고, 수동 수정도 최소한으로 필요해. 우리는 이미 Navinfo Co., Ltd.에 배포했고, 자율주행 시스템을 위한 HD 맵을 자동으로 만드는 필수 소프트웨어로 쓰이고 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03457
+Title: FLAF: Focal Line and Feature-constrained Active View Planning for Visual Teach and Repeat
+
+Original Abstract:
+This paper presents FLAF, a focal line and feature-constrained active view planning method for tracking failure avoidance in feature-based visual navigation of mobile robots. Our FLAF-based visual navigation is built upon a feature-based visual teach and repeat (VT\&R) framework, which supports many robotic applications by teaching a robot to navigate on various paths that cover a significant portion of daily autonomous navigation requirements. However, tracking failure in feature-based visual simultaneous localization and mapping (VSLAM) caused by textureless regions in human-made environments is still limiting VT\&R to be adopted in the real world. To address this problem, the proposed view planner is integrated into a feature-based visual SLAM system to build up an active VT\&R system that avoids tracking failure. In our system, a pan-tilt unit (PTU)-based active camera is mounted on the mobile robot. Using FLAF, the active camera-based VSLAM operates during the teaching phase to construct a complete path map and in the repeat phase to maintain stable localization. FLAF orients the robot toward more map points to avoid mapping failures during path learning and toward more feature-identifiable map points beneficial for localization while following the learned trajectory. Experiments in real scenarios demonstrate that FLAF outperforms the methods that do not consider feature-identifiability, and our active VT\&R system performs well in complex environments by effectively dealing with low-texture regions.
+
+Translated Abstract:
+이 논문에서는 FLAF라는 방법을 소개해. FLAF는 모바일 로봇의 특징 기반 시각 내비게이션에서 추적 실패를 피하기 위한 초점 선과 특징 제약을 활용한 능동적인 시각 계획 방법이야. 우리의 FLAF 기반 시각 내비게이션은 특징 기반 시각 가르치기 및 반복(VT&R) 프레임워크 위에 구축되었고, 이는 로봇이 일상적인 자율 내비게이션 요구사항의 상당 부분을 커버하는 다양한 경로를 따라 내비게이션하는 방법을 가르쳐서 여러 로봇 응용 프로그램을 지원해.
+
+하지만 사람의 손으로 만들어진 환경에서 텍스처가 없는 지역 때문에 특징 기반 시각 동시에 위치 측정 및 매핑(VSLAM)에서 추적 실패가 발생하는 건 여전히 VT&R이 실제 세계에서 사용되는 걸 제한하고 있어. 이 문제를 해결하기 위해 제안된 뷰 계획기는 특징 기반 시각 SLAM 시스템에 통합되어 추적 실패를 피하는 능동적인 VT&R 시스템을 구축해.
+
+우리 시스템에서는 팬-틸트 유닛(PTU) 기반의 능동 카메라가 모바일 로봇에 장착되어 있어. FLAF를 사용해서 능동 카메라 기반 VSLAM은 가르치는 단계에서 완전한 경로 맵을 만들고, 반복 단계에서는 안정적인 위치 측정을 유지해. FLAF는 경로 학습 중에 매핑 실패를 피하기 위해 로봇을 더 많은 맵 포인트 쪽으로 돌리고, 학습한 경로를 따라 갈 때는 위치 측정에 유리한 더 많은 특징 식별 가능한 맵 포인트 쪽으로 로봇을 향하게 해.
+
+실제 상황에서의 실험 결과 FLAF는 특징 식별 가능성을 고려하지 않는 방법들보다 성능이 뛰어나고, 우리의 능동적인 VT&R 시스템은 복잡한 환경에서 저텍스처 지역을 효과적으로 처리하면서 잘 작동해.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03535
+Title: Interactive Surgical Liver Phantom for Cholecystectomy Training
+
+Original Abstract:
+Training and prototype development in robot-assisted surgery requires appropriate and safe environments for the execution of surgical procedures. Current dry lab laparoscopy phantoms often lack the ability to mimic complex, interactive surgical tasks. This work presents an interactive surgical phantom for the cholecystectomy. The phantom enables the removal of the gallbladder during cholecystectomy by allowing manipulations and cutting interactions with the synthetic tissue. The force-displacement behavior of the gallbladder is modelled based on retraction demonstrations. The force model is compared to the force model of ex-vivo porcine gallbladders and evaluated on its ability to estimate retraction forces.
+
+Translated Abstract:
+로봇 보조 수술 교육과 프로토타입 개발에는 수술 절차를 안전하게 수행할 수 있는 적절한 환경이 필요해. 현재 사용되는 건식 실험실의 복강경 팬텀은 복잡하고 상호작용하는 수술 작업을 제대로 모사하지 못하는 경우가 많아. 
+
+이번 연구는 담낭 절제술을 위한 상호작용 가능한 수술 팬텀을 소개해. 이 팬텀은 합성 조직과의 조작 및 절단 상호작용을 통해 담낭을 제거할 수 있도록 해줘. 담낭의 힘-변위 행동은 후퇴 시연을 바탕으로 모델링되었어. 이 힘 모델은 생체 외의 돼지 담낭의 힘 모델과 비교되었고, 후퇴 힘을 추정하는 능력을 평가받았어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03556
+Title: MaskVal: Simple but Effective Uncertainty Quantification for 6D Pose Estimation
+
+Original Abstract:
+For the use of 6D pose estimation in robotic applications, reliable poses are of utmost importance to ensure a safe, reliable and predictable operational performance. Despite these requirements, state-of-the-art 6D pose estimators often do not provide any uncertainty quantification for their pose estimates at all, or if they do, it has been shown that the uncertainty provided is only weakly correlated with the actual true error. To address this issue, we investigate a simple but effective uncertainty quantification, that we call MaskVal, which compares the pose estimates with their corresponding instance segmentations by rendering and does not require any modification of the pose estimator itself. Despite its simplicity, MaskVal significantly outperforms a state-of-the-art ensemble method on both a dataset and a robotic setup. We show that by using MaskVal, the performance of a state-of-the-art 6D pose estimator is significantly improved towards a safe and reliable operation. In addition, we propose a new and specific approach to compare and evaluate uncertainty quantification methods for 6D pose estimation in the context of robotic manipulation.
+
+Translated Abstract:
+로봇 응용 프로그램에서 6D 자세 추정을 사용할 때, 신뢰할 수 있는 자세가 정말 중요해. 안전하고 예측 가능한 작동 성능을 보장하려면 꼭 필요해. 그런데 최신 6D 자세 추정기들은 보통 자세 추정값에 대한 불확실성 측정을 전혀 제공하지 않거나, 제공하더라도 실제 오류와는 약하게 연결되어 있다는 문제가 있어.
+
+이 문제를 해결하기 위해 우리는 MaskVal이라는 간단하지만 효과적인 불확실성 측정 방법을 조사했어. 이 방법은 자세 추정값과 해당하는 인스턴스 세분화 결과를 비교하는 방식으로, 자세 추정기를 수정할 필요가 없어. 간단함에도 불구하고 MaskVal은 최신 앙상블 방법보다 데이터셋과 로봇 설정 모두에서 성능이 훨씬 뛰어나.
+
+MaskVal을 사용하면 최신 6D 자세 추정기의 성능이 크게 향상돼서 보다 안전하고 신뢰할 수 있는 작동을 할 수 있어. 또한, 로봇 조작의 맥락에서 6D 자세 추정에 대한 불확실성 측정 방법을 비교하고 평가할 수 있는 새로운 구체적인 접근 방법도 제안해.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03614
+Title: 1 Modular Parallel Manipulator for Long-Term Soft Robotic Data Collection
+
+Original Abstract:
+Performing long-term experimentation or large-scale data collection for machine learning in the field of soft robotics is challenging, due to the hardware robustness and experimental flexibility required. In this work, we propose a modular parallel robotic manipulation platform suitable for such large-scale data collection and compatible with various soft-robotic fabrication methods. Considering the computational and theoretical difficulty of replicating the high-fidelity, faster-than-real-time simulations that enable large-scale data collection in rigid robotic systems, a robust soft-robotic hardware platform becomes a high priority development task for the field.
+The platform's modules consist of a pair of off-the-shelf electrical motors which actuate a customizable finger consisting of a compliant parallel structure. The parallel mechanism of the finger can be as simple as a single 3D-printed urethane or molded silicone bulk structure, due to the motors being able to fully actuate a passive structure. This design flexibility allows experimentation with soft mechanism varied geometries, bulk properties and surface properties. Additionally, while the parallel mechanism does not require separate electronics or additional parts, these can be included, and it can be constructed using multi-functional soft materials to study compatible soft sensors and actuators in the learning process. In this work, we validate the platform's ability to be used for policy gradient reinforcement learning directly on hardware in a benchmark 2D manipulation task. We additionally demonstrate compatibility with multiple fingers and characterize the design constraints for compatible extensions.
+
+Translated Abstract:
+소프트 로보틱스 분야에서 기계 학습을 위한 장기 실험이나 대규모 데이터 수집을 하는 건 하드웨어의 견고성과 실험의 유연성 때문에 어렵다. 그래서 우리는 대규모 데이터 수집에 적합하고 다양한 소프트 로봇 제작 방법과 호환되는 모듈형 병렬 로봇 조작 플랫폼을 제안한다.
+
+이 플랫폼의 모듈은 사용자 맞춤형 손가락을 움직이는 상용 전기 모터 두 개로 구성되어 있다. 이 손가락은 유연한 병렬 구조로 되어 있어서, 모터가 수동 구조를 완전히 작동시킬 수 있어 단순한 3D 프린팅 유레탄이나 몰드 실리콘 덩어리 구조로도 만들 수 있다. 이런 디자인의 유연성 덕분에 다양한 기하학적 형태, 물질적 성질, 표면 특성을 가진 소프트 메커니즘을 실험할 수 있다.
+
+게다가 병렬 메커니즘은 별도의 전자 장치나 추가 부품이 필요 없지만, 원하는 경우 포함할 수 있고, 다기능 소프트 재료를 사용해 학습 과정에서 호환 가능한 소프트 센서와 액추에이터를 연구할 수 있다. 이 연구에서는 이 플랫폼이 벤치마크 2D 조작 작업에서 하드웨어에서 직접 정책 기울기 강화 학습에 사용될 수 있음을 검증한다. 또한 여러 손가락과의 호환성을 보여주고 호환 가능한 확장을 위한 설계 제약을 특성화한다.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03685
+Title: View-Invariant Policy Learning via Zero-Shot Novel View Synthesis
+
+Original Abstract:
+Large-scale visuomotor policy learning is a promising approach toward developing generalizable manipulation systems. Yet, policies that can be deployed on diverse embodiments, environments, and observational modalities remain elusive. In this work, we investigate how knowledge from large-scale visual data of the world may be used to address one axis of variation for generalizable manipulation: observational viewpoint. Specifically, we study single-image novel view synthesis models, which learn 3D-aware scene-level priors by rendering images of the same scene from alternate camera viewpoints given a single input image. For practical application to diverse robotic data, these models must operate zero-shot, performing view synthesis on unseen tasks and environments. We empirically analyze view synthesis models within a simple data-augmentation scheme that we call View Synthesis Augmentation (VISTA) to understand their capabilities for learning viewpoint-invariant policies from single-viewpoint demonstration data. Upon evaluating the robustness of policies trained with our method to out-of-distribution camera viewpoints, we find that they outperform baselines in both simulated and real-world manipulation tasks. Videos and additional visualizations are available at this https URL.
+
+Translated Abstract:
+대규모 비주얼 모터 정책 학습은 일반화 가능한 조작 시스템을 개발하는 데 유망한 접근 방식이야. 하지만 다양한 형태, 환경, 관찰 방식에서 사용할 수 있는 정책은 아직 잘 나오지 않고 있어. 
+
+이번 연구에서는 대규모 비주얼 데이터에서 얻은 지식을 어떻게 활용할 수 있을지, 특히 관찰 시점이라는 변수를 살펴봤어. 구체적으로는, 하나의 이미지를 입력으로 받아서 다른 카메라 시점에서 같은 장면의 이미지를 렌더링하는 단일 이미지 새로운 시점 합성 모델을 연구했어. 
+
+이 모델들은 다양한 로봇 데이터에 실용적으로 적용하기 위해서는 제로샷으로 작동해야 해. 즉, 본 적 없는 작업과 환경에서도 시점 합성을 수행할 수 있어야 해. 우리는 View Synthesis Augmentation(VISTA)라는 간단한 데이터 증강 방식 내에서 시점 합성 모델을 분석해서, 단일 시점 시연 데이터로부터 시점 불변 정책을 학습하는 능력을 이해했어. 
+
+이 방법으로 훈련된 정책이 분포 외 카메라 시점에 대해 얼마나 강건한지 평가해본 결과, 시뮬레이션과 실제 조작 작업 모두에서 기준 모델보다 성능이 좋았어. 관련된 비디오와 시각화 자료는 이 링크에서 확인할 수 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03737
+Title: Reprogrammable sequencing for physically intelligent under-actuated robots
+
+Original Abstract:
+Programming physical intelligence into mechanisms holds great promise for machines that can accomplish tasks such as navigation of unstructured environments while utilizing a minimal amount of computational resources and electronic components. In this study, we introduce a novel design approach for physically intelligent under-actuated mechanisms capable of autonomously adjusting their motion in response to environmental interactions. Specifically, multistability is harnessed to sequence the motion of different degrees of freedom in a programmed order. A key aspect of this approach is that these sequences can be passively reprogrammed through mechanical stimuli that arise from interactions with the environment. To showcase our approach, we construct a four degree of freedom robot capable of autonomously navigating mazes and moving away from obstacles. Remarkably, this robot operates without relying on traditional computational architectures and utilizes only a single linear actuator.
+
+Translated Abstract:
+물리적 지능을 기계에 프로그래밍하는 것은 비구조적인 환경을 탐색하면서 최소한의 계산 자원과 전자 부품만으로 작업을 수행할 수 있는 기계에 큰 가능성을 제공합니다. 
+
+이번 연구에서는 환경과의 상호작용에 따라 자율적으로 움직임을 조정할 수 있는 물리적으로 지능적인 저작동 메커니즘을 위한 새로운 설계 접근법을 소개합니다. 구체적으로, 다양한 자유도의 움직임을 프로그래밍된 순서로 조정하기 위해 다중 안정성을 활용합니다. 이 접근법의 중요한 점은 이러한 순서를 환경과의 상호작용에서 발생하는 기계적 자극으로 수동적으로 재프로그래밍할 수 있다는 것입니다. 
+
+우리의 접근법을 보여주기 위해, 미로를 자율적으로 탐색하고 장애물에서 벗어날 수 있는 네 개의 자유도를 가진 로봇을 만들었습니다. 놀랍게도 이 로봇은 전통적인 계산 구조에 의존하지 않고 단 하나의 선형 액추에이터만으로 작동합니다.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03061
+Title: Incorporating dense metric depth into neural 3D representations for view synthesis and relighting
+
+Original Abstract:
+Synthesizing accurate geometry and photo-realistic appearance of small scenes is an active area of research with compelling use cases in gaming, virtual reality, robotic-manipulation, autonomous driving, convenient product capture, and consumer-level photography. When applying scene geometry and appearance estimation techniques to robotics, we found that the narrow cone of possible viewpoints due to the limited range of robot motion and scene clutter caused current estimation techniques to produce poor quality estimates or even fail. On the other hand, in robotic applications, dense metric depth can often be measured directly using stereo and illumination can be controlled. Depth can provide a good initial estimate of the object geometry to improve reconstruction, while multi-illumination images can facilitate relighting. In this work we demonstrate a method to incorporate dense metric depth into the training of neural 3D representations and address an artifact observed while jointly refining geometry and appearance by disambiguating between texture and geometry edges. We also discuss a multi-flash stereo camera system developed to capture the necessary data for our pipeline and show results on relighting and view synthesis with a few training views.
+
+Translated Abstract:
+작은 장면의 정확한 기하학과 사진처럼 사실적인 외관을 합성하는 연구는 게임, 가상 현실, 로봇 조작, 자율 주행, 편리한 제품 촬영, 소비자 수준의 사진 촬영 등에서 활용될 수 있어 매우 활발하게 진행되고 있어. 
+
+로봇에 장면 기하학과 외관 추정 기술을 적용할 때, 로봇의 움직임 범위가 제한되어 있고 장면이 복잡해서 가능한 시점이 좁아지면 현재의 추정 기술이 품질이 떨어지거나 아예 실패하는 경우가 많았어. 반면, 로봇 응용에서는 스테레오를 사용해 밀도 있는 깊이를 직접 측정할 수 있고 조명을 조절할 수 있어. 깊이는 물체 기하학의 좋은 초기 추정값을 제공해 재구성을 개선할 수 있고, 다중 조명 이미지는 재조명을 쉽게 할 수 있도록 도와줘.
+
+이 연구에서는 밀도 있는 메트릭 깊이를 신경망 3D 표현의 훈련에 통합하는 방법을 보여주고, 기하학과 외관을 동시에 다듬는 과정에서 발생하는 아티팩트를 텍스처와 기하학의 경계를 구분해 해결했어. 또한, 우리 파이프라인에 필요한 데이터를 수집하기 위해 개발된 다중 플래시 스테레오 카메라 시스템에 대해서도 이야기하고, 몇 개의 훈련 뷰로 재조명과 시점 합성 결과를 보여줄 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03153
+Title: Can we enhance prosocial behavior? Using post-ride feedback to improve micromobility interactions
+
+Original Abstract:
+Micromobility devices, such as e-scooters and delivery robots, hold promise for eco-friendly and cost-effective alternatives for future urban transportation. However, their lack of societal acceptance remains a challenge. Therefore, we must consider ways to promote prosocial behavior in micromobility interactions. We investigate how post-ride feedback can encourage the prosocial behavior of e-scooter riders while interacting with sidewalk users, including pedestrians and delivery robots. Using a web-based platform, we measure the prosocial behavior of e-scooter riders. Results found that post-ride feedback can successfully promote prosocial behavior, and objective measures indicated better gap behavior, lower speeds at interaction, and longer stopping time around other sidewalk actors. The findings of this study demonstrate the efficacy of post-ride feedback and provide a step toward designing methodologies to improve the prosocial behavior of mobility users.
+
+Translated Abstract:
+마이크로 모빌리티 장치, 예를 들어 전기 스쿠터나 배달 로봇은 미래 도시 교통의 친환경적이고 비용 효율적인 대안으로 주목받고 있어. 하지만 이 장치들이 사회적으로 받아들여지지 않는 문제가 있어. 그래서 우리는 마이크로 모빌리티 상호작용에서 친사회적 행동을 촉진할 방법을 고민해야 해.
+
+우리는 전기 스쿠터 이용자들이 보행자나 배달 로봇과 상호작용할 때, 탑승 후 피드백이 어떻게 그들의 친사회적 행동을 장려할 수 있는지 연구했어. 웹 기반 플랫폼을 사용해서 전기 스쿠터 이용자들의 친사회적 행동을 측정했지. 결과적으로, 탑승 후 피드백이 친사회적 행동을 성공적으로 촉진할 수 있다는 걸 발견했어. 객관적인 측정 결과로는 상호작용할 때 더 나은 간격 유지, 낮은 속도, 그리고 다른 보행자와의 주변에서 더 긴 정지 시간이 나타났어.
+
+이 연구 결과는 탑승 후 피드백의 효과성을 보여주고, 이동 사용자들의 친사회적 행동을 개선하기 위한 방법론을 설계하는 데 한 걸음 나아가는 데 도움이 될 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03272
+Title: OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving
+
+Original Abstract:
+The rise of multi-modal large language models(MLLMs) has spurred their applications in autonomous driving. Recent MLLM-based methods perform action by learning a direct mapping from perception to action, neglecting the dynamics of the world and the relations between action and world dynamics. In contrast, human beings possess world model that enables them to simulate the future states based on 3D internal visual representation and plan actions accordingly. To this end, we propose OccLLaMA, an occupancy-language-action generative world model, which uses semantic occupancy as a general visual representation and unifies vision-language-action(VLA) modalities through an autoregressive model. Specifically, we introduce a novel VQVAE-like scene tokenizer to efficiently discretize and reconstruct semantic occupancy scenes, considering its sparsity and classes imbalance. Then, we build a unified multi-modal vocabulary for vision, language and action. Furthermore, we enhance LLM, specifically LLaMA, to perform the next token/scene prediction on the unified vocabulary to complete multiple tasks in autonomous driving. Extensive experiments demonstrate that OccLLaMA achieves competitive performance across multiple tasks, including 4D occupancy forecasting, motion planning, and visual question answering, showcasing its potential as a foundation model in autonomous driving.
+
+Translated Abstract:
+다양한 방식의 대형 언어 모델(MLLM)의 발전이 자율주행 분야에서의 활용을 촉진하고 있어. 최근 MLLM 기반의 방법들은 인식에서 행동으로의 직접적인 매핑을 배우면서 세상의 동적 변화와 행동과의 관계를 간과하고 있어. 반면에, 인간은 3D 내부 비주얼 표현을 바탕으로 미래 상태를 시뮬레이션할 수 있는 세계 모델을 가지고 있어서, 그에 따라 행동을 계획할 수 있어.
+
+그래서 우리는 OccLLaMA라는 occupancy-language-action 생성 세계 모델을 제안해. 이 모델은 의미론적 점유를 일반적인 비주얼 표현으로 사용하고, 자가 회귀 모델을 통해 비전-언어-행동(VLA) 모달리티를 통합해. 구체적으로는 희소성과 클래스 불균형을 고려해서 의미론적 점유 장면을 효율적으로 분리하고 재구성할 수 있는 새로운 VQVAE 유사 장면 토크나이저를 도입해.
+
+또한, 비전, 언어, 행동을 위한 통합된 다중 모달 어휘를 구축해. 그리고 LLM, 특히 LLaMA를 개선해서 자율주행에서 여러 작업을 수행하기 위해 통합된 어휘로 다음 토큰이나 장면 예측을 하도록 해. 다양한 실험 결과, OccLLaMA는 4D 점유 예측, 동작 계획, 시각적 질문 응답 등 여러 작업에서 경쟁력 있는 성능을 보여주면서 자율주행의 기초 모델로서의 가능성을 나타내고 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03358
+Title: MouseSIS: A Frames-and-Events Dataset for Space-Time Instance Segmentation of Mice
+
+Original Abstract:
+Enabled by large annotated datasets, tracking and segmentation of objects in videos has made remarkable progress in recent years. Despite these advancements, algorithms still struggle under degraded conditions and during fast movements. Event cameras are novel sensors with high temporal resolution and high dynamic range that offer promising advantages to address these challenges. However, annotated data for developing learning-based mask-level tracking algorithms with events is not available. To this end, we introduce: ($i$) a new task termed \emph{space-time instance segmentation}, similar to video instance segmentation, whose goal is to segment instances throughout the entire duration of the sensor input (here, the input are quasi-continuous events and optionally aligned frames); and ($ii$) \emph{\dname}, a dataset for the new task, containing aligned grayscale frames and events. It includes annotated ground-truth labels (pixel-level instance segmentation masks) of a group of up to seven freely moving and interacting mice. We also provide two reference methods, which show that leveraging event data can consistently improve tracking performance, especially when used in combination with conventional cameras. The results highlight the potential of event-aided tracking in difficult scenarios. We hope our dataset opens the field of event-based video instance segmentation and enables the development of robust tracking algorithms for challenging conditions.\url{this https URL}
+
+Translated Abstract:
+최근 몇 년간 대규모 주석이 달린 데이터셋 덕분에 비디오에서 물체를 추적하고 분할하는 기술이 눈에 띄게 발전했어. 하지만 이런 발전에도 불구하고, 알고리즘은 열악한 조건이나 빠른 움직임에서는 아직 힘들어. 이런 문제를 해결하기 위해 이벤트 카메라라는 새로운 센서가 등장했는데, 이 센서는 높은 시간 해상도와 넓은 동적 범위를 제공해줘. 하지만 이벤트 기반의 마스크 수준 추적 알고리즘 개발에 필요한 주석 데이터는 아직 없어.
+
+그래서 우리는 두 가지를 소개할게: 
+
+1. **공간-시간 인스턴스 분할**이라는 새로운 작업을 제안해. 이건 비디오 인스턴스 분할과 비슷한데, 센서 입력의 전체 기간 동안 인스턴스를 분할하는 게 목표야. 여기서 입력은 거의 연속적인 이벤트와 선택적으로 정렬된 프레임이야.
+   
+2. **\dname**이라는 새로운 작업을 위한 데이터셋을 만들었어. 이 데이터셋은 정렬된 그레이스케일 프레임과 이벤트를 포함하고 있어. 최대 7마리의 자유롭게 움직이고 상호작용하는 생쥐에 대한 주석이 달린 진짜 레이블(픽셀 수준의 인스턴스 분할 마스크)도 포함되어 있어.
+
+우리는 두 가지 참조 방법도 제공하는데, 이 방법들은 이벤트 데이터를 활용하면 추적 성능을 일관되게 향상시킬 수 있다는 걸 보여줘. 특히 전통적인 카메라와 함께 사용할 때 효과가 커. 결과는 어려운 상황에서 이벤트 기반 추적의 가능성을 강조해. 우리의 데이터셋이 이벤트 기반 비디오 인스턴스 분할 분야를 열고, 도전적인 조건에서 강력한 추적 알고리즘 개발에 도움이 되길 바래.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03402
+Title: Game On: Towards Language Models as RL Experimenters
+
+Original Abstract:
+We propose an agent architecture that automates parts of the common reinforcement learning experiment workflow, to enable automated mastery of control domains for embodied agents. To do so, it leverages a VLM to perform some of the capabilities normally required of a human experimenter, including the monitoring and analysis of experiment progress, the proposition of new tasks based on past successes and failures of the agent, decomposing tasks into a sequence of subtasks (skills), and retrieval of the skill to execute - enabling our system to build automated curricula for learning. We believe this is one of the first proposals for a system that leverages a VLM throughout the full experiment cycle of reinforcement learning. We provide a first prototype of this system, and examine the feasibility of current models and techniques for the desired level of automation. For this, we use a standard Gemini model, without additional fine-tuning, to provide a curriculum of skills to a language-conditioned Actor-Critic algorithm, in order to steer data collection so as to aid learning new skills. Data collected in this way is shown to be useful for learning and iteratively improving control policies in a robotics domain. Additional examination of the ability of the system to build a growing library of skills, and to judge the progress of the training of those skills, also shows promising results, suggesting that the proposed architecture provides a potential recipe for fully automated mastery of tasks and domains for embodied agents.
+
+Translated Abstract:
+우리는 강화 학습 실험의 일반적인 워크플로우 일부를 자동화하는 에이전트 아키텍처를 제안해. 이걸 통해 물리적 에이전트들이 제어 도메인을 자동으로 마스터할 수 있게 돕는 거야.
+
+이 아키텍처는 VLM(비전-언어 모델)을 활용해서 인간 실험자가 보통 해야 하는 몇 가지 작업을 대신해. 여기에는 실험 진행 상황 모니터링과 분석, 에이전트의 과거 성공과 실패를 바탕으로 새로운 작업 제안하기, 작업을 여러 개의 서브작업(스킬)으로 나누기, 그리고 이 스킬을 실행하기 위해 가져오는 작업이 포함돼. 이런 방식으로 시스템이 학습을 위한 자동 커리큘럼을 만들 수 있어.
+
+우리는 이 시스템의 첫 번째 프로토타입을 제공하고, 원하는 수준의 자동화를 위해 현재 모델과 기술의 가능성을 검토했어. 이를 위해 추가적인 미세 조정 없이 표준 Gemini 모델을 사용해서 언어 조건화된 액터-크리틱 알고리즘에 스킬 커리큘럼을 제공해. 이렇게 해서 데이터 수집을 조정하고 새로운 스킬 학습을 도와.
+
+이런 방식으로 수집된 데이터는 로봇 제어 정책을 학습하고 점진적으로 개선하는 데 유용하다는 것을 보여줬어. 시스템이 점점 성장하는 스킬 라이브러리를 구축하고, 그 스킬 훈련의 진행 상황을 판단하는 능력에 대한 추가적인 검토도 긍정적인 결과를 보여줬어. 이게 제안된 아키텍처가 물리적 에이전트를 위한 작업과 도메인을 완전히 자동으로 마스터할 수 있는 잠재적인 방법을 제공한다고 제안하는 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03757
+Title: Lexicon3D: Probing Visual Foundation Models for Complex 3D Scene Understanding
+
+Original Abstract:
+Complex 3D scene understanding has gained increasing attention, with scene encoding strategies playing a crucial role in this success. However, the optimal scene encoding strategies for various scenarios remain unclear, particularly compared to their image-based counterparts. To address this issue, we present a comprehensive study that probes various visual encoding models for 3D scene understanding, identifying the strengths and limitations of each model across different scenarios. Our evaluation spans seven vision foundation encoders, including image-based, video-based, and 3D foundation models. We evaluate these models in four tasks: Vision-Language Scene Reasoning, Visual Grounding, Segmentation, and Registration, each focusing on different aspects of scene understanding. Our evaluations yield key findings: DINOv2 demonstrates superior performance, video models excel in object-level tasks, diffusion models benefit geometric tasks, and language-pretrained models show unexpected limitations in language-related tasks. These insights challenge some conventional understandings, provide novel perspectives on leveraging visual foundation models, and highlight the need for more flexible encoder selection in future vision-language and scene-understanding tasks.
+
+Translated Abstract:
+복잡한 3D 장면 이해가 점점 더 주목받고 있어. 이 과정에서 장면 인코딩 전략이 중요한 역할을 하고 있는데, 다양한 상황에 맞는 최적의 인코딩 전략이 아직 명확하지 않아. 특히 이미지 기반 전략과 비교했을 때 더 그렇지.
+
+이 문제를 해결하기 위해, 우리는 3D 장면 이해를 위한 다양한 시각 인코딩 모델을 조사하는 포괄적인 연구를 진행했어. 각 모델의 강점과 한계를 다양한 상황에서 찾아냈지. 우리의 평가는 이미지 기반, 비디오 기반, 3D 기반 모델을 포함한 7개의 비전 기초 인코더를 대상으로 했어.
+
+우리는 네 가지 작업에서 이 모델들을 평가했어: 비전-언어 장면 추론, 시각적 그라운딩, 분할, 그리고 등록. 각 작업은 장면 이해의 다른 측면에 중점을 두고 있어.
+
+평가 결과 중요한 발견이 있었어. DINOv2가 뛰어난 성능을 보였고, 비디오 모델은 객체 관련 작업에서 두각을 나타냈어. 반면, 확산 모델은 기하학적 작업에서 유리했고, 언어 사전 훈련 모델은 언어 관련 작업에서 예상치 못한 한계를 보여줬어. 
+
+이런 통찰은 기존의 이해를 도전하게 하고, 시각 기초 모델을 활용하는 새로운 시각을 제공해. 앞으로 비전-언어와 장면 이해 작업에서 더 유연한 인코더 선택이 필요하다는 점도 강조되었어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/1904.00008
+Title: Quadrotor Manipulation System: Development of a Robust Contact Force Estimation and Impedance Control Scheme Based on DOb and FTRLS
+
+Original Abstract:
+The research on aerial manipulation systems has been increased rapidly in recent years. These systems are very attractive for a wide range of applications due to their unique features. However, dynamics, control and manipulation tasks of such systems are quite challenging because they are naturally unstable, have very fast dynamics, have strong nonlinearities, are very susceptible to parameters variations due to carrying a payload besides the external disturbances, and have complex inverse kinematics. In addition, the manipulation tasks require estimating (applying) a certain force of (at) the end-effector as well as the accurate positioning of it. Thus, in this article, a robust force estimation and impedance control scheme is proposed to address these issues. The robustness is achieved based on the Disturbance Observer (DOb) technique. Then, a tracking and performance low computational linear controller is used. For teleoperation purpose, the contact force needs to be identified. However, the current developed techniques for force estimation have limitations because they are based on ignoring some dynamics and/or requiring of an indicator of the environment contact. Unlike these techniques, we propose a technique based on linearization capabilities of DOb and a Fast Tracking Recursive Least Squares (FTRLS) algorithm. The complex inverse kinematics problem of such a system is solved by a Jacobin based algorithm. The stability analysis of the proposed scheme is presented. The algorithm is tested to achieve tracking of task space reference trajectories besides the impedance control. The efficiency of the proposed technique is enlightened via numerical simulation.
+
+Translated Abstract:
+최근 몇 년 동안 공중 조작 시스템에 대한 연구가 급격히 증가했어. 이런 시스템은 독특한 특성 덕분에 다양한 어플리케이션에 매력적이야. 하지만, 이런 시스템의 동역학, 제어, 조작 작업은 꽤 어려워. 왜냐하면 자연적으로 불안정하고, 동작이 매우 빠르며, 비선형성이 강하고, 짐을 실을 때 외부 방해에도 민감해. 게다가 역기구학도 복잡해. 
+
+조작 작업을 수행하려면 끝단 효과기에서 특정 힘을 추정(적용)해야 하고, 정확한 위치도 잡아야 해. 그래서 이 논문에서는 이런 문제를 해결하기 위해 강력한 힘 추정 및 임피던스 제어 방안을 제안해. 강력함은 방해 관측기(DOb) 기술을 기반으로 이루어져. 그런 다음, 추적 및 성능을 위한 저계산량의 선형 제어기를 사용해. 
+
+원격 조작을 위해서는 접촉 힘을 파악해야 해. 하지만 현재 개발된 힘 추정 기술들은 일부 동역학을 무시하거나 환경 접촉의 지표가 필요한 한계가 있어. 이런 기술들과는 다르게, 우리는 DOb의 선형화 능력과 빠른 추적 재귀 최소 제곱(FTRLS) 알고리즘을 기반으로 한 기술을 제안해. 
+
+이런 시스템의 복잡한 역기구학 문제는 야코비안 기반 알고리즘을 통해 해결돼. 제안된 방안의 안정성 분석도 제시돼. 알고리즘은 임피던스 제어 외에도 작업 공간 참조 궤적을 추적하기 위해 테스트돼. 제안된 기술의 효율성은 수치 시뮬레이션을 통해 밝혀져.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2304.07357
+Title: Efficient Incremental Penetration Depth Estimation between Convex Geometries
+
+Original Abstract:
+Penetration depth (PD) is essential for robotics due to its extensive applications in dynamic simulation, motion planning, haptic rendering, etc. The Expanding Polytope Algorithm (EPA) is the de facto standard for this problem, which estimates PD by expanding an inner polyhedral approximation of an implicit set. In this paper, we propose a novel optimization-based algorithm that incrementally estimates minimum penetration depth and its direction. One major advantage of our method is that it can be warm-started by exploiting the spatial and temporal coherence, which emerges naturally in many robotic applications (e.g., the temporal coherence between adjacent simulation time knots). As a result, our algorithm achieves substantial speedup -- we demonstrate it is 5-30x faster than EPA on several benchmarks. Moreover, our approach is built upon the same implicit geometry representation as EPA, which enables easy integration and deployment into existing software stacks. We also provide an open-source implementation on: this https URL
+
+Translated Abstract:
+침투 깊이(PD)는 로봇공학에서 매우 중요한데, 동적 시뮬레이션, 모션 계획, 햅틱 렌더링 등 다양한 분야에 쓰이기 때문이야. 일반적으로 Expanding Polytope Algorithm(EPA)이 이 문제의 표준 알고리즘으로 사용되는데, 이 방법은 암묵적인 집합의 내부 다면체 근사치를 확장해서 PD를 추정해.
+
+이번 논문에서는 최소 침투 깊이와 그 방향을 점진적으로 추정하는 새로운 최적화 기반 알고리즘을 제안해. 이 방법의 큰 장점 중 하나는 많은 로봇 응용 프로그램에서 자연스럽게 나타나는 공간적, 시간적 일관성을 활용해서 따뜻한 시작(warm-start)을 할 수 있다는 거야. 예를 들어, 인접한 시뮬레이션 시간 노드 간의 시간적 일관성을 말하는 거지. 
+
+그 결과로, 우리 알고리즘은 상당한 속도 향상을 보여주는데, 여러 벤치마크에서 EPA보다 5배에서 30배 더 빠르다는 걸 보여줬어. 게다가, 우리 접근법은 EPA와 동일한 암묵적 기하학 표현을 기반으로 해서 기존 소프트웨어 스택에 쉽게 통합하고 배포할 수 있어. 우리는 또한 이 알고리즘의 오픈 소스 구현을 제공해: 이 링크를 통해 확인할 수 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2310.16917
+Title: MimicTouch: Leveraging Multi-modal Human Tactile Demonstrations for Contact-rich Manipulation
+
+Original Abstract:
+Tactile sensing is critical to fine-grained, contact-rich manipulation tasks, such as insertion and assembly. Prior research has shown the possibility of learning tactile-guided policy from teleoperated demonstration data. However, to provide the demonstration, human users often rely on visual feedback to control the robot. This creates a gap between the sensing modality used for controlling the robot (visual) and the modality of interest (tactile). To bridge this gap, we introduce "MimicTouch", a novel framework for learning policies directly from demonstrations provided by human users with their hands. The key innovations are i) a human tactile data collection system which collects multi-modal tactile dataset for learning human's tactile-guided control strategy, ii) an imitation learning-based framework for learning human's tactile-guided control strategy through such data, and iii) an online residual RL framework to bridge the embodiment gap between the human hand and the robot gripper. Through comprehensive experiments, we highlight the efficacy of utilizing human's tactile-guided control strategy to resolve contact-rich manipulation tasks. The project website is at this https URL.
+
+Translated Abstract:
+촉각 센싱은 삽입이나 조립 같은 세밀하고 접촉이 많은 작업에서 정말 중요해. 이전 연구에서는 원격 조작으로 보여준 데이터를 통해 촉각에 기반한 정책을 배울 수 있다는 가능성을 보여줬어. 하지만 시연을 제공할 때, 사람들은 로봇을 조정하기 위해 주로 시각적 피드백에 의존해. 이러다 보니 로봇을 조정하는 데 사용하는 감각(시각)과 우리가 관심 있는 감각(촉각) 사이에 간극이 생겨.
+
+이 간극을 메우기 위해 우리는 "MimicTouch"라는 새로운 프레임워크를 소개해. 이건 인간 사용자가 손으로 제공한 시연에서 직접 정책을 배우는 방식이야. 주요 혁신은 다음과 같아: i) 인간의 촉각 안내 제어 전략을 배우기 위한 다중 모드 촉각 데이터를 수집하는 시스템, ii) 그런 데이터를 통해 인간의 촉각 안내 제어 전략을 배우는 모방 학습 기반 프레임워크, iii) 인간의 손과 로봇 그리퍼 간의 구현 간극을 메우기 위한 온라인 잔여 강화 학습 프레임워크.
+
+종합적인 실험을 통해 우리는 인간의 촉각 안내 제어 전략을 활용해서 접촉이 많은 작업을 해결하는 게 효과적이라는 걸 강조해. 프로젝트 웹사이트는 이 HTTPS URL에 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2311.01335
+Title: Automatic Robot Hand-Eye Calibration Enabled by Learning-Based 3D Vision
+
+Original Abstract:
+Hand-eye calibration, as a fundamental task in vision-based robotic systems, aims to estimate the transformation matrix between the coordinate frame of the camera and the robot flange. Most approaches to hand-eye calibration rely on external markers or human assistance. We proposed Look at Robot Base Once (LRBO), a novel methodology that addresses the hand-eye calibration problem without external calibration objects or human support, but with the robot base. Using point clouds of the robot base, a transformation matrix from the coordinate frame of the camera to the robot base is established as I=AXB. To this end, we exploit learning-based 3D detection and registration algorithms to estimate the location and orientation of the robot base. The robustness and accuracy of the method are quantified by ground-truth-based evaluation, and the accuracy result is compared with other 3D vision-based calibration methods. To assess the feasibility of our methodology, we carried out experiments utilizing a low-cost structured light scanner across varying joint configurations and groups of experiments. The proposed hand-eye calibration method achieved a translation deviation of 0.930 mm and a rotation deviation of 0.265 degrees according to the experimental results. Additionally, the 3D reconstruction experiments demonstrated a rotation error of 0.994 degrees and a position error of 1.697 mm. Moreover, our method offers the potential to be completed in 1 second, which is the fastest compared to other 3D hand-eye calibration methods. Code is released at this http URL.
+
+Translated Abstract:
+핸드-아이 보정은 비전 기반 로봇 시스템에서 중요한 작업으로, 카메라의 좌표계와 로봇 플랜지 사이의 변환 행렬을 추정하는 걸 목표로 해. 대부분의 핸드-아이 보정 방법은 외부 마커나 사람의 도움을 필요로 해. 
+
+우리는 외부 보정 물체나 사람의 지원 없이 로봇 베이스만으로 핸드-아이 보정 문제를 해결하는 새로운 방법, Look at Robot Base Once (LRBO)를 제안했어. 로봇 베이스의 포인트 클라우드를 사용해서 카메라의 좌표계에서 로봇 베이스로의 변환 행렬을 I=AXB 형태로 설정해. 이를 위해 학습 기반 3D 탐지 및 등록 알고리즘을 활용해 로봇 베이스의 위치와 방향을 추정했어.
+
+이 방법의 견고성과 정확성을 실제 데이터를 기반으로 평가했으며, 다른 3D 비전 기반 보정 방법과 정확도를 비교했어. 우리의 방법의 가능성을 평가하기 위해 다양한 관절 구성과 실험 그룹을 사용해 저비용 구조광 스캐너로 실험을 진행했어. 실험 결과에 따르면, 제안한 핸드-아이 보정 방법은 0.930 mm의 변환 편차와 0.265도의 회전 편차를 달성했어. 또한, 3D 재구성 실험에서는 0.994도의 회전 오차와 1.697 mm의 위치 오차가 나타났어. 더불어, 우리의 방법은 1초 안에 완료될 수 있는 가능성이 있어서 다른 3D 핸드-아이 보정 방법들 중에서 가장 빠른 편이야. 코드는 이 http URL에서 확인할 수 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2311.15327
+Title: FRAC-Q-Learning: A Reinforcement Learning with Boredom Avoidance Processes for Social Robots
+
+Original Abstract:
+The reinforcement learning algorithms have often been applied to social robots. However, most reinforcement learning algorithms were not optimized for the use of social robots, and consequently they may bore users. We proposed a new reinforcement learning method specialized for the social robot, the FRAC-Q-learning, that can avoid user boredom. The proposed algorithm consists of a forgetting process in addition to randomizing and categorizing processes. This study evaluated interest and boredom hardness scores of the FRAC-Q-learning by a comparison with the traditional Q-learning. The FRAC-Q-learning showed significantly higher trend of interest score, and indicated significantly harder to bore users compared to the traditional Q-learning. Therefore, the FRAC-Q-learning can contribute to develop a social robot that will not bore users. The proposed algorithm has a potential to apply for Web-based communication and educational systems. This paper presents the entire process, detailed implementation and a detailed evaluation method of the of the FRAC-Q-learning for the first time.
+
+Translated Abstract:
+강화 학습 알고리즘은 사회적 로봇에 자주 사용돼 왔어. 하지만 대부분의 강화 학습 알고리즘은 사회적 로봇에 최적화되어 있지 않아서 사용자들이 지루해할 수 있어. 그래서 우리는 사용자 지루함을 피할 수 있는 사회적 로봇 전용 강화 학습 방법인 FRAC-Q-learning을 제안했어. 이 알고리즘은 무작위화와 분류 과정 외에도 잊어버리기 과정을 포함하고 있어.
+
+이번 연구에서는 FRAC-Q-learning의 흥미와 지루함 점수를 전통적인 Q-learning과 비교해서 평가했어. 그 결과, FRAC-Q-learning이 흥미 점수에서 현저히 높은 경향을 보였고, 사용자들이 지루해하기 어려운 것으로 나타났어. 그래서 FRAC-Q-learning은 사용자들이 지루해하지 않는 사회적 로봇을 개발하는 데 기여할 수 있어. 이 알고리즘은 웹 기반 커뮤니케이션과 교육 시스템에도 적용할 가능성이 있어.
+
+이 논문은 FRAC-Q-learning의 전체 과정, 세부 구현 및 평가 방법을 처음으로 자세히 설명하고 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2403.08109
+Title: VANP: Learning Where to See for Navigation with Self-Supervised Vision-Action Pre-Training
+
+Original Abstract:
+Humans excel at efficiently navigating through crowds without collision by focusing on specific visual regions relevant to navigation. However, most robotic visual navigation methods rely on deep learning models pre-trained on vision tasks, which prioritize salient objects -- not necessarily relevant to navigation and potentially misleading. Alternative approaches train specialized navigation models from scratch, requiring significant computation. On the other hand, self-supervised learning has revolutionized computer vision and natural language processing, but its application to robotic navigation remains underexplored due to the difficulty of defining effective self-supervision signals. Motivated by these observations, in this work, we propose a Self-Supervised Vision-Action Model for Visual Navigation Pre-Training (VANP). Instead of detecting salient objects that are beneficial for tasks such as classification or detection, VANP learns to focus only on specific visual regions that are relevant to the navigation task. To achieve this, VANP uses a history of visual observations, future actions, and a goal image for self-supervision, and embeds them using two small Transformer Encoders. Then, VANP maximizes the information between the embeddings by using a mutual information maximization objective function. We demonstrate that most VANP-extracted features match with human navigation intuition. VANP achieves comparable performance as models learned end-to-end with half the training time and models trained on a large-scale, fully supervised dataset, i.e., ImageNet, with only 0.08% data.
+
+Translated Abstract:
+사람들은 군중 속에서도 충돌 없이 효율적으로 이동하는 데 능숙해. 그 비결은 내비게이션에 중요한 특정 시각 영역에 집중하는 거야. 하지만 대부분의 로봇 시각 내비게이션 방법은 비전 작업에 대해 미리 학습된 딥러닝 모델을 사용하는데, 이 모델들은 주목할 만한 객체들에 초점을 맞추지. 그런데 이 객체들이 꼭 내비게이션과 관련이 있거나 도움이 되는 건 아니야. 
+
+대안으로는 처음부터 전문화된 내비게이션 모델을 훈련시키는 방법이 있는데, 이건 많은 계산이 필요해. 반면에, 자기 지도 학습은 컴퓨터 비전과 자연어 처리 분야에서 혁신을 일으켰지만, 로봇 내비게이션에 적용하는 건 잘 연구되지 않았어. 그 이유는 효과적인 자기 감독 신호를 정의하는 게 어렵기 때문이야. 
+
+이런 점에 착안해서, 우리는 시각 내비게이션 사전 훈련을 위한 자기 지도 비전-행동 모델(VANP)을 제안해. VANP는 분류나 탐지 같은 작업에 유용한 주목할 만한 객체를 찾는 대신, 내비게이션 작업과 관련된 특정 시각 영역에만 집중하도록 배워. 이를 위해, VANP는 시각적 관찰의 역사, 미래 행동, 목표 이미지 등을 자기 감독으로 사용하고, 두 개의 작은 트랜스포머 인코더를 통해 이를 임베딩해. 그런 다음, VANP는 임베딩 간의 정보를 극대화하기 위해 상호 정보 최대화 목표 함수를 사용해.
+
+우리는 VANP가 추출한 대부분의 특징이 인간의 내비게이션 직관과 잘 맞는다는 걸 보여줬어. VANP는 엔드 투 엔드로 학습된 모델과 비슷한 성능을 내면서도 훈련 시간은 절반이고, 대규모로 완전 감독된 데이터셋인 이미지넷에서 훈련된 모델은 단 0.08%의 데이터로도 가능해.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2404.02515
+Title: Tightly-Coupled LiDAR-IMU-Wheel Odometry with Online Calibration of a Kinematic Model for Skid-Steering Robots
+
+Original Abstract:
+Tunnels and long corridors are challenging environments for mobile robots because a LiDAR point cloud should degenerate in these environments. To tackle point cloud degeneration, this study presents a tightly-coupled LiDAR-IMU-wheel odometry algorithm with an online calibration for skid-steering robots. We propose a full linear wheel odometry factor, which not only serves as a motion constraint but also performs the online calibration of kinematic models for skid-steering robots. Despite the dynamically changing kinematic model (e.g., wheel radii changes caused by tire pressures) and terrain conditions, our method can address the model error via online calibration. Moreover, our method enables an accurate localization in cases of degenerated environments, such as long and straight corridors, by calibration while the LiDAR-IMU fusion sufficiently operates. Furthermore, we estimate the uncertainty (i.e., covariance matrix) of the wheel odometry online for creating a reasonable constraint. The proposed method is validated through three experiments. The first indoor experiment shows that the proposed method is robust in severe degeneracy cases (long corridors) and changes in the wheel radii. The second outdoor experiment demonstrates that our method accurately estimates the sensor trajectory despite being in rough outdoor terrain owing to online uncertainty estimation of wheel odometry. The third experiment shows the proposed online calibration enables robust odometry estimation in changing terrains.
+
+Translated Abstract:
+터널이나 긴 복도는 모바일 로봇에게 도전적인 환경이야. 이런 환경에서는 LiDAR 포인트 클라우드가 제대로 작동하지 않을 수 있어. 그래서 이 연구에서는 스키드 스티어링 로봇을 위한 온라인 보정을 갖춘 LiDAR-IMU-휠 오도메트리 알고리즘을 제안해.
+
+우리는 전체 선형 휠 오도메트리 팩터를 제안하는데, 이건 단순히 움직임 제약 조건으로 작용할 뿐만 아니라 스키드 스티어링 로봇의 운동 모델을 온라인으로 보정하는 역할도 해. 휠 반지름이 타이어 압력 때문에 바뀌는 것 같은 동적으로 변하는 운동 모델이나 지형 조건에도 불구하고, 우리 방법은 온라인 보정을 통해 모델 오류를 해결할 수 있어.
+
+또한, 우리의 방법은 LiDAR-IMU 융합이 충분히 작동하는 동안 보정을 통해 긴 직선 복도 같은 열악한 환경에서도 정확한 위치 추정을 가능하게 해. 그리고 휠 오도메트리의 불확실성(즉, 공분산 행렬)을 온라인으로 추정해서 합리적인 제약 조건을 만들 수 있어.
+
+제안된 방법은 세 가지 실험을 통해 검증되었어. 첫 번째 실내 실험에서는 제안된 방법이 심각한 열악한 경우(긴 복도)와 휠 반지름 변화에도 강하다는 것을 보여줬어. 두 번째 야외 실험에서는 거친 야외 지형에서도 휠 오도메트리의 온라인 불확실성 추정 덕분에 센서 경로를 정확하게 추정했어. 세 번째 실험에서는 제안된 온라인 보정이 변화하는 지형에서도 강력한 오도메트리 추정을 가능하게 한다는 것을 보여줬어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2405.20567
+Title: Fast Decentralized State Estimation for Legged Robot Locomotion via EKF and MHE
+
+Original Abstract:
+In this paper, we present a fast and decentralized state estimation framework for the control of legged locomotion. The nonlinear estimation of the floating base states is decentralized to an orientation estimation via Extended Kalman Filter (EKF) and a linear velocity estimation via Moving Horizon Estimation (MHE). The EKF fuses the inertia sensor with vision to estimate the floating base orientation. The MHE uses the estimated orientation with all the sensors within a time window in the past to estimate the linear velocities based on a time-varying linear dynamics formulation of the interested states with state constraints. More importantly, a marginalization method based on the optimization structure of the full information filter (FIF) is proposed to convert the equality-constrained FIF to an equivalent MHE. This decoupling of state estimation promotes the desired balance of computation efficiency, accuracy of estimation, and the inclusion of state constraints. The proposed method is shown to be capable of providing accurate state estimation to several legged robots, including the highly dynamic hopping robot PogoX, the bipedal robot Cassie, and the quadrupedal robot Unitree Go1, with a frequency at 200 Hz and a window interval of 0.1s.
+
+Translated Abstract:
+이 논문에서는 다리로 걷는 로봇의 제어를 위한 빠르고 분산된 상태 추정 프레임워크를 제안해. 
+
+부유하는 기반 상태의 비선형 추정은 두 가지 방법으로 나뉘어져. 하나는 확장 칼만 필터(EKF)를 사용해 방향을 추정하고, 다른 하나는 이동 지평선 추정(MHE)을 통해 선형 속도를 추정해. EKF는 관성 센서와 비전을 결합해서 부유하는 기반의 방향을 추정하고, MHE는 과거의 시간 창 안에 있는 모든 센서를 사용해서 추정한 방향으로 선형 속도를 계산해. 이때 시간에 따라 변화하는 선형 동역학 모델과 상태 제약 조건을 사용해.
+
+더 중요한 건, 전체 정보 필터(FIF)의 최적화 구조를 기반으로 한 주변화 방법이 제안되어서, 동등 제약 FIF를 동등한 MHE로 변환할 수 있어. 이렇게 상태 추정을 분리하면 계산 효율성, 추정 정확성, 그리고 상태 제약 조건을 잘 포함할 수 있어.
+
+제안한 방법은 PogoX, Cassie, Unitree Go1 같은 여러 다리 로봇에 대해 200Hz의 주파수와 0.1초의 창 간격으로 정확한 상태 추정을 제공할 수 있는 것으로 나타났어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2406.01767
+Title: Region-aware Grasp Framework with Normalized Grasp Space for Efficient 6-DoF Grasping
+
+Original Abstract:
+A series of region-based methods succeed in extracting regional features and enhancing grasp detection quality. However, faced with a cluttered scene with potential collision, the definition of the grasp-relevant region stays inconsistent, and the relationship between grasps and regional spaces remains incompletely investigated. In this paper, we propose Normalized Grasp Space (NGS) from a novel region-aware viewpoint, unifying the grasp representation within a normalized regional space and benefiting the generalizability of methods. Leveraging the NGS, we find that CNNs are underestimated for 3D feature extraction and 6-DoF grasp detection in clutter scenes and build a highly efficient Region-aware Normalized Grasp Network (RNGNet). Experiments on the public benchmark show that our method achieves significant >20% performance gains while attaining a real-time inference speed of approximately 50 FPS. Real-world cluttered scene clearance experiments underscore the effectiveness of our method. Further, human-to-robot handover and dynamic object grasping experiments demonstrate the potential of our proposed method for closed-loop grasping in dynamic scenarios.
+
+Translated Abstract:
+일련의 지역 기반 방법들이 지역 특징을 잘 추출하고 잡기 감지 품질을 높이는 데 성공했어. 하지만, 복잡한 장면에서 충돌 가능성이 있을 때는 잡기 관련 지역의 정의가 일관되지 않고, 잡기와 지역 공간 간의 관계도 아직 완전히 조사되지 않았어.
+
+이 논문에서는 새로운 지역 인식 관점에서 Normalized Grasp Space (NGS)를 제안해. 이걸 통해 잡기 표현을 정규화된 지역 공간 안에서 통합하고, 방법의 일반화 가능성도 높여. NGS를 활용하면서, CNN이 복잡한 장면에서 3D 특징 추출과 6-DoF 잡기 감지에서 과소평가되고 있다는 걸 발견했어. 그래서 우리는 Region-aware Normalized Grasp Network (RNGNet)이라는 아주 효율적인 네트워크를 만들었어.
+
+공식 벤치마크 실험에서 우리 방법이 20% 이상의 성능 향상을 달성하면서 약 50 FPS의 실시간 추론 속도를 유지한다는 걸 보여줬어. 실제 복잡한 장면에서의 실험도 우리 방법의 효과를 강조해. 더 나아가, 사람에서 로봇으로의 물건 전달과 동적 물체 잡기 실험을 통해 동적 상황에서 닫힌 루프 잡기에 대한 우리 방법의 잠재력을 보여줬어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2406.02983
+Title: FREA: Feasibility-Guided Generation of Safety-Critical Scenarios with Reasonable Adversariality
+
+Original Abstract:
+Generating safety-critical scenarios, which are essential yet difficult to collect at scale, offers an effective method to evaluate the robustness of autonomous vehicles (AVs). Existing methods focus on optimizing adversariality while preserving the naturalness of scenarios, aiming to achieve a balance through data-driven approaches. However, without an appropriate upper bound for adversariality, the scenarios might exhibit excessive adversariality, potentially leading to unavoidable collisions. In this paper, we introduce FREA, a novel safety-critical scenarios generation method that incorporates the Largest Feasible Region (LFR) of AV as guidance to ensure the reasonableness of the adversarial scenarios. Concretely, FREA initially pre-calculates the LFR of AV from offline datasets. Subsequently, it learns a reasonable adversarial policy that controls the scene's critical background vehicles (CBVs) to generate adversarial yet AV-feasible scenarios by maximizing a novel feasibility-dependent adversarial objective function. Extensive experiments illustrate that FREA can effectively generate safety-critical scenarios, yielding considerable near-miss events while ensuring AV's feasibility. Generalization analysis also confirms the robustness of FREA in AV testing across various surrogate AV methods and traffic environments.
+
+Translated Abstract:
+안전이 중요한 시나리오를 만드는 것은 자율주행차(AV)의 강건성을 평가하는 데 필수적이지만, 대규모로 수집하기는 어렵다. 기존 방법들은 자연스러운 시나리오를 유지하면서 적대성을 최적화하는 데 집중하는데, 데이터 기반 접근 방식을 통해 균형을 맞추려고 한다. 하지만 적절한 적대성의 상한선이 없다면, 시나리오가 지나치게 적대적이 되어 피할 수 없는 충돌을 일으킬 수 있다.
+
+이 논문에서는 FREA라는 새로운 안전-critical 시나리오 생성 방법을 소개한다. FREA는 자율주행차의 최대 가능 구역(LFR)을 가이던스로 사용해서 적대적 시나리오의 합리성을 보장한다. 구체적으로, FREA는 처음에 오프라인 데이터셋에서 AV의 LFR을 미리 계산한다. 그 다음, 장면의 중요한 배경 차량(CBV)을 조정하는 합리적인 적대적 정책을 학습해서, 새로운 타당성 의존적 적대적 목표 함수를 최대화함으로써 적대적이면서도 AV에 적합한 시나리오를 생성한다.
+
+많은 실험 결과, FREA는 안전이 중요한 시나리오를 효과적으로 생성할 수 있으며, AV의 실행 가능성을 보장하면서 상당한 근접 사고를 발생시킬 수 있음을 보여준다. 일반화 분석을 통해 다양한 대리 AV 방법과 교통 환경에서 AV 테스트의 강건성을 확인할 수 있었다.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.00858
+Title: Trustworthy Human-AI Collaboration: Reinforcement Learning with Human Feedback and Physics Knowledge for Safe Autonomous Driving
+
+Original Abstract:
+In the field of autonomous driving, developing safe and trustworthy autonomous driving policies remains a significant challenge. Recently, Reinforcement Learning with Human Feedback (RLHF) has attracted substantial attention due to its potential to enhance training safety and sampling efficiency. Nevertheless, existing RLHF-enabled methods often falter when faced with imperfect human demonstrations, potentially leading to training oscillations or even worse performance than rule-based approaches. Inspired by the human learning process, we propose Physics-enhanced Reinforcement Learning with Human Feedback (PE-RLHF). This novel framework synergistically integrates human feedback (e.g., human intervention and demonstration) and physics knowledge (e.g., traffic flow model) into the training loop of reinforcement learning. The key advantage of PE-RLHF is its guarantee that the learned policy will perform at least as well as the given physics-based policy, even when human feedback quality deteriorates, thus ensuring trustworthy safety improvements. PE-RLHF introduces a Physics-enhanced Human-AI (PE-HAI) collaborative paradigm for dynamic action selection between human and physics-based actions, employs a reward-free approach with a proxy value function to capture human preferences, and incorporates a minimal intervention mechanism to reduce the cognitive load on human mentors. Extensive experiments across diverse driving scenarios demonstrate that PE-RLHF significantly outperforms traditional methods, achieving state-of-the-art (SOTA) performance in safety, efficiency, and generalizability, even with varying quality of human feedback. The philosophy behind PE-RLHF not only advances autonomous driving technology but can also offer valuable insights for other safety-critical domains. Demo video and code are available at: \this https URL
+
+Translated Abstract:
+자율주행 분야에서 안전하고 신뢰할 수 있는 자율주행 정책을 개발하는 건 여전히 큰 도전이야. 최근에는 인간 피드백을 활용한 강화 학습(RLHF)이 훈련의 안전성과 샘플링 효율성을 높일 수 있어서 주목받고 있어. 하지만 기존의 RLHF 방식은 불완전한 인간의 시연을 만나면 잘 작동하지 않아서 훈련이 불안정해지거나 규칙 기반 방법보다 성능이 떨어질 수 있어.
+
+우리는 인간의 학습 과정을 참고해서 물리 기반 강화 학습에 인간 피드백을 결합한 새로운 방식인 PE-RLHF를 제안해. 이 프레임워크는 인간의 피드백(예: 인간의 개입과 시연)과 물리학 지식(예: 교통 흐름 모델)을 강화 학습의 훈련 과정에 통합해. PE-RLHF의 주요 장점은 인간 피드백의 질이 나빠져도 배운 정책이 물리 기반 정책만큼은 최소한 잘 작동할 거라는 보장을 한다는 점이야. 그래서 안전성을 높일 수 있어.
+
+PE-RLHF는 인간과 물리 기반 행동 간의 동적 행동 선택을 위한 협력적인 패러다임을 도입하고, 인간의 선호를 반영하기 위해 보상 없는 접근 방식을 사용해. 그리고 인간 멘토의 인지 부담을 줄이기 위해 최소한의 개입 메커니즘도 포함하고 있어. 다양한 주행 시나리오에서의 광범위한 실험 결과, PE-RLHF는 전통적인 방법보다 훨씬 뛰어난 성능을 보여줬고, 안전성, 효율성, 일반화 측면에서 최신 기술(SOTA)을 달성했어. 
+
+PE-RLHF의 철학은 자율주행 기술을 발전시키는 데 그치지 않고, 다른 안전 필수 분야에서도 유용한 통찰을 제공할 수 있어. 데모 영상과 코드는 이 링크에서 확인할 수 있어: \this https URL
+
+================================================================================
+
+URL: https://arxiv.org/abs/2202.13393
+Title: TransKD: Transformer Knowledge Distillation for Efficient Semantic Segmentation
+
+Original Abstract:
+Semantic segmentation benchmarks in the realm of autonomous driving are dominated by large pre-trained transformers, yet their widespread adoption is impeded by substantial computational costs and prolonged training durations. To lift this constraint, we look at efficient semantic segmentation from a perspective of comprehensive knowledge distillation and aim to bridge the gap between multi-source knowledge extractions and transformer-specific patch embeddings. We put forward the Transformer-based Knowledge Distillation (TransKD) framework which learns compact student transformers by distilling both feature maps and patch embeddings of large teacher transformers, bypassing the long pre-training process and reducing the FLOPs by >85.0%. Specifically, we propose two fundamental modules to realize feature map distillation and patch embedding distillation, respectively: (1) Cross Selective Fusion (CSF) enables knowledge transfer between cross-stage features via channel attention and feature map distillation within hierarchical transformers; (2) Patch Embedding Alignment (PEA) performs dimensional transformation within the patchifying process to facilitate the patch embedding distillation. Furthermore, we introduce two optimization modules to enhance the patch embedding distillation from different perspectives: (1) Global-Local Context Mixer (GL-Mixer) extracts both global and local information of a representative embedding; (2) Embedding Assistant (EA) acts as an embedding method to seamlessly bridge teacher and student models with the teacher's number of channels. Experiments on Cityscapes, ACDC, NYUv2, and Pascal VOC2012 datasets show that TransKD outperforms state-of-the-art distillation frameworks and rivals the time-consuming pre-training method. The source code is publicly available at this https URL.
+
+Translated Abstract:
+자율 주행 분야에서 의미론적 분할 벤치마크는 대형 사전 학습된 트랜스포머에 의해 지배되고 있지만, 이걸 널리 사용하기에는 높은 계산 비용과 긴 훈련 시간이 걸려서 어려워. 이 문제를 해결하기 위해 효율적인 의미론적 분할을 전반적인 지식 증류의 관점에서 바라보고, 다중 출처의 지식 추출과 트랜스포머 전용 패치 임베딩 간의 간극을 메우려고 해.
+
+우리는 트랜스포머 기반 지식 증류(TransKD) 프레임워크를 제안하는데, 이건 큰 교사 트랜스포머의 특징 맵과 패치 임베딩을 증류해서 컴팩트한 학생 트랜스포머를 학습해. 이렇게 하면 긴 사전 훈련 과정을 건너뛰고 FLOPs를 85% 이상 줄일 수 있어. 구체적으로, 특징 맵 증류와 패치 임베딩 증류를 실현하기 위해 두 가지 기본 모듈을 제안해: 
+
+1. 교차 선택적 융합(CSF)은 계층적 트랜스포머 내에서 채널 주의를 통해 교차 단계 특징 간의 지식 전이를 가능하게 해.
+2. 패치 임베딩 정렬(PEA)은 패치화 과정 내에서 차원 변환을 수행해 패치 임베딩 증류를 돕는 역할을 해.
+
+또한, 패치 임베딩 증류를 다양한 관점에서 더 향상시키기 위한 두 가지 최적화 모듈도 도입해: 
+
+1. 글로벌-로컬 컨텍스트 믹서(GL-Mixer)는 대표적인 임베딩의 전역 및 로컬 정보를 추출해.
+2. 임베딩 어시스턴트(EA)는 교사 모델과 학생 모델을 매끄럽게 연결하는 임베딩 방법으로, 교사의 채널 수를 유지해.
+
+Cityscapes, ACDC, NYUv2, Pascal VOC2012 데이터셋에서 실험한 결과, TransKD가 최신 지식 증류 프레임워크보다 성능이 좋고, 시간 소모가 큰 사전 훈련 방법과도 경쟁할 수 있다는 걸 보여줘. 소스 코드는 이 HTTPS URL에서 공개돼 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2302.04823
+Title: Hierarchical Generative Adversarial Imitation Learning with Mid-level Input Generation for Autonomous Driving on Urban Environments
+
+Original Abstract:
+Deriving robust control policies for realistic urban navigation scenarios is not a trivial task. In an end-to-end approach, these policies must map high-dimensional images from the vehicle's cameras to low-level actions such as steering and throttle. While pure Reinforcement Learning (RL) approaches are based exclusively on engineered rewards, Generative Adversarial Imitation Learning (GAIL) agents learn from expert demonstrations while interacting with the environment, which favors GAIL on tasks for which a reward signal is difficult to derive, such as autonomous driving. However, training deep networks directly from raw images on RL tasks is known to be unstable and troublesome. To deal with that, this work proposes a hierarchical GAIL-based architecture (hGAIL) which decouples representation learning from the driving task to solve the autonomous navigation of a vehicle. The proposed architecture consists of two modules: a GAN (Generative Adversarial Net) which generates an abstract mid-level input representation, which is the Bird's-Eye View (BEV) from the surroundings of the vehicle; and the GAIL which learns to control the vehicle based on the BEV predictions from the GAN as input. hGAIL is able to learn both the policy and the mid-level representation simultaneously as the agent interacts with the environment. Our experiments made in the CARLA simulation environment have shown that GAIL exclusively from cameras (without BEV) fails to even learn the task, while hGAIL, after training exclusively on one city, was able to autonomously navigate successfully in 98% of the intersections of a new city not used in training phase. Videos and code available at: this https URL
+
+Translated Abstract:
+도시 환경에서 로봇이 잘 내비게이션 할 수 있도록 제어 정책을 만드는 건 쉽지 않은 일이야. 끝에서 끝까지 연결된 방식에서는 차량 카메라의 고차원 이미지를 조향이나 스로틀 같은 저차원 행동으로 변환해야 해. 순수 강화 학습(RL) 방식은 엔지니어링된 보상에만 의존하지만, 생성적 적대 모방 학습(GAIL) 에이전트는 환경과 상호작용하면서 전문가의 시연에서 배워. 이건 자율주행처럼 보상 신호를 얻기 어려운 작업에서 GAIL이 더 유리하다는 뜻이야.
+
+하지만 RL 작업에서 원시 이미지로부터 깊은 신경망을 직접 훈련하는 건 불안정하고 문제가 많아. 이 문제를 해결하기 위해 이 연구에서는 계층적 GAIL 기반 아키텍처(hGAIL)를 제안해. 이 아키텍처는 주행 작업과 표현 학습을 분리해서 차량의 자율 내비게이션 문제를 해결해. 제안된 아키텍처는 두 개의 모듈로 구성돼: 하나는 GAN(생성적 적대 신경망)으로, 차량 주변의 추상적인 중간 입력 표현인 조감도(BEV)를 생성하고, 다른 하나는 GAIL로, GAN의 BEV 예측을 입력으로 받아 차량을 제어하는 방법을 배워.
+
+hGAIL은 에이전트가 환경과 상호작용하면서 정책과 중간 표현을 동시에 배울 수 있어. CARLA 시뮬레이션 환경에서 실험한 결과, 카메라만으로 학습한 GAIL은 작업을 배우지 못했지만, hGAIL은 한 도시에서만 훈련한 후 새로운 도시의 98%의 교차로에서 성공적으로 자율 내비게이션을 할 수 있었어. 비디오와 코드는 여기에서 확인할 수 있어: 이 URL
+
+================================================================================
+
+URL: https://arxiv.org/abs/2402.01105
+Title: A Survey for Foundation Models in Autonomous Driving
+
+Original Abstract:
+The advent of foundation models has revolutionized the fields of natural language processing and computer vision, paving the way for their application in autonomous driving (AD). This survey presents a comprehensive review of more than 40 research papers, demonstrating the role of foundation models in enhancing AD. Large language models contribute to planning and simulation in AD, particularly through their proficiency in reasoning, code generation and translation. In parallel, vision foundation models are increasingly adapted for critical tasks such as 3D object detection and tracking, as well as creating realistic driving scenarios for simulation and testing. Multi-modal foundation models, integrating diverse inputs, exhibit exceptional visual understanding and spatial reasoning, crucial for end-to-end AD. This survey not only provides a structured taxonomy, categorizing foundation models based on their modalities and functionalities within the AD domain but also delves into the methods employed in current research. It identifies the gaps between existing foundation models and cutting-edge AD approaches, thereby charting future research directions and proposing a roadmap for bridging these gaps.
+
+Translated Abstract:
+기초 모델의 등장으로 자연어 처리와 컴퓨터 비전 분야가 크게 변했습니다. 이로 인해 자율 주행(AD)에도 적용할 수 있는 길이 열렸습니다. 이 서베이는 40개 이상의 연구 논문을 종합적으로 리뷰하며, 기초 모델이 자율 주행을 어떻게 향상시키는지를 보여줍니다.
+
+대규모 언어 모델은 자율 주행의 계획 및 시뮬레이션에 기여하는데, 특히 추론, 코드 생성 및 번역에 능숙합니다. 동시에 비전 기초 모델은 3D 물체 감지와 추적 같은 중요한 작업에 점점 더 많이 활용되고 있습니다. 또한, 시뮬레이션 및 테스트를 위한 현실적인 주행 시나리오를 만드는 데도 쓰입니다.
+
+다중 모달 기초 모델은 다양한 입력을 통합하여 뛰어난 시각적 이해와 공간 추론 능력을 보여주며, 이는 끝에서 끝까지 자율 주행에 아주 중요합니다. 이 서베이는 기초 모델을 그들의 모달리티와 자율 주행 내에서의 기능에 따라 분류하는 구조화된 분류법을 제공할 뿐만 아니라, 현재 연구에서 사용되는 방법들에 대해서도 다룹니다.
+
+서베이는 기존 기초 모델과 최첨단 자율 주행 접근법 사이의 격차를 찾아내고, 향후 연구 방향을 제시하며 이러한 격차를 좁히기 위한 로드맵도 제안합니다.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2403.12377
+Title: Online Multi-Agent Pickup and Delivery with Task Deadlines
+
+Original Abstract:
+Managing delivery deadlines in automated warehouses and factories is crucial for maintaining customer satisfaction and ensuring seamless production. This study introduces the problem of online multi-agent pickup and delivery with task deadlines (MAPD-D), an advanced variant of the online MAPD problem incorporating delivery deadlines. In the MAPD problem, agents must manage a continuous stream of delivery tasks online. Tasks are added at any time. Agents must complete their tasks while avoiding collisions with each other. MAPD-D introduces a dynamic, deadline-driven approach that incorporates task deadlines, challenging the conventional MAPD frameworks. To tackle MAPD-D, we propose a novel algorithm named deadline-aware token passing (D-TP). The D-TP algorithm calculates pickup deadlines and assigns tasks while balancing execution cost and deadline proximity. Additionally, we introduce the D-TP with task swaps (D-TPTS) method to further reduce task tardiness, enhancing flexibility and efficiency through task-swapping strategies. Numerical experiments were conducted in simulated warehouse environments to showcase the effectiveness of the proposed methods. Both D-TP and D-TPTS demonstrated significant reductions in task tardiness compared to existing methods. Our methods contribute to efficient operations in automated warehouses and factories with delivery deadlines.
+
+Translated Abstract:
+자동화된 창고와 공장에서 납기 관리는 고객 만족과 원활한 생산을 위해 정말 중요해. 이 연구는 온라인 다중 에이전트 픽업 및 배달 문제에 납기 개념을 추가한 MAPD-D라는 문제를 소개해. MAPD 문제에서는 에이전트들이 온라인으로 지속적으로 들어오는 배달 작업을 처리해야 해. 작업은 언제든지 추가될 수 있고, 에이전트들은 서로 충돌하지 않으면서 작업을 완료해야 해.
+
+MAPD-D는 동적인 납기 중심 접근 방식을 도입해서 기존의 MAPD 프레임워크에 도전해. 이 문제를 해결하기 위해 우리는 D-TP라는 새로운 알고리즘을 제안해. D-TP 알고리즘은 픽업 납기를 계산하고 작업을 할당하면서 실행 비용과 납기 간의 균형을 맞춰. 또한, 작업 지연을 더 줄이기 위해 D-TPTS라는 작업 교환 방법도 소개해. 이 방법은 작업 교환 전략을 통해 유연성과 효율성을 높여줘.
+
+우리는 제안한 방법의 효과를 보여주기 위해 시뮬레이션된 창고 환경에서 수치 실험을 진행했어. D-TP와 D-TPTS 모두 기존 방법에 비해 작업 지연을 크게 줄였어. 우리 방법은 납기가 있는 자동화된 창고와 공장에서 효율적인 운영에 기여할 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2405.19921
+Title: MCDS-VSS: Moving Camera Dynamic Scene Video Semantic Segmentation by Filtering with Self-Supervised Geometry and Motion
+
+Original Abstract:
+Autonomous systems, such as self-driving cars, rely on reliable semantic environment perception for decision making. Despite great advances in video semantic segmentation, existing approaches ignore important inductive biases and lack structured and interpretable internal representations. In this work, we propose MCDS-VSS, a structured filter model that learns in a self-supervised manner to estimate scene geometry and ego-motion of the camera, while also estimating the motion of external objects. Our model leverages these representations to improve the temporal consistency of semantic segmentation without sacrificing segmentation accuracy. MCDS-VSS follows a prediction-fusion approach in which scene geometry and camera motion are first used to compensate for ego-motion, then residual flow is used to compensate motion of dynamic objects, and finally the predicted scene features are fused with the current features to obtain a temporally consistent scene segmentation. Our model parses automotive scenes into multiple decoupled interpretable representations such as scene geometry, ego-motion, and object motion. Quantitative evaluation shows that MCDS-VSS achieves superior temporal consistency on video sequences while retaining competitive segmentation performance.
+
+Translated Abstract:
+자율 시스템, 예를 들어 자율주행차는 의사 결정을 위한 신뢰할 수 있는 환경 인식이 필요해. 비디오 의미 세분화 기술이 많이 발전했지만, 기존 방법들은 중요한 유도 편향을 무시하고 구조화된 해석 가능한 내부 표현이 부족해. 
+
+이 연구에서는 MCDS-VSS라는 구조적 필터 모델을 제안해. 이 모델은 자가 지도 학습 방식으로 장면 기하학과 카메라의 자아 이동을 추정하고, 외부 물체의 움직임도 추정해. 이 표현들을 이용해 의미 세분화의 시간적 일관성을 높이면서도 세분화 정확도를 유지해.
+
+MCDS-VSS는 예측-융합 방식으로, 먼저 장면 기하학과 카메라의 움직임을 사용해 자아 이동을 보정하고, 그 다음에는 잔여 흐름을 사용해 동적 물체의 움직임을 보정해. 마지막으로 예측된 장면 특징을 현재 특징과 융합해서 시간적으로 일관된 장면 세분화를 얻어. 
+
+우리 모델은 자동차 장면을 장면 기하학, 자아 이동, 물체 이동 같은 여러 개의 분리된 해석 가능한 표현으로 분석해. 정량적 평가 결과, MCDS-VSS는 비디오 시퀀스에서 뛰어난 시간적 일관성을 달성하면서도 경쟁력 있는 세분화 성능을 유지해.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2408.16322
+Title: BEVal: A Cross-dataset Evaluation Study of BEV Segmentation Models for Autononomous Driving
+
+Original Abstract:
+Current research in semantic bird's-eye view segmentation for autonomous driving focuses solely on optimizing neural network models using a single dataset, typically nuScenes. This practice leads to the development of highly specialized models that may fail when faced with different environments or sensor setups, a problem known as domain shift. In this paper, we conduct a comprehensive cross-dataset evaluation of state-of-the-art BEV segmentation models to assess their performance across different training and testing datasets and setups, as well as different semantic categories. We investigate the influence of different sensors, such as cameras and LiDAR, on the models' ability to generalize to diverse conditions and scenarios. Additionally, we conduct multi-dataset training experiments that improve models' BEV segmentation performance compared to single-dataset training. Our work addresses the gap in evaluating BEV segmentation models under cross-dataset validation. And our findings underscore the importance of enhancing model generalizability and adaptability to ensure more robust and reliable BEV segmentation approaches for autonomous driving applications. The code for this paper available at this https URL .
+
+Translated Abstract:
+현재 자율주행을 위한 의미적 조감도(BEV) 분할 연구는 주로 nuScenes라는 단일 데이터셋을 사용해 신경망 모델을 최적화하는 데만 집중하고 있어. 이렇게 하면 특정 환경이나 센서 설정에서 잘 작동하지 않는 매우 특화된 모델이 만들어지는 문제가 발생해, 이를 도메인 시프트라고 해.
+
+이 논문에서는 최신 BEV 분할 모델에 대한 포괄적인 크로스 데이터셋 평가를 수행해, 다양한 훈련 및 테스트 데이터셋과 설정, 그리고 다양한 의미적 범주에서 모델의 성능을 평가하고 있어. 카메라와 LiDAR 같은 다양한 센서가 모델의 일반화 능력에 미치는 영향을 조사했어.
+
+또한, 단일 데이터셋 훈련보다 모델의 BEV 분할 성능을 향상시키는 다중 데이터셋 훈련 실험도 진행했어. 우리의 연구는 크로스 데이터셋 검증을 통해 BEV 분할 모델을 평가하는 격차를 해소하고 있어. 그리고 우리의 결과는 자율주행 응용을 위한 더 강력하고 신뢰할 수 있는 BEV 분할 접근 방식을 위해 모델의 일반화 및 적응 능력을 향상시키는 것이 중요하다는 점을 강조하고 있어. 이 논문의 코드는 이 https URL에서 확인할 수 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.02115
+Title: Deep Neural Implicit Representation of Accessibility for Multi-Axis Manufacturing
+
+Original Abstract:
+One of the main concerns in design and process planning for multi-axis additive and subtractive manufacturing is collision avoidance between moving objects (e.g., tool assemblies) and stationary objects (e.g., a part unified with fixtures). The collision measure for various pairs of relative rigid translations and rotations between the two pointsets can be conceptualized by a compactly supported scalar field over the 6D non-Euclidean configuration space. Explicit representation and computation of this field is costly in both time and space. If we fix $O(m)$ sparsely sampled rotations (e.g., tool orientations), computation of the collision measure field as a convolution of indicator functions of the 3D pointsets over a uniform grid (i.e., voxelized geometry) of resolution $O(n^3)$ via fast Fourier transforms (FFTs) scales as in $O(mn^3 \log n)$ in time and $O(mn^3)$ in space. In this paper, we develop an implicit representation of the collision measure field via deep neural networks (DNNs). We show that our approach is able to accurately interpolate the collision measure from a sparse sampling of rotations, and can represent the collision measure field with a small memory footprint. Moreover, we show that this representation can be efficiently updated through fine-tuning to more efficiently train the network on multi-resolution data, as well as accommodate incremental changes to the geometry (such as might occur in iterative processes such as topology optimization of the part subject to CNC tool accessibility constraints).
+
+Translated Abstract:
+다축 적층 및 절삭 제조에서 디자인과 프로세스 계획할 때 가장 큰 걱정 중 하나는 움직이는 물체(예: 공구 조립체)와 고정된 물체(예: 고정구와 결합된 부품) 간의 충돌을 피하는 거야.
+
+두 점 세트 사이의 상대적인 강체 변환과 회전 쌍에 대한 충돌 측정은 6차원 비유클리드 구성 공간에서 컴팩트하게 지지된 스칼라 필드로 개념화할 수 있어. 이 필드를 명시적으로 나타내고 계산하는 건 시간과 공간 모두에서 비용이 많이 들어. 만약 $O(m)$개의 희소하게 샘플링된 회전(예: 공구의 방향)을 고정하면, 충돌 측정 필드를 3D 점 세트의 지표 함수의 컨볼루션으로 계산할 수 있어. 이때 균일한 격자(즉, 복셀화된 기하학)에서 해상도 $O(n^3)$로 빠른 퓨리에 변환(FFT)을 사용하면, 시간은 $O(mn^3 \log n)$, 공간은 $O(mn^3)$로 확장돼.
+
+이 논문에서는 깊은 신경망(DNN)을 통해 충돌 측정 필드의 암시적 표현을 개발했어. 우리 방법이 희소하게 샘플링된 회전에서 충돌 측정을 정확하게 보간할 수 있고, 작은 메모리 용량으로 충돌 측정 필드를 표현할 수 있음을 보여줘. 게다가, 이 표현은 미세 조정을 통해 효율적으로 업데이트할 수 있어서, 다중 해상도 데이터로 네트워크를 더 효율적으로 훈련하고, 기하학의 점진적인 변화(예를 들어, CNC 공구 접근성 제약을 받는 부품의 토폴로지 최적화와 같은 반복적인 과정에서 발생할 수 있는 변화)에 잘 적응할 수 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.02395
+Title: Deep Brain Ultrasound Ablation Thermal Dose Modeling with in Vivo Experimental Validation
+
+Original Abstract:
+Intracorporeal needle-based therapeutic ultrasound (NBTU) is a minimally invasive option for intervening in malignant brain tumors, commonly used in thermal ablation procedures. This technique is suitable for both primary and metastatic cancers, utilizing a high-frequency alternating electric field (up to 10 MHz) to excite a piezoelectric transducer. The resulting rapid deformation of the transducer produces an acoustic wave that propagates through tissue, leading to localized high-temperature heating at the target tumor site and inducing rapid cell death. To optimize the design of NBTU transducers for thermal dose delivery during treatment, numerical modeling of the acoustic pressure field generated by the deforming piezoelectric transducer is frequently employed. The bioheat transfer process generated by the input pressure field is used to track the thermal propagation of the applicator over time. Magnetic resonance thermal imaging (MRTI) can be used to experimentally validate these models. Validation results using MRTI demonstrated the feasibility of this model, showing a consistent thermal propagation pattern. However, a thermal damage isodose map is more advantageous for evaluating therapeutic efficacy. To achieve a more accurate simulation based on the actual brain tissue environment, a new finite element method (FEM) simulation with enhanced damage evaluation capabilities was conducted. The results showed that the highest temperature and ablated volume differed between experimental and simulation results by 2.1884°C (3.71%) and 0.0631 cm$^3$ (5.74%), respectively. The lowest Pearson correlation coefficient (PCC) for peak temperature was 0.7117, and the lowest Dice coefficient for the ablated area was 0.7021, indicating a good agreement in accuracy between simulation and experiment.
+
+Translated Abstract:
+내부 침 기반 치료 초음파(NBTU)는 악성 뇌 종양을 치료하는 최소 침습적인 방법이야. 주로 열 절제 절차에 사용돼. 이 기술은 원발성 암과 전이성 암 모두에 적합하고, 최대 10 MHz의 고주파 교류 전기장을 이용해 압전 변환기를 작동시켜. 변환기가 빠르게 변형되면서 발생하는 음파가 조직을 통과하면서 목표 종양 부위에서 국소적으로 고온을 발생시켜 빠른 세포 사멸을 유도해.
+
+NBTU 변환기의 설계를 최적화하기 위해, 변형되는 압전 변환기가 생성하는 음압장에 대한 수치 모델링이 자주 사용돼. 입력 압력장이 생성하는 생체 열 전달 과정을 통해 시간이 지남에 따라 적용기의 열 전파를 추적해. 자기 공명 열 이미징(MRTI)을 사용해서 이 모델을 실험적으로 검증할 수 있어. MRTI를 이용한 검증 결과는 이 모델의 가능성을 보여주고, 일관된 열 전파 패턴을 나타냈어. 하지만 열 손상 등고선 지도는 치료 효과를 평가하는 데 더 유리해.
+
+실제 뇌 조직 환경을 기반으로 더 정확한 시뮬레이션을 위해, 손상 평가 능력이 향상된 새로운 유한 요소법(FEM) 시뮬레이션이 진행됐어. 결과적으로 실험과 시뮬레이션 결과 사이에 최고 온도와 절제된 부피가 각각 2.1884°C(3.71%)와 0.0631 cm³(5.74%) 차이가 났어. 최고 온도에 대한 최소 피어슨 상관 계수(PCC)는 0.7117이었고, 절제된 영역에 대한 최소 다이스 계수는 0.7021로, 시뮬레이션과 실험 간의 정확도에서 좋은 일치를 나타냈어.
+
+================================================================================
+
