@@ -13,4 +13,4 @@
 - It's very reasonable and affordable (if you use mini) to summarize the 5 days of Robotics pastweek papers < 200 from https://arxiv.org/list/cs.RO/recent?skip=0&show=2000
 
 ## The example result 
-- ![예시](example_capture.png)
+- ![예시](example_result_from_recent_capture.png)
