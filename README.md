@@ -2,8 +2,9 @@
 - using openai api 
 
 ## How to use 
-- if you want to automatically translate the new (of today) one
-    - `$ python3 translate_arxiv_new.py RO gpt-4o-mini YOUR_KEY` 
+- if you want to translate the new (of today) one automatically
+    - `$ python3 translate_arxiv_new.py RO gpt-4o-mini YOUR_KEY`
+    - __TODO: make this process automatically runs via GitHub-action__
 - if you want to parse recent k items
     - `$ python3 translate_arxiv_recent.py RO gpt-4o-mini YOUR_KEY --num_max 200`
   
