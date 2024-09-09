@@ -1,0 +1,418 @@
+URL: https://arxiv.org/abs/2409.03881
+Title: Multi-agent Path Finding for Mixed Autonomy Traffic Coordination
+
+Original Abstract:
+In the evolving landscape of urban mobility, the prospective integration of Connected and Automated Vehicles (CAVs) with Human-Driven Vehicles (HDVs) presents a complex array of challenges and opportunities for autonomous driving systems. While recent advancements in robotics have yielded Multi-Agent Path Finding (MAPF) algorithms tailored for agent coordination task characterized by simplified kinematics and complete control over agent behaviors, these solutions are inapplicable in mixed-traffic environments where uncontrollable HDVs must coexist and interact with CAVs. Addressing this gap, we propose the Behavior Prediction Kinematic Priority Based Search (BK-PBS), which leverages an offline-trained conditional prediction model to forecast HDV responses to CAV maneuvers, integrating these insights into a Priority Based Search (PBS) where the A* search proceeds over motion primitives to accommodate kinematic constraints. We compare BK-PBS with CAV planning algorithms derived by rule-based car-following models, and reinforcement learning. Through comprehensive simulation on a highway merging scenario across diverse scenarios of CAV penetration rate and traffic density, BK-PBS outperforms these baselines in reducing collision rates and enhancing system-level travel delay. Our work is directly applicable to many scenarios of multi-human multi-robot coordination.
+
+Translated Abstract:
+도시 이동 수단이 발전하면서, 연결된 자동차(CAVs)와 사람이 운전하는 차(HDVs)를 함께 사용하는 것에는 여러 가지 도전과 기회가 생기고 있어. 최근 로봇 기술이 발전하면서, 에이전트 협동 작업을 위해 설계된 다중 에이전트 경로 찾기(MAPF) 알고리즘이 나왔지만, 이런 솔루션은 통제할 수 없는 HDVs와 CAVs가 혼합된 교통 환경에서는 적용이 어려워.
+
+이 문제를 해결하기 위해, 우리는 행동 예측 기반의 운동 우선 검색(BK-PBS)을 제안해. 이 방법은 오프라인으로 훈련된 조건부 예측 모델을 사용해서 HDVs가 CAV의 행동에 어떻게 반응할지를 예측해. 그리고 이 예측 결과를 바탕으로 우선 순위 기반 검색(PBS)을 통해 A* 검색이 운동 원시적 동작을 고려하면서 진행되도록 해. 
+
+BK-PBS를 규칙 기반 자동차 추적 모델과 강화 학습을 이용한 CAV 계획 알고리즘과 비교해봤어. 다양한 CAV 침투율과 교통 밀도가 있는 고속도로 합류 시나리오에서 시뮬레이션을 진행한 결과, BK-PBS가 충돌률을 줄이고 전체 여행 지연 시간을 개선하는 데 더 효과적이었어. 우리의 연구는 다수의 사람과 로봇이 함께 협력하는 여러 상황에 직접 적용할 수 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03899
+Title: Achieving the Safety and Security of the End-to-End AV Pipeline
+
+Original Abstract:
+In the current landscape of autonomous vehicle (AV) safety and security research, there are multiple isolated problems being tackled by the community at large. Due to the lack of common evaluation criteria, several important research questions are at odds with one another. For instance, while much research has been conducted on physical attacks deceiving AV perception systems, there is often inadequate investigations on working defenses and on the downstream effects of safe vehicle control.
+This paper provides a thorough description of the current state of AV safety and security research. We provide individual sections for the primary research questions that concern this research area, including AV surveillance, sensor system reliability, security of the AV stack, algorithmic robustness, and safe environment interaction. We wrap up the paper with a discussion of the issues that concern the interactions of these separate problems. At the conclusion of each section, we propose future research questions that still lack conclusive answers. This position article will serve as an entry point to novice and veteran researchers seeking to partake in this research domain.
+
+Translated Abstract:
+현재 자율주행차(AV) 안전 및 보안 연구에서는 여러 가지 문제들이 따로따로 다뤄지고 있어. 공통된 평가 기준이 없어서 몇 가지 중요한 연구 질문들이 서로 충돌하고 있어. 예를 들어, AV의 인식 시스템을 속이는 물리적 공격에 대한 연구는 많이 진행됐지만, 안전한 차량 제어와 관련된 방어책이나 후속 효과에 대한 연구는 부족해.
+
+이 논문은 AV 안전 및 보안 연구의 현재 상태를 자세히 설명해. 이 연구 분야와 관련된 주요 질문들을 다루는 개별 섹션을 제공해. 여기에는 AV 감시, 센서 시스템의 신뢰성, AV 스택의 보안, 알고리즘의 강건성, 그리고 안전한 환경 상호작용 등이 포함돼. 논문 마지막 부분에서는 이 서로 다른 문제들이 어떻게 연결되는지에 대한 논의를 해.
+
+각 섹션의 끝에서는 아직 확실한 답이 없는 미래 연구 질문들을 제안해. 이 논문은 초보자와 경험 많은 연구자들이 이 연구 분야에 참여할 수 있는 입문서 역할을 할 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03920
+Title: Asymptotically-Optimal Multi-Query Path Planning for Moving A Convex Polygon in 2D
+
+Original Abstract:
+The classical shortest-path roadmaps, also known as reduced visibility graphs, provide a multi-query method for quickly computing optimal paths in two-dimensional environments. Combined with Minkowski sum computations, shortest-path roadmaps can compute optimal paths for a translating robot in 2D. In this study, we explore the intuitive idea of stacking up a set of reduced visibility graphs at different orientations for a convex-shaped holonomic robot, to support the fast computation of near-optimal paths allowing simultaneous 2D translation and rotation. The resulting algorithm, rotation-stacked visibility graph (RVG), is shown to be resolution-complete and asymptotically optimal. RVG out-performs SOTA single-query sampling-based methods including BIT* and AIT* on both computation time and solution optimality fronts.
+
+Translated Abstract:
+고전적인 최단 경로 로드맵, 즉 축소 가시성 그래프는 2D 환경에서 최적 경로를 빠르게 계산할 수 있는 멀티 쿼리 방법을 제공해. Minkowski 합 계산과 결합하면, 최단 경로 로드맵은 2D에서 이동하는 로봇의 최적 경로를 계산할 수 있어.
+
+이번 연구에서는 볼록 형태의 완전 이동 로봇을 위해 다양한 방향으로 축소 가시성 그래프를 쌓는 직관적인 아이디어를 탐구했어. 이 방법은 동시에 2D 이동과 회전을 가능하게 하면서 거의 최적 경로를 빠르게 계산할 수 있도록 도와줘. 
+
+결과적으로 나온 알고리즘, 회전 쌓기 가시성 그래프(RVG)는 해상도 완전성과 점근적으로 최적임이 입증됐어. RVG는 BIT*와 AIT* 같은 최신 단일 쿼리 샘플링 기반 방법들보다 계산 시간과 솔루션 최적성 모두에서 성능이 뛰어나.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03930
+Title: DRAL: Deep Reinforcement Adaptive Learning for Multi-UAVs Navigation in Unknown Indoor Environment
+
+Original Abstract:
+Autonomous indoor navigation of UAVs presents numerous challenges, primarily due to the limited precision of GPS in enclosed environments. Additionally, UAVs' limited capacity to carry heavy or power-intensive sensors, such as overheight packages, exacerbates the difficulty of achieving autonomous navigation indoors. This paper introduces an advanced system in which a drone autonomously navigates indoor spaces to locate a specific target, such as an unknown Amazon package, using only a single camera. Employing a deep learning approach, a deep reinforcement adaptive learning algorithm is trained to develop a control strategy that emulates the decision-making process of an expert pilot. We demonstrate the efficacy of our system through real-time simulations conducted in various indoor settings. We apply multiple visualization techniques to gain deeper insights into our trained network. Furthermore, we extend our approach to include an adaptive control algorithm for coordinating multiple drones to lift an object in an indoor environment collaboratively. Integrating our DRAL algorithm enables multiple UAVs to learn optimal control strategies that adapt to dynamic conditions and uncertainties. This innovation enhances the robustness and flexibility of indoor navigation and opens new possibilities for complex multi-drone operations in confined spaces. The proposed framework highlights significant advancements in adaptive control and deep reinforcement learning, offering robust solutions for complex multi-agent systems in real-world applications.
+
+Translated Abstract:
+자율 실내에서 드론이 내비게이션하는 것은 여러 가지 어려움이 있어요. 주로 GPS가 닫힌 공간에서 정확도가 떨어지기 때문인데, 드론이 무겁거나 전력을 많이 소모하는 센서를 장착할 수 있는 능력이 제한적이라서 문제를 더 악화시키죠. 
+
+이 논문에서는 드론이 단 하나의 카메라만 사용해서 특정 목표물, 예를 들어 알 수 없는 아마존 패키지 같은 것을 자율적으로 찾아내는 고급 시스템을 소개해요. 딥러닝 방식을 사용해서, 전문가 조종사의 의사 결정을 모방하는 제어 전략을 개발하기 위해 딥 강화 적응 학습 알고리즘을 훈련시켰어요. 우리는 다양한 실내 환경에서 진행한 실시간 시뮬레이션을 통해 시스템의 효과를 보여줍니다.
+
+또한, 훈련된 네트워크에 대한 깊은 통찰을 얻기 위해 여러 시각화 기법을 사용했어요. 그리고 이 접근 방식을 확장해서 여러 드론이 협력해 실내 환경에서 물체를 들어올리기 위한 적응형 제어 알고리즘도 포함시켰어요. DRAL 알고리즘을 통합함으로써 여러 드론이 동적인 조건과 불확실성에 적응하는 최적의 제어 전략을 학습할 수 있게 되었죠.
+
+이 혁신은 실내 내비게이션의 강인성과 유연성을 높이고, 제한된 공간에서 복잡한 다수 드론 작전을 위한 새로운 가능성을 열어줘요. 제안된 프레임워크는 적응형 제어와 딥 강화 학습에서 중요한 발전을 강조하며, 실제 애플리케이션에서 복잡한 다중 에이전트 시스템에 강력한 솔루션을 제공해요.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03966
+Title: Automating Robot Failure Recovery Using Vision-Language Models With Optimized Prompts
+
+Original Abstract:
+Current robot autonomy struggles to operate beyond the assumed Operational Design Domain (ODD), the specific set of conditions and environments in which the system is designed to function, while the real-world is rife with uncertainties that may lead to failures. Automating recovery remains a significant challenge. Traditional methods often rely on human intervention to manually address failures or require exhaustive enumeration of failure cases and the design of specific recovery policies for each scenario, both of which are labor-intensive. Foundational Vision-Language Models (VLMs), which demonstrate remarkable common-sense generalization and reasoning capabilities, have broader, potentially unbounded ODDs. However, limitations in spatial reasoning continue to be a common challenge for many VLMs when applied to robot control and motion-level error recovery. In this paper, we investigate how optimizing visual and text prompts can enhance the spatial reasoning of VLMs, enabling them to function effectively as black-box controllers for both motion-level position correction and task-level recovery from unknown failures. Specifically, the optimizations include identifying key visual elements in visual prompts, highlighting these elements in text prompts for querying, and decomposing the reasoning process for failure detection and control generation. In experiments, prompt optimizations significantly outperform pre-trained Vision-Language-Action Models in correcting motion-level position errors and improve accuracy by 65.78% compared to VLMs with unoptimized prompts. Additionally, for task-level failures, optimized prompts enhanced the success rate by 5.8%, 5.8%, and 7.5% in VLMs' abilities to detect failures, analyze issues, and generate recovery plans, respectively, across a wide range of unknown errors in Lego assembly.
+
+Translated Abstract:
+현재 로봇 자율성은 시스템이 작동하도록 설계된 특정 조건과 환경인 운영 설계 도메인(ODD)을 넘어서는 데 어려움을 겪고 있어. 실제 세계는 불확실성으로 가득 차 있어서 실패로 이어질 수 있는 상황이 많아. 복구를 자동화하는 것은 여전히 큰 도전이야. 전통적인 방법은 대개 인간의 개입에 의존해서 수동으로 실패를 처리하거나, 실패 사례를 모두 나열하고 각 시나리오에 맞는 복구 정책을 설계하는 데 많은 노력이 필요해. 
+
+기초적인 비전-언어 모델(VLM)은 놀라운 상식 일반화와 추론 능력을 보여줘서 ODD가 더 넓고 잠재적으로 무한할 수 있어. 하지만 공간적 추론에서 한계가 있어 많은 VLM이 로봇 제어나 동작 수준의 오류 복구에 적용될 때 공통적인 도전 과제가 되고 있어. 이 논문에서는 시각적 및 텍스트 프롬프트 최적화가 VLM의 공간적 추론을 어떻게 강화할 수 있는지를 조사해. 이를 통해 VLM이 동작 수준의 위치 수정과 알려지지 않은 실패로부터의 작업 수준 복구를 효과적으로 수행할 수 있도록 하려는 거야.
+
+구체적으로 최적화는 시각적 프롬프트에서 주요 시각 요소를 식별하고, 이 요소들을 질의를 위한 텍스트 프롬프트에서 강조하며, 실패 감지와 제어 생성을 위한 추론 과정을 분해하는 것을 포함해. 실험에서 프롬프트 최적화는 동작 수준의 위치 오류를 수정하는 데 있어서 사전 학습된 비전-언어-행동 모델보다 훨씬 뛰어난 성과를 보였고, 최적화되지 않은 프롬프트를 가진 VLM과 비교했을 때 정확도가 65.78% 향상됐어. 게다가 작업 수준의 실패에 대해서는 최적화된 프롬프트가 VLM의 실패 감지, 문제 분석, 복구 계획 생성 능력을 각각 5.8%, 5.8%, 7.5% 향상시켰어. 이 모든 건 Lego 조립에서 발생하는 다양한 알려지지 않은 오류들에 대한 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03998
+Title: Matched Filtering based LiDAR Place Recognition for Urban and Natural Environments
+
+Original Abstract:
+Place recognition is an important task within autonomous navigation, involving the re-identification of previously visited locations from an initial traverse. Unlike visual place recognition (VPR), LiDAR place recognition (LPR) is tolerant to changes in lighting, seasons, and textures, leading to high performance on benchmark datasets from structured urban environments. However, there is a growing need for methods that can operate in diverse environments with high performance and minimal training. In this paper, we propose a handcrafted matching strategy that performs roto-translation invariant place recognition and relative pose estimation for both urban and unstructured natural environments. Our approach constructs Birds Eye View (BEV) global descriptors and employs a two-stage search using matched filtering -- a signal processing technique for detecting known signals amidst noise. Extensive testing on the NCLT, Oxford Radar, and WildPlaces datasets consistently demonstrates state-of-the-art (SoTA) performance across place recognition and relative pose estimation metrics, with up to 15% higher recall than previous SoTA.
+
+Translated Abstract:
+장소 인식은 자율 주행에서 중요한 작업으로, 처음 지나간 장소를 다시 인식하는 과정이야. 시각적 장소 인식(VPR)과는 달리, LiDAR 장소 인식(LPR)은 조명, 계절, 질감 변화에 강해서 구조화된 도시 환경에서 벤치마크 데이터셋에 대해 높은 성능을 보여줘. 하지만 다양한 환경에서 높은 성능을 내고 최소한의 훈련으로 작동할 수 있는 방법이 필요해지고 있어.
+
+이 논문에서는 도시와 비구조적 자연 환경 모두에서 회전-변환 불변 장소 인식과 상대 자세 추정을 수행하는 수작업 매칭 전략을 제안해. 우리의 접근법은 새의 눈으로 본 시점(BEV) 전역 디스크립터를 구성하고, 매칭 필터링을 사용해 두 단계 검색을 진행해. 매칭 필터링은 노이즈 속에서 알려진 신호를 감지하는 신호 처리 기법이야.
+
+NCLT, 옥스퍼드 레이더, WildPlaces 데이터셋에서 광범위한 테스트를 진행했는데, 장소 인식과 상대 자세 추정 지표에서 최첨단(SoTA) 성능을 일관되게 보여줬어. 이전 SoTA보다 최대 15% 더 높은 재현율을 기록했어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.04006
+Title: Design and Characterization of MRI-compatible Plastic Ultrasonic Motor
+
+Original Abstract:
+Precise surgical procedures may benefit from intra-operative image guidance using magnetic resonance imaging (MRI). However, the MRI's strong magnetic fields, fast switching gradients, and constrained space pose the need for an MR-guided robotic system to assist the surgeon. Piezoelectric actuators can be used in an MRI environment by utilizing the inverse piezoelectric effect for different application purposes. Piezoelectric ultrasonic motor (USM) is one type of MRI-compatible actuator that can actuate these robots with fast response times, compactness, and simple configuration. Although the piezoelectric motors are mostly made of nonferromagnetic material, the generation of eddy currents due to the MRI's gradient fields can lead to magnetic field distortions causing image artifacts. Motor vibrations due to interactions between the MRI's magnetic fields and those generated by the eddy currents can further degrade image quality by causing image artifacts. In this work, a plastic piezoelectric ultrasonic (USM) motor with more degree of MRI compatibility was developed and induced with preliminary optimization. Multiple parameters, namely teeth number, notch size, edge bevel or straight, and surface finish level parameters were used versus the prepressure for the experiment, and the results suggested that using 48 teeth, thin teeth notch with 0.39mm, beveled edge and a surface finish using grit number of approximate 1000 sandpaper performed a better output both in rotary speed and torque. Under this combination, the highest speed reached up to 436.6665rpm when the prepressure was low, and the highest torque reached up to 0.0348Nm when the prepressure was approximately 500g.
+
+Translated Abstract:
+정확한 수술 절차는 자기 공명 영상(MRI)을 이용한 수술 중 이미지 가이드에서 많은 도움이 될 수 있어. 하지만 MRI의 강한 자기장, 빠른 스위칭 기울기, 그리고 제한된 공간 때문에 수술자를 돕기 위한 MR 가이드 로봇 시스템이 필요해. 
+
+피에조 전기 액추에이터는 다양한 용도로 역 피에조 전기 효과를 활용해서 MRI 환경에서도 사용할 수 있어. 피에조 전기 초음파 모터(USM)는 MRI와 호환되는 액추에이터의 한 종류로, 빠른 반응 시간, 소형화, 간단한 구성으로 로봇을 작동시킬 수 있어. 대부분의 피에조 전기 모터는 비자성 재료로 만들어지지만, MRI의 기울기 필드 때문에 발생하는 와전류가 자기장 왜곡을 일으켜 이미지 아티팩트를 초래할 수 있어. 또한, MRI의 자기장과 와전류 간의 상호작용으로 인해 모터 진동이 생기면 이미지 품질이 더 저하되어 아티팩트를 유발하게 돼.
+
+이 연구에서는 MRI 호환성이 더 높은 플라스틱 피에조 전기 초음파(USM) 모터를 개발하고 초기 최적화를 유도했어. 실험을 위해 여러 가지 매개변수, 즉 톱니 수, 노치 크기, 모서리 형태, 표면 마감 정도를 사용하여 예압과 비교했어. 결과적으로 48개의 톱니, 0.39mm 두께의 얇은 톱니 노치, 베벨 처리된 모서리와 약 1000번 사포로 마감한 표면을 사용할 때 회전 속도와 토크 모두 더 나은 성능을 보였어. 이 조합에서는 예압이 낮을 때 최고 속도가 436.6665rpm에 달했고, 예압이 약 500g일 때 최고 토크는 0.0348Nm에 이르렀어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.04230
+Title: SPACE: A Python-based Simulator for Evaluating Decentralized Multi-Robot Task Allocation Algorithms
+
+Original Abstract:
+Swarm robotics explores the coordination of multiple robots to achieve collective goals, with collective decision-making being a central focus. This process involves decentralized robots autonomously making local decisions and communicating them, which influences the overall emergent behavior. Testing such decentralized algorithms in real-world scenarios with hundreds or more robots is often impractical, underscoring the need for effective simulation tools. We propose SPACE (Swarm Planning and Control Evaluation), a Python-based simulator designed to support the research, evaluation, and comparison of decentralized Multi-Robot Task Allocation (MRTA) algorithms. SPACE streamlines core algorithmic development by allowing users to implement decision-making algorithms as Python plug-ins, easily construct agent behavior trees via an intuitive GUI, and leverage built-in support for inter-agent communication and local task awareness. To demonstrate its practical utility, we implement and evaluate CBBA and GRAPE within the simulator, comparing their performance across different metrics, particularly in scenarios with dynamically introduced tasks. This evaluation shows the usefulness of SPACE in conducting rigorous and standardized comparisons of MRTA algorithms, helping to support future research in the field.
+
+Translated Abstract:
+스웜 로보틱스는 여러 로봇이 함께 목표를 달성하기 위해 협력하는 방법을 연구하는 분야야. 여기서 중요한 건 집단 의사결정이야. 이 과정에서는 분산된 로봇들이 스스로 지역적 결정을 내리고 그걸 서로 소통하는데, 이런 결정이 전체적인 행동에 영향을 미쳐. 
+
+하지만, 실제로 수백 대 이상의 로봇으로 이런 분산 알고리즘을 테스트하는 건 현실적으로 어렵기 때문에, 효과적인 시뮬레이션 도구가 필요해. 그래서 우리는 SPACE (스웜 계획 및 제어 평가)라는 파이썬 기반의 시뮬레이터를 제안해. 이 도구는 분산된 다중 로봇 작업 할당(MRTA) 알고리즘의 연구, 평가, 비교를 지원하도록 설계되었어.
+
+SPACE는 사용자들이 의사결정 알고리즘을 파이썬 플러그인으로 쉽게 구현할 수 있게 해주고, 직관적인 GUI를 통해 에이전트 행동 트리를 쉽게 구성할 수 있도록 도와줘. 또한, 에이전트 간의 소통과 지역 작업 인식을 위한 기본 지원도 제공해.
+
+SPACE의 실용성을 보여주기 위해, 우리는 시뮬레이터 내에서 CBBA와 GRAPE를 구현하고 평가했어. 그들의 성능을 다양한 지표로 비교했는데, 특히 동적으로 도입된 작업이 있는 상황에서 말이야. 이 평가 결과는 MRTA 알고리즘의 엄격하고 표준화된 비교를 수행하는 데 SPACE의 유용성을 보여주고, 향후 연구를 지원하는 데 도움을 줄 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.04306
+Title: Safe and Efficient Path Planning under Uncertainty via Deep Collision Probability Fields
+
+Original Abstract:
+Estimating collision probabilities between robots and environmental obstacles or other moving agents is crucial to ensure safety during path planning. This is an important building block of modern planning algorithms in many application scenarios such as autonomous driving, where noisy sensors perceive obstacles. While many approaches exist, they either provide too conservative estimates of the collision probabilities or are computationally intensive due to their sampling-based nature. To deal with these issues, we introduce Deep Collision Probability Fields, a neural-based approach for computing collision probabilities of arbitrary objects with arbitrary unimodal uncertainty distributions. Our approach relegates the computationally intensive estimation of collision probabilities via sampling at the training step, allowing for fast neural network inference of the constraints during planning. In extensive experiments, we show that Deep Collision Probability Fields can produce reasonably accurate collision probabilities (up to 10^{-3}) for planning and that our approach can be easily plugged into standard path planning approaches to plan safe paths on 2-D maps containing uncertain static and dynamic obstacles. Additional material, code, and videos are available at this https URL.
+
+Translated Abstract:
+로봇과 환경 장애물 또는 다른 움직이는 물체 간의 충돌 확률을 추정하는 것은 경로 계획 중 안전을 보장하는 데 정말 중요해. 특히 자율주행 같은 현대의 다양한 계획 알고리즘에서 필수적인 요소야. 자율주행에서는 소음 있는 센서가 장애물을 감지하니까.
+
+지금까지 여러 방법이 있었지만, 대부분이 충돌 확률을 너무 보수적으로 추정하거나 샘플링 기반이라 계산이 복잡했어. 이런 문제를 해결하기 위해 우리는 딥 충돌 확률 필드라는 신경망 기반 접근 방식을 소개해. 이 방법은 임의의 물체와 임의의 단일 모드 불확실성 분포에 대한 충돌 확률을 계산해.
+
+우리 방식은 훈련 단계에서 샘플링을 통해 충돌 확률을 계산하는 과정을 줄여서, 계획 시 제약 조건을 빠르게 신경망으로 추론할 수 있게 해줘. 다양한 실험을 통해 딥 충돌 확률 필드가 계획을 위한 충돌 확률을 꽤 정확하게(최대 10^{-3}까지) 생성할 수 있다는 걸 보여줬어. 그리고 이 방법은 불확실한 정적 및 동적 장애물이 있는 2D 맵에서 안전한 경로를 계획하기 위해 기존 경로 계획 방법에 쉽게 연결될 수 있어. 추가 자료, 코드, 비디오는 이 링크에서 확인할 수 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03780
+Title: Operational Safety in Human-in-the-loop Human-in-the-plant Autonomous Systems
+
+Original Abstract:
+Control affine assumptions, human inputs are external disturbances, in certified safe controller synthesis approaches are frequently violated in operational deployment under causal human actions. This paper takes a human-in-the-loop human-in-the-plant (HIL-HIP) approach towards ensuring operational safety of safety critical autonomous systems: human and real world controller (RWC) are modeled as a unified system. A three-way interaction is considered: a) through personalized inputs and biological feedback processes between HIP and HIL, b) through sensors and actuators between RWC and HIP, and c) through personalized configuration changes and data feedback between HIL and RWC. We extend control Lyapunov theory by generating barrier function (CLBF) under human action plans, model the HIL as a combination of Markov Chain for spontaneous events and Fuzzy inference system for event responses, the RWC as a black box, and integrate the HIL-HIP model with neural architectures that can learn CLBF certificates. We show that synthesized HIL-HIP controller for automated insulin delivery in Type 1 Diabetes is the only controller to meet safety requirements for human action inputs.
+
+Translated Abstract:
+제어 애프라인 가정에서는 인간의 입력이 외부 방해 요소로 간주되는데, 인증된 안전 제어기 합성 방법에서는 실제 운영에서 인간 행동으로 인해 자주 위반돼. 이 논문은 안전-critical 자율 시스템의 운영 안전성을 보장하기 위해 인간-루프 인간-플랜트(HIL-HIP) 접근 방식을 사용해. 인간과 실제 세계 제어기(RWC)를 통합된 시스템으로 모델링했어.
+
+세 가지 상호작용이 고려돼:  
+a) 개인화된 입력과 생물학적 피드백 과정이 HIP와 HIL 사이에 존재하고,  
+b) 센서와 액추에이터가 RWC와 HIP 사이에 연결되며,  
+c) 개인화된 구성 변경과 데이터 피드백이 HIL과 RWC 사이에서 이루어져.
+
+우리는 인간 행동 계획에 따라 장벽 함수(CLBF)를 생성하여 제어 리아푸노프 이론을 확장하고, HIL을 자발적인 사건을 위한 마르코프 체인과 사건 반응을 위한 퍼지 추론 시스템의 조합으로 모델링했어. RWC는 블랙 박스로 모델링하고, HIL-HIP 모델을 CLBF 인증서를 학습할 수 있는 신경망 아키텍처와 통합했어.
+
+우리는 제1형 당뇨병에서 자동 인슐린 전달을 위한 HIL-HIP 제어기가 인간 행동 입력에 대한 안전 요구 사항을 충족하는 유일한 제어기임을 보여줬어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03990
+Title: Development of Advanced FEM Simulation Technology for Pre-Operative Surgical Planning
+
+Original Abstract:
+Intracorporeal needle-based therapeutic ultrasound (NBTU) offers a minimally invasive approach for the thermal ablation of malignant brain tumors, including both primary and metastatic cancers. NBTU utilizes a high-frequency alternating electric field to excite a piezoelectric transducer, generating acoustic waves that cause localized heating and tumor cell ablation, and it provides a more precise ablation by delivering lower acoustic power doses directly to targeted tumors while sparing surrounding healthy tissue. Building on our previous work, this study introduces a database for optimizing pre-operative surgical planning by simulating ablation effects in varied tissue environments and develops an extended simulation model incorporating various tumor types and sizes to evaluate thermal damage under trans-tissue conditions. A comprehensive database is created from these simulations, detailing critical parameters such as CEM43 isodose maps, temperature changes, thermal dose areas, and maximum ablation distances for four directional probes. This database serves as a valuable resource for future studies, aiding in complex trajectory planning and parameter optimization for NBTU procedures. Moreover, a novel probe selection method is proposed to enhance pre-surgical planning, providing a strategic approach to selecting probes that maximize therapeutic efficiency and minimize ablation time. By avoiding unnecessary thermal propagation and optimizing probe angles, this method has the potential to improve patient outcomes and streamline surgical procedures. Overall, the findings of this study contribute significantly to the field of NBTU, offering a robust framework for enhancing treatment precision and efficacy in clinical settings.
+
+Translated Abstract:
+내부에서 바늘을 이용한 치료 초음파(NBTU)는 악성 뇌종양을 치료하는 최소 침습적인 방법이야. 여기에는 원발성 종양과 전이성 암이 모두 포함돼. NBTU는 고주파 교류 전기를 이용해서 압전 변환기를 활성화하고, 이로 인해 발생한 음파가 특정 부위를 가열하고 종양 세포를 파괴해. 이렇게 하면 주변의 건강한 조직은 피해가면서 목표한 종양에만 정확하게 에너지를 전달할 수 있어.
+
+이 연구는 이전 작업을 바탕으로, 다양한 조직 환경에서의 절제 효과를 시뮬레이션해서 수술 전 계획을 최적화할 수 있는 데이터베이스를 만들었어. 또, 다양한 종양 유형과 크기를 포함한 확장된 시뮬레이션 모델을 개발해서 조직을 통과할 때의 열 손상을 평가했어. 이 시뮬레이션에서 생성된 데이터베이스는 CEM43 동등선 지도, 온도 변화, 열량 영역, 최대 절제 거리 같은 중요한 매개변수를 자세히 기록하고 있어. 이 데이터베이스는 NBTU 절차를 위한 복잡한 경로 계획과 매개변수 최적화에 큰 도움이 될 거야.
+
+또한, 수술 전 계획을 향상시키기 위해 새로운 프로브 선택 방법도 제안했어. 이 방법은 치료 효율성을 극대화하고 절제 시간을 최소화하는 전략적 접근을 제공해. 불필요한 열 전달을 피하고 프로브 각도를 최적화함으로써, 이 방법은 환자 결과를 개선하고 수술 절차를 간소화할 수 있는 잠재력을 가지고 있어.
+
+이 연구의 결과는 NBTU 분야에 크게 기여하고, 임상 환경에서 치료의 정확성과 효율성을 높일 수 있는 튼튼한 틀을 제공해.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.03996
+Title: Goal-Reaching Policy Learning from Non-Expert Observations via Effective Subgoal Guidance
+
+Original Abstract:
+In this work, we address the challenging problem of long-horizon goal-reaching policy learning from non-expert, action-free observation data. Unlike fully labeled expert data, our data is more accessible and avoids the costly process of action labeling. Additionally, compared to online learning, which often involves aimless exploration, our data provides useful guidance for more efficient exploration. To achieve our goal, we propose a novel subgoal guidance learning strategy. The motivation behind this strategy is that long-horizon goals offer limited guidance for efficient exploration and accurate state transition. We develop a diffusion strategy-based high-level policy to generate reasonable subgoals as waypoints, preferring states that more easily lead to the final goal. Additionally, we learn state-goal value functions to encourage efficient subgoal reaching. These two components naturally integrate into the off-policy actor-critic framework, enabling efficient goal attainment through informative exploration. We evaluate our method on complex robotic navigation and manipulation tasks, demonstrating a significant performance advantage over existing methods. Our ablation study further shows that our method is robust to observation data with various corruptions.
+
+Translated Abstract:
+이번 연구에서는 비전문가의 행동 없는 관찰 데이터를 이용해 긴 목표 도달 정책 학습이라는 어려운 문제를 다루고 있어. 전문가의 데이터는 완전히 레이블이 붙어 있지만, 우리의 데이터는 더 쉽게 접근할 수 있고 행동 레이블링이라는 비싼 과정을 피할 수 있어.
+
+게다가 온라인 학습과 비교했을 때, 우리의 데이터는 쓸데없는 탐색 대신 더 효율적인 탐색을 위한 유용한 안내를 제공해. 그래서 우리는 새로운 하위 목표 안내 학습 전략을 제안해. 이 전략의 아이디어는 긴 목표는 효율적인 탐색과 정확한 상태 전이에 대한 안내가 제한적이라는 거야.
+
+우리는 합리적인 하위 목표를 생성하기 위해 확산 전략 기반의 고수준 정책을 개발했어. 이 하위 목표들은 최종 목표로 쉽게 이어지는 상태를 선호해. 그리고 상태-목표 가치 함수를 학습해서 효율적인 하위 목표 도달을 유도해. 이 두 가지 요소는 자연스럽게 오프 정책 액터-비평가 프레임워크에 통합돼서 정보에 기반한 탐색을 통해 목표를 효율적으로 달성하게 해.
+
+우리는 복잡한 로봇 내비게이션과 조작 작업에서 우리 방법을 평가했는데, 기존 방법들에 비해 성능이 크게 향상된 걸 보여줬어. 또한, 우리의 절단 연구 결과는 다양한 손상이 있는 관찰 데이터에 대해서도 우리의 방법이 강인하다는 걸 보여줘.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2409.04086
+Title: Introducing a Class-Aware Metric for Monocular Depth Estimation: An Automotive Perspective
+
+Original Abstract:
+The increasing accuracy reports of metric monocular depth estimation models lead to a growing interest from the automotive domain. Current model evaluations do not provide deeper insights into the models' performance, also in relation to safety-critical or unseen classes. Within this paper, we present a novel approach for the evaluation of depth estimation models. Our proposed metric leverages three components, a class-wise component, an edge and corner image feature component, and a global consistency retaining component. Classes are further weighted on their distance in the scene and on criticality for automotive applications. In the evaluation, we present the benefits of our metric through comparison to classical metrics, class-wise analytics, and the retrieval of critical situations. The results show that our metric provides deeper insights into model results while fulfilling safety-critical requirements. We release the code and weights on the following repository: \href{this https URL}
+
+Translated Abstract:
+단안 깊이 추정 모델의 정확도가 점점 높아지면서 자동차 분야에서 큰 관심을 받고 있어. 하지만 현재 모델 평가 방식은 모델 성능에 대한 더 깊은 통찰력을 제공하지 못하고, 특히 안전-critical한 클래스나 보지 못한 클래스에 대해서는 더욱 그렇거든.
+
+이 논문에서는 깊이 추정 모델을 평가하는 새로운 접근 방식을 제안해. 우리가 제안한 지표는 세 가지 요소를 바탕으로 해: 클래스별 요소, 엣지와 코너 이미지 특징 요소, 그리고 전반적인 일관성을 유지하는 요소. 클래스는 장면에서의 거리와 자동차 애플리케이션에서의 중요도를 따져서 가중치를 줘.
+
+평가 결과를 통해, 우리의 지표가 고전적인 지표와 비교했을 때의 장점, 클래스별 분석, 그리고 위급 상황을 찾는 데 어떻게 도움이 되는지를 보여줘. 결과적으로 우리의 지표가 모델 결과에 대해 더 깊은 통찰력을 제공하면서도 안전-critical한 요구 사항을 충족한다는 걸 알 수 있었어. 코드와 가중치는 다음 저장소에서 공개할 예정이야: \href{this https URL}
+
+================================================================================
+
+URL: https://arxiv.org/abs/2310.06585
+Title: A Black-Box Physics-Informed Estimator based on Gaussian Process Regression for Robot Inverse Dynamics Identification
+
+Original Abstract:
+Learning the inverse dynamics of robots directly from data, adopting a black-box approach, is interesting for several real-world scenarios where limited knowledge about the system is available. In this paper, we propose a black-box model based on Gaussian Process (GP) Regression for the identification of the inverse dynamics of robotic manipulators. The proposed model relies on a novel multidimensional kernel, called \textit{Lagrangian Inspired Polynomial} (\kernelInitials{}) kernel. The \kernelInitials{} kernel is based on two main ideas. First, instead of directly modeling the inverse dynamics components, we model as GPs the kinetic and potential energy of the system. The GP prior on the inverse dynamics components is derived from those on the energies by applying the properties of GPs under linear operators. Second, as regards the energy prior definition, we prove a polynomial structure of the kinetic and potential energy, and we derive a polynomial kernel that encodes this property. As a consequence, the proposed model allows also to estimate the kinetic and potential energy without requiring any label on these quantities. Results on simulation and on two real robotic manipulators, namely a 7 DOF Franka Emika Panda, and a 6 DOF MELFA RV4FL, show that the proposed model outperforms state-of-the-art black-box estimators based both on Gaussian Processes and Neural Networks in terms of accuracy, generality and data efficiency. The experiments on the MELFA robot also demonstrate that our approach achieves performance comparable to fine-tuned model-based estimators, despite requiring less prior information.
+
+Translated Abstract:
+로봇의 역 동역학을 데이터에서 직접 배우는 건, 시스템에 대한 정보가 제한된 실제 상황에서 흥미롭다. 이 논문에서는 로봇 조작기의 역 동역학을 식별하기 위해 Gaussian Process (GP) 회귀를 기반으로 한 블랙박스 모델을 제안한다. 이 모델은 \textit{Lagrangian Inspired Polynomial} (\kernelInitials{})라는 새로운 다차원 커널에 의존한다.
+
+\kernelInitials{} 커널은 두 가지 주요 아이디어를 기반으로 한다. 첫째, 역 동역학 구성 요소를 직접 모델링하는 대신, 시스템의 운동 에너지와 위치 에너지를 GPs로 모델링한다. 역 동역학 구성 요소의 GP 사전은 이러한 에너지에 대한 GP의 특성을 선형 연산자에 적용하여 도출된다. 둘째, 에너지 사전 정의와 관련해서는 운동 에너지와 위치 에너지가 다항식 구조를 가진다는 것을 증명하고, 이 특성을 인코딩하는 다항식 커널을 도출한다. 그 결과, 제안된 모델은 이러한 양에 대한 레이블 없이도 운동 에너지와 위치 에너지를 추정할 수 있다.
+
+시뮬레이션과 두 가지 실제 로봇 조작기인 7 자유도 Franka Emika Panda와 6 자유도 MELFA RV4FL에 대한 결과는, 제안된 모델이 정확성, 일반성, 데이터 효율성 측면에서 최신 블랙박스 추정기들보다 우수하다는 것을 보여준다. MELFA 로봇에 대한 실험 결과 또한, 우리의 접근 방식이 사전 정보가 적음에도 불구하고 모델 기반 추정기와 유사한 성능을 달성함을 입증한다.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2311.04096
+Title: Imitation learning for sim-to-real transfer of robotic cutting policies based on residual Gaussian process disturbance force model
+
+Original Abstract:
+Robotic cutting, or milling, plays a significant role in applications such as disassembly, decommissioning, and demolition. Planning and control of cutting in real-world scenarios in uncertain environments is a complex task, with the potential to benefit from simulated training environments. This letter focuses on sim-to-real transfer for robotic cutting policies, addressing the need for effective policy transfer from simulation to practical implementation. We extend our previous domain generalisation approach to learning cutting tasks based on a mechanistic model-based simulation framework, by proposing a hybrid approach for sim-to-real transfer based on a milling process force model and residual Gaussian process (GP) force model, learned from either single or multiple real-world cutting force examples. We demonstrate successful sim-to-real transfer of a robotic cutting policy without the need for fine-tuning on the real robot setup. The proposed approach autonomously adapts to materials with differing structural and mechanical properties. Furthermore, we demonstrate the proposed method outperforms fine-tuning or re-training alone.
+
+Translated Abstract:
+로봇 절단, 즉 밀링은 해체, 폐기, 그리고 철거 같은 작업에서 중요한 역할을 해. 불확실한 환경에서 실제 절단을 계획하고 제어하는 건 복잡한 일인데, 시뮬레이션 훈련 환경을 활용하면 도움이 될 수 있어. 
+
+이 연구는 로봇 절단 정책의 시뮬레이션에서 실제로의 전이를 다루고 있어. 시뮬레이션에서 실제 구현으로 효과적으로 정책을 전이할 필요성이 있거든. 우리는 이전의 도메인 일반화 접근법을 확장해서, 기계적 모델 기반 시뮬레이션 프레임워크를 이용한 절단 작업 학습을 제안해. 여기서 밀링 과정의 힘 모델과 잔여 가우시안 프로세스(GP) 힘 모델을 기반으로 하는 하이브리드 접근법을 도입했어. 이 모델은 하나의 실세계 절단 힘 예시나 여러 예시에서 학습할 수 있어.
+
+우리는 실제 로봇 설정에서 미세 조정 없이도 로봇 절단 정책의 성공적인 시뮬레이션-실제 전이를 보여줬어. 제안한 방법은 서로 다른 구조적, 기계적 성질을 가진 재료에 자율적으로 적응할 수 있어. 게다가, 이 방법은 단순한 미세 조정이나 재훈련보다 더 나은 성능을 보여줬어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2311.08204
+Title: On The Evaluation of Collision Probability along a Path
+
+Original Abstract:
+Characterizing the risk of operations is a fundamental requirement in robotics, and a crucial ingredient of safe planning. The problem is multifaceted, with multiple definitions arising in the vast recent literature fitting different application scenarios and leading to different computational approaches. A basic element shared by most frameworks is the definition and evaluation of the probability of collision for a mobile object in an environment with obstacles. We observe that, even in basic cases, different interpretations are possible. This paper proposes an index we call "Risk Density", which offers a theoretical link between conceptually distant assumptions about the interplay of single collision events along a continuous path. We show how this index can be used to approximate the collision probability in the case where the robot evolves along a nominal continuous curve from random initial conditions. Indeed, under this hypothesis the proposed approximation outperforms some well-established methods either in accuracy or computational cost.
+
+Translated Abstract:
+로봇에서 작업의 위험성을 파악하는 것은 기본적으로 필요하고, 안전한 계획의 중요한 요소야. 이 문제는 여러 가지 측면이 있어서, 최근 문헌에서 다양한 정의가 나오고 각기 다른 응용 시나리오에 맞춰서 여러 계산 방법이 개발되고 있어. 대부분의 프레임워크에서 공유되는 기본 요소는 장애물이 있는 환경에서 이동하는 물체의 충돌 확률을 정의하고 평가하는 거야.
+
+우리는 기본적인 경우에도 여러 해석이 가능하다는 것을 관찰했어. 이 논문에서는 "위험 밀도"라는 지표를 제안하는데, 이건 연속 경로를 따라 단일 충돌 사건들 간의 상호작용에 대한 개념적으로 먼 가정들 사이의 이론적 연결을 제공해. 
+
+우리는 이 지표를 사용해서 로봇이 무작위 초기 조건에서 명목적인 연속 곡선을 따라 발전할 때 충돌 확률을 근사할 수 있는 방법을 보여줘. 실제로, 이 가설 하에서는 제안된 근사법이 정확도나 계산 비용 면에서 잘 알려진 방법들보다 우수한 성능을 보이는 걸 확인했어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2402.05399
+Title: CURE: Simulation-Augmented Auto-Tuning in Robotics
+
+Original Abstract:
+Robotic systems are typically composed of various subsystems, such as localization and navigation, each encompassing numerous configurable components (e.g., selecting different planning algorithms). Once an algorithm has been selected for a component, its associated configuration options must be set to the appropriate values. Configuration options across the system stack interact non-trivially. Finding optimal configurations for highly configurable robots to achieve desired performance poses a significant challenge due to the interactions between configuration options across software and hardware that result in an exponentially large and complex configuration space. These challenges are further compounded by the need for transferability between different environments and robotic platforms. Data efficient optimization algorithms (e.g., Bayesian optimization) have been increasingly employed to automate the tuning of configurable parameters in cyber-physical systems. However, such optimization algorithms converge at later stages, often after exhausting the allocated budget (e.g., optimization steps, allotted time) and lacking transferability. This paper proposes CURE -- a method that identifies causally relevant configuration options, enabling the optimization process to operate in a reduced search space, thereby enabling faster optimization of robot performance. CURE abstracts the causal relationships between various configuration options and robot performance objectives by learning a causal model in the source (a low-cost environment such as the Gazebo simulator) and applying the learned knowledge to perform optimization in the target (e.g., Turtlebot 3 physical robot). We demonstrate the effectiveness and transferability of CURE by conducting experiments that involve varying degrees of deployment changes in both physical robots and simulation.
+
+Translated Abstract:
+로봇 시스템은 일반적으로 로컬라이제이션, 내비게이션 같은 다양한 하위 시스템으로 구성돼. 각 하위 시스템은 여러 개의 설정 가능한 컴포넌트를 포함하고 있어 (예: 서로 다른 계획 알고리즘 선택). 알고리즘을 하나 선택하고 나면, 그에 맞는 설정 옵션을 적절한 값으로 설정해야 해. 시스템 전반에 걸쳐 있는 설정 옵션들은 복잡하게 상호작용해. 
+
+고도로 설정 가능한 로봇의 최적 구성을 찾는 건 정말 큰 도전이야. 소프트웨어와 하드웨어 간의 설정 옵션 상호작용 때문에 구성 공간이 기하급수적으로 커지거든. 또한, 다양한 환경과 로봇 플랫폼 간의 전이 가능성도 필요해서 이 문제가 더 복잡해져. 데이터 효율적인 최적화 알고리즘 (예: 베이지안 최적화)이 사이버-물리 시스템의 설정 파라미터 조정을 자동화하는 데 점점 더 많이 사용되고 있어. 하지만 이런 최적화 알고리즘은 후반부에 수렴하고, 할당된 예산 (예: 최적화 단계, 주어진 시간)을 소진한 후에야 작동하며 전이 가능성이 부족해.
+
+이 논문에서는 CURE라는 방법을 제안해. 이 방법은 인과적으로 관련된 설정 옵션을 찾아서 최적화 과정이 줄어든 검색 공간에서 작동할 수 있게 해. 그래서 로봇 성능을 더 빠르게 최적화할 수 있어. CURE는 다양한 설정 옵션과 로봇 성능 목표 간의 인과 관계를 추상화하는데, 이는 저비용 환경인 가제보 시뮬레이터에서 인과 모델을 학습하고, 배운 지식을 목표 환경 (예: Turtlebot 3 물리 로봇)에서 최적화하는 데 적용해. 우리는 실제 로봇과 시뮬레이션에서 배포 변화 정도를 달리하면서 실험을 통해 CURE의 효과와 전이 가능성을 보여줄 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2403.02486
+Title: Demonstrating a Robust Walking Algorithm for Underactuated Bipedal Robots in Non-flat, Non-stationary Environments
+
+Original Abstract:
+This work explores an innovative algorithm designed to enhance the mobility of underactuated bipedal robots across challenging terrains, especially when navigating through spaces with constrained opportunities for foot support, like steps or stairs. By combining ankle torque with a refined angular momentum-based linear inverted pendulum model (ALIP), our method allows variability in the robot's center of mass height. We employ a dual-strategy controller that merges virtual constraints for precise motion regulation across essential degrees of freedom with an ALIP-centric model predictive control (MPC) framework, aimed at enforcing gait stability. The effectiveness of our feedback design is demonstrated through its application on the Cassie bipedal robot, which features 20 degrees of freedom. Key to our implementation is the development of tailored nominal trajectories and an optimized MPC that reduces the execution time to under 500 microseconds--and, hence, is compatible with Cassie's controller update frequency. This paper not only showcases the successful hardware deployment but also demonstrates a new capability, a bipedal robot using a moving walkway.
+
+Translated Abstract:
+이 연구는 불완전 제어 이족 보행 로봇이 힘든 지형에서 더 잘 움직일 수 있도록 도와주는 새로운 알고리즘을 살펴봐. 특히 계단이나 좁은 공간 같은 발을 지지할 기회가 제한된 곳을 지날 때 유용해.
+
+우리 방법은 발목 토크와 정교한 각운동량 기반의 선형 역진자 모델(ALIP)을 결합해서 로봇의 무게 중심 높이를 다양하게 조절할 수 있어. 여기서 두 가지 전략을 사용하는 컨트롤러를 사용해. 하나는 중요한 자유도에서 정확한 동작 조절을 위한 가상 제약을 결합하고, 다른 하나는 보행 안정성을 보장하는 ALIP 중심의 모델 예측 제어(MPC) 프레임워크야.
+
+이 피드백 디자인의 효과는 20개의 자유도를 가진 Cassie 이족 보행 로봇에 적용해 보여줬어. 우리의 구현에서 중요한 점은 맞춤형 기준 궤적을 개발하고, 실행 시간을 500마이크로초 이하로 줄인 최적화된 MPC를 만든 거야. 덕분에 Cassie의 컨트롤러 업데이트 주기와 잘 맞아. 
+
+이 논문은 하드웨어 배치를 성공적으로 보여줄 뿐만 아니라, 이동 보도를 사용하는 이족 로봇의 새로운 능력도 시연하고 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2405.20013
+Title: Repeatable and Reliable Efforts of Accelerated Risk Assessment in Robot Testing
+
+Original Abstract:
+Risk assessment of a robot in controlled environments, such as laboratories and proving grounds, is a common means to assess, certify, validate, verify, and characterize the robots' safety performance before, during, and even after their commercialization in the real-world. A standard testing program that acquires the risk estimate is expected to be (i) repeatable, such that it obtains similar risk assessments of the same testing subject among multiple trials or attempts with the similar testing effort by different stakeholders, and (ii) reliable against a variety of testing subjects produced by different vendors and manufacturers. Both repeatability and reliability are fundamental and crucial for a testing algorithm's validity, fairness, and practical feasibility, especially for standardization. However, these properties are rarely satisfied or ensured, especially as the subject robots become more complex, uncertain, and varied. This issue was present in traditional risk assessments through Monte-Carlo sampling, and remains a bottleneck for the recent accelerated risk assessment methods, primarily those using importance sampling. This study aims to enhance existing accelerated testing frameworks by proposing a new algorithm that provably integrates repeatability and reliability with the already established formality and efficiency. It also features demonstrations assessing the risk of instability from frontal impacts, initiated by push-over disturbances on a controlled inverted pendulum and a 7-DoF planar bipedal robot Rabbit managed by various control algorithms.
+
+Translated Abstract:
+로봇의 위험 평가를 실험실이나 시험장에서 같은 통제된 환경에서 하는 건 일반적이야. 이 과정은 로봇의 안전 성능을 상업화하기 전, 중, 후에 평가하고 인증하며 검증하는 데 필요해. 
+
+위험 추정을 위한 표준 테스트 프로그램은 두 가지 조건을 만족해야 해. 첫째, 반복 가능해야 해서 비슷한 테스트를 여러 번 할 때 같은 테스트 대상에서 비슷한 위험 평가 결과를 얻어야 해. 둘째, 신뢰성이 있어야 해서 다른 제조업체에서 만든 다양한 테스트 대상에서도 일관된 결과를 보여줘야 해. 이런 반복성과 신뢰성은 테스트 알고리즘의 유효성, 공정성, 그리고 실제 적용 가능성을 위해 기본적이고 중요해, 특히 표준화 측면에서.
+
+하지만 이런 특성들은 잘 만족되지 않거든, 특히 로봇이 더 복잡해지고 불확실해지면서 더욱 그렇지. 전통적인 위험 평가 방식인 몬테카를로 샘플링에서도 이런 문제가 있었고, 최근의 가속화된 위험 평가 방법에서도 여전히 병목 현상으로 남아있어. 주로 중요 샘플링을 사용하는 방법에서 그렇지.
+
+이 연구는 기존의 가속 테스트 프레임워크를 개선하기 위해 새로운 알고리즘을 제안하고 있어. 이 알고리즘은 반복성과 신뢰성을 이미 확립된 형식성과 효율성과 통합할 수 있는 방법을 제공해. 또한, 여러 제어 알고리즘으로 관리되는 제어된 역진자와 7자유도 평면 이족 보행 로봇인 Rabbit을 사용해서 전방 충격으로 인한 불안정성 위험을 평가하는 데 대한 시연도 포함되어 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2406.05572
+Title: Trust the PRoC3S: Solving Long-Horizon Robotics Problems with LLMs and Constraint Satisfaction
+
+Original Abstract:
+Recent developments in pretrained large language models (LLMs) applied to robotics have demonstrated their capacity for sequencing a set of discrete skills to achieve open-ended goals in simple robotic tasks. In this paper, we examine the topic of LLM planning for a set of continuously parameterized skills whose execution must avoid violations of a set of kinematic, geometric, and physical constraints. We prompt the LLM to output code for a function with open parameters, which, together with environmental constraints, can be viewed as a Continuous Constraint Satisfaction Problem (CCSP). This CCSP can be solved through sampling or optimization to find a skill sequence and continuous parameter settings that achieve the goal while avoiding constraint violations. Additionally, we consider cases where the LLM proposes unsatisfiable CCSPs, such as those that are kinematically infeasible, dynamically unstable, or lead to collisions, and re-prompt the LLM to form a new CCSP accordingly. Experiments across three different simulated 3D domains demonstrate that our proposed strategy, PRoC3S, is capable of solving a wide range of complex manipulation tasks with realistic constraints on continuous parameters much more efficiently and effectively than existing baselines.
+
+Translated Abstract:
+최근에 사전훈련된 대형 언어 모델(LLMs)을 로봇에 적용한 연구들이 단순한 로봇 작업에서 열린 목표를 달성하기 위해 여러 개의 기술을 순서대로 수행할 수 있는 능력을 보여줬어. 이 논문에서는 LLM이 연속적으로 조정 가능한 기술 세트를 계획하는 방법을 살펴보는데, 이 기술들은 운동학적, 기하학적, 물리적 제약을 위반하지 않도록 실행해야 해.
+
+우리는 LLM에게 열린 매개변수를 가진 함수의 코드를 출력하라고 요청해. 환경 제약과 함께 이 코드는 연속 제약 만족 문제(Continuous Constraint Satisfaction Problem, CCSP)로 볼 수 있어. 이 CCSP는 샘플링이나 최적화를 통해 해결할 수 있어서, 목표를 달성하면서 제약 위반을 피하는 기술 순서와 연속 매개변수 설정을 찾을 수 있어.
+
+또한, LLM이 운동학적으로 불가능하거나, 동적으로 불안정하거나, 충돌을 일으키는 등 해결할 수 없는 CCSP를 제안하는 경우도 고려하고, 그에 맞게 새로운 CCSP를 만들도록 LLM에게 다시 요청해. 세 가지 다른 시뮬레이션 3D 환경에서 실험해본 결과, 우리가 제안한 전략인 PRoC3S가 기존의 방법보다 훨씬 효율적이고 효과적으로 현실적인 연속 매개변수 제약을 가진 복잡한 조작 작업을 해결할 수 있다는 것을 보여줬어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2406.09246
+Title: OpenVLA: An Open-Source Vision-Language-Action Model
+
+Original Abstract:
+Large policies pretrained on a combination of Internet-scale vision-language data and diverse robot demonstrations have the potential to change how we teach robots new skills: rather than training new behaviors from scratch, we can fine-tune such vision-language-action (VLA) models to obtain robust, generalizable policies for visuomotor control. Yet, widespread adoption of VLAs for robotics has been challenging as 1) existing VLAs are largely closed and inaccessible to the public, and 2) prior work fails to explore methods for efficiently fine-tuning VLAs for new tasks, a key component for adoption. Addressing these challenges, we introduce OpenVLA, a 7B-parameter open-source VLA trained on a diverse collection of 970k real-world robot demonstrations. OpenVLA builds on a Llama 2 language model combined with a visual encoder that fuses pretrained features from DINOv2 and SigLIP. As a product of the added data diversity and new model components, OpenVLA demonstrates strong results for generalist manipulation, outperforming closed models such as RT-2-X (55B) by 16.5% in absolute task success rate across 29 tasks and multiple robot embodiments, with 7x fewer parameters. We further show that we can effectively fine-tune OpenVLA for new settings, with especially strong generalization results in multi-task environments involving multiple objects and strong language grounding abilities, and outperform expressive from-scratch imitation learning methods such as Diffusion Policy by 20.4%. We also explore compute efficiency; as a separate contribution, we show that OpenVLA can be fine-tuned on consumer GPUs via modern low-rank adaptation methods and served efficiently via quantization without a hit to downstream success rate. Finally, we release model checkpoints, fine-tuning notebooks, and our PyTorch codebase with built-in support for training VLAs at scale on Open X-Embodiment datasets.
+
+Translated Abstract:
+인터넷 규모의 비전-언어 데이터와 다양한 로봇 시연을 조합한 대규모 정책(pretrained policies)은 로봇에게 새로운 기술을 가르치는 방식을 바꿀 잠재력이 있어. 새로운 행동을 처음부터 훈련하는 대신, 이런 비전-언어-행동(VLA) 모델을 미세 조정(fine-tune)해서 시각 운동 제어에 강력하고 일반화된 정책을 얻을 수 있어.
+
+하지만 VLA의 로봇 공학에서의 광범위한 사용은 어려워. 그 이유는 1) 기존의 VLA는 대부분 폐쇄적이라서 대중이 접근할 수 없고, 2) 이전 연구는 새로운 작업을 위해 VLA를 효율적으로 미세 조정하는 방법을 탐구하지 않았기 때문이야. 이런 문제를 해결하기 위해 우리는 OpenVLA를 소개해. OpenVLA는 970,000개의 실제 로봇 시연으로 훈련된 7B 파라미터의 오픈 소스 VLA야.
+
+OpenVLA는 Llama 2 언어 모델에 DINOv2와 SigLIP에서 사전 훈련된 특징을 결합한 시각 인코더를 사용해. 데이터 다양성과 새로운 모델 구성 요소 덕분에 OpenVLA는 일반적인 조작에서 강력한 성과를 보여주고, 29개 작업과 다양한 로봇 형태에서 55B 모델인 RT-2-X보다 16.5% 더 높은 절대 작업 성공률을 기록했어. 파라미터 수는 7배 적어.
+
+우리는 OpenVLA를 새로운 환경에 효과적으로 미세 조정할 수 있다는 것도 보여줬어. 특히 여러 개체와 강력한 언어 기반 능력을 포함한 다중 작업 환경에서 일반화 결과가 매우 좋았고, Diffusion Policy 같은 처음부터 모방 학습을 하는 방법보다 20.4% 더 나은 성과를 냈어. 계산 효율성도 살펴봤어. OpenVLA는 현대적인 저순위 적응 방법을 통해 소비자 GPU에서 미세 조정할 수 있고, 양자화를 통해 하위 작업 성공률에 영향을 주지 않고 효율적으로 제공될 수 있어.
+
+마지막으로, 우리는 모델 체크포인트, 미세 조정 노트북, 그리고 Open X-Embodiment 데이터셋에서 VLA를 대규모로 훈련할 수 있도록 지원하는 PyTorch 코드베이스를 공개할 거야.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2406.11219
+Title: A Flexible and Resilient Formation Approach based on Hierarchical Reorganization
+
+Original Abstract:
+Conventional formation methods typically rely on fixed hierarchical structures, such as predetermined leaders or predefined formation shapes. These rigid hierarchies can render formations cumbersome and inflexible in complex environments, leading to potential failure if any leader loses connectivity. To address these limitations, this paper introduces a reconfigurable affine formation that enhances both flexibility and resilience through hierarchical reorganization. The paper first elucidates the critical role of hierarchical reorganization, conceptualizing this process as involving role reallocation and dynamic changes in topological structures. To further investigate the conditions necessary for hierarchical reorganization, a reconfigurable hierarchical formation is developed based on graph theory, with its feasibility rigorously demonstrated. In conjunction with role transitions, a power-centric topology switching mechanism grounded in formation consensus convergence is proposed, ensuring coordinated resilience within the formation. Finally, simulations and experiments validate the performance of the proposed method. The aerial formations successfully performed multiple hierarchical reorganizations in both three-dimensional and two-dimensional spaces. Even in the event of a single leader's failure, the formation maintained stable flight through hierarchical reorganization. This rapid adaptability enables the robotic formations to execute complex tasks, including sharp turns and navigating through forests at speeds up to 1.9 m/s.
+
+Translated Abstract:
+전통적인 형성 방법은 보통 미리 정해진 리더나 형태에 의존해요. 이런 고정된 구조는 복잡한 환경에서 형성이 불편하고 유연하지 않게 만들 수 있어서, 리더가 연결이 끊기면 문제가 생길 수 있어요. 
+
+이 논문에서는 유연성과 회복력을 높이는 재구성 가능한 아핀 형성을 소개해요. 이 형성은 계층적인 재조직을 통해 이루어져요. 논문에서는 먼저 이 계층적인 재조직의 중요한 역할을 설명하고, 이 과정이 역할 재분배와 토폴로지 구조의 동적 변화로 이루어진다고 개념화해요. 
+
+계층적인 재조직에 필요한 조건을 더 조사하기 위해, 그래프 이론에 기반한 재구성 가능한 계층 형성을 개발했어요. 이 방법의 실현 가능성도 철저하게 입증했죠. 역할 전환과 함께, 형성 합의 수렴에 기반한 전력 중심의 토폴로지 전환 메커니즘도 제안해요. 이 메커니즘은 형성 내에서의 협조적인 회복력을 보장해요. 
+
+마지막으로, 시뮬레이션과 실험을 통해 제안된 방법의 성능을 검증했어요. 드론 형성은 3차원과 2차원 공간에서 여러 번의 계층 재조직을 성공적으로 수행했어요. 리더가 하나 실패해도 형성은 계층 재조직을 통해 안정적인 비행을 유지했죠. 이런 빠른 적응력 덕분에 로봇 형성은 복잡한 작업도 수행할 수 있어요. 예를 들어, 날카로운 회전이 가능하고, 속도는 1.9 m/s까지 숲 속을 탐색할 수 있어요.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2407.06320
+Title: An Open-source Hardware/Software Architecture and Supporting Simulation Environment to Perform Human FPV Flight Demonstrations for Unmanned Aerial Vehicle Autonomy
+
+Original Abstract:
+Small multi-rotor unmanned aerial vehicles (UAVs), mainly quadcopters, are nowadays ubiquitous in research on aerial autonomy, including serving as scaled-down models for much larger aircraft such as vertical-take-off-and-lift vehicles for urban air mobility. Among the various research use cases, first-person-view RC flight experiments allow for collecting data on how human pilots fly such aircraft, which could then be used to compare, contrast, validate, or train autonomous flight agents. While this could be uniquely beneficial, especially for studying UAV operation in contextually complex and safety-critical environments such as in human-UAV shared spaces, the lack of inexpensive and open-source hardware/software platforms that offer this capability along with low-level access to the underlying control software and data remains limited. To address this gap and significantly reduce barriers to human-guided autonomy research with UAVs, this paper presents an open-source software architecture implemented with an inexpensive in-house built quadcopter platform based on the F450 Quadcopter Frame. This setup uses two cameras to provide a dual-view FPV and an open-source flight controller, Pixhawk. The underlying software architecture, developed using the Python-based Kivy library, allows logging telemetry, GPS, control inputs, and camera frame data in a synchronized manner on the ground station computer. Since costs (time) and weather constraints typically limit numbers of physical outdoor flight experiments, this paper also presents a unique AirSim/Unreal Engine based simulation environment and graphical user interface aka digital twin, that provides a Hardware In The Loop setup via the Pixhawk flight controller. We demonstrate the usability and reliability of the overall framework through a set of diverse physical FPV flight experiments and corresponding flight tests in the digital twin.
+
+Translated Abstract:
+요즘 소형 다중 회전익 무인 항공기(UAV), 주로 쿼드콥터가 항공 자율성 연구에서 많이 사용되고 있어. 이들은 도시 공중 이동을 위한 수직 이착륙 비행기 같은 더 큰 항공기의 축소 모델로도 쓰이곤 해. 
+
+여러 연구 사례 중에서, 1인칭 시점의 원격 조종 비행 실험이 있는데, 이걸 통해 사람 조종사가 이런 항공기를 어떻게 조종하는지 데이터를 수집할 수 있어. 이 데이터는 자율 비행 에이전트를 비교하고 검증하거나 훈련하는 데 도움이 될 수 있어. 특히, UAV가 사람과 함께 사용하는 복잡하고 안전이 중요한 환경에서의 작동을 연구하는 데 유용할 수 있는데, 이걸 가능하게 해줄 저렴하고 오픈 소스 하드웨어/소프트웨어 플랫폼이 부족한 상황이야. 
+
+이런 문제를 해결하고 UAV와 함께하는 인간 주도 자율성 연구의 장벽을 크게 낮추기 위해, 이 논문에서는 F450 쿼드콥터 프레임을 기반으로 한 저렴한 자체 제작 쿼드콥터 플랫폼과 함께 구현된 오픈 소스 소프트웨어 아키텍처를 소개해. 이 설정은 두 개의 카메라를 사용해 이중 시점 FPV를 제공하고, 오픈 소스 비행 컨트롤러인 Pixhawk를 사용해. 
+
+기본 소프트웨어 아키텍처는 Python 기반의 Kivy 라이브러리를 사용해 개발되어, 지상국 컴퓨터에서 동기화된 방식으로 텔레메트리, GPS, 제어 입력, 카메라 프레임 데이터를 기록할 수 있어. 보통 비용(시간)과 날씨 제약 때문에 실제 야외 비행 실험의 수가 제한되는데, 이 논문에서는 Pixhawk 비행 컨트롤러를 통해 하드웨어 인 더 루프 설정을 제공하는 독특한 AirSim/Unreal Engine 기반 시뮬레이션 환경과 그래픽 사용자 인터페이스, 즉 디지털 트윈도 소개해. 
+
+우리는 다양한 물리적 FPV 비행 실험과 디지털 트윈에서의 비행 테스트를 통해 전체 프레임워크의 사용성과 신뢰성을 보여줘.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2407.13567
+Title: Hyp2Nav: Hyperbolic Planning and Curiosity for Crowd Navigation
+
+Original Abstract:
+Autonomous robots are increasingly becoming a strong fixture in social environments. Effective crowd navigation requires not only safe yet fast planning, but should also enable interpretability and computational efficiency for working in real-time on embedded devices. In this work, we advocate for hyperbolic learning to enable crowd navigation and we introduce Hyp2Nav. Different from conventional reinforcement learning-based crowd navigation methods, Hyp2Nav leverages the intrinsic properties of hyperbolic geometry to better encode the hierarchical nature of decision-making processes in navigation tasks. We propose a hyperbolic policy model and a hyperbolic curiosity module that results in effective social navigation, best success rates, and returns across multiple simulation settings, using up to 6 times fewer parameters than competitor state-of-the-art models. With our approach, it becomes even possible to obtain policies that work in 2-dimensional embedding spaces, opening up new possibilities for low-resource crowd navigation and model interpretability. Insightfully, the internal hyperbolic representation of Hyp2Nav correlates with how much attention the robot pays to the surrounding crowds, e.g. due to multiple people occluding its pathway or to a few of them showing colliding plans, rather than to its own planned route. The code is available at this https URL.
+
+Translated Abstract:
+자율 로봇이 사회적 환경에서 점점 더 중요한 존재가 되고 있어. 효과적인 군중 내비게이션을 하려면 안전하면서도 빠른 계획이 필요하고, 실시간으로 작동할 수 있도록 해석 가능성과 계산 효율성도 갖춰야 해. 
+
+이 연구에서는 군중 내비게이션을 가능하게 하는 하이퍼볼릭 학습을 제안하고, Hyp2Nav라는 것을 소개해. 기존의 강화 학습 기반 군중 내비게이션 방법과는 다르게, Hyp2Nav는 하이퍼볼릭 기하학의 고유한 특성을 활용해서 내비게이션 작업에서 의사결정 과정의 계층적인 본질을 더 잘 표현할 수 있어. 
+
+우리는 하이퍼볼릭 정책 모델과 하이퍼볼릭 호기심 모듈을 제안했어. 이걸 통해 효과적인 사회적 내비게이션을 하면서, 여러 시뮬레이션 환경에서도 최고의 성공률과 수익을 기록했어. 경쟁 모델보다 최대 6배 적은 파라미터로도 가능해. 
+
+우리의 접근법을 통해 2차원 임베딩 공간에서도 작동하는 정책을 얻을 수 있게 되었고, 이로 인해 자원이 적은 군중 내비게이션과 모델 해석 가능성에 새로운 가능성이 열렸어. 흥미롭게도, Hyp2Nav의 내부 하이퍼볼릭 표현은 로봇이 주변 군중에 얼마나 주의를 기울이는지와 관련이 있어. 예를 들어, 여러 사람이 로봇의 경로를 가리거나 몇몇이 충돌할 계획을 보일 때 그런 영향을 더 많이 받아. 코드도 이 링크에서 확인할 수 있어.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2407.21401
+Title: Rico: extended TIAGo robot towards up-to-date social and assistive robot usage scenarios
+
+Original Abstract:
+Social and assistive robotics have vastly increased in popularity in recent years. Due to the wide range of usage, robots executing such tasks must be highly reliable and possess enough functions to satisfy multiple scenarios. This article describes a mobile, artificial intelligence-driven, robotic platform Rico. Its prior usage in similar scenarios, the number of its capabilities, and the experiments it presented should qualify it as a proper arm-less platform for social and assistive circumstances.
+
+Translated Abstract:
+최근 몇 년 동안 사회적 및 보조 로봇이 정말 인기를 끌었어. 다양한 용도로 사용되기 때문에, 이런 작업을 수행하는 로봇은 매우 신뢰성이 높고 여러 상황을 만족시킬 만큼 충분한 기능을 가져야 해.
+
+이 논문에서는 모바일 인공지능 기반 로봇 플랫폼인 리코에 대해 설명해. 비슷한 상황에서의 이전 사용 사례와 기능의 수, 그리고 진행했던 실험들이 이 로봇이 사회적 및 보조적인 상황에서 적합한 팔 없는 플랫폼으로 자리 잡는 데 도움이 될 거라고 해.
+
+================================================================================
+
+URL: https://arxiv.org/abs/2405.15447
+Title: A global approach for the redefinition of higher-order flexibility and rigidity
+
+Original Abstract:
+The famous example of the double-Watt mechanism given by Connelly and Servatius raises some problems concerning the classical definitions of higher-order flexibility and rigidity, respectively, as they attest the cusp configuration of the mechanism a third-order rigidity, which conflicts with its continuous flexion. Some attempts were done to resolve the dilemma but they could not settle the problem. As cusp mechanisms demonstrate the basic shortcoming of any local mobility analysis using higher-order constraints, we present a global approach inspired by Sabitov's finite algorithm for testing the bendability of a polyhedron, which allows us (a) to compute iteratively configurations with a higher-order flexion and (b) to come up with a proper redefinition of higher-order flexibility and rigidity. We also give algorithms for computing the flexion orders as well as the associated flexes. The presented approach is demonstrated on several examples (double-Watt mechanisms and Tarnai's Leonardo structure). Moreover, we determine all configurations of a given 3-RPR manipulator with a third-order flexion and present a corresponding joint-bar framework of flexion order 23.
+
+Translated Abstract:
+Connelly와 Servatius가 제시한 유명한 더블 와트 메커니즘은 고차 유연성과 강성의 전통적인 정의에 몇 가지 문제를 일으켜. 이 메커니즘의 꼭짓점 구조가 3차 강성을 가지고 있다고 주장하면서도, 연속적인 굴곡과 충돌하는 상황이 생겨. 이 딜레마를 해결하려는 시도가 있었지만, 문제를 완전히 해결하지는 못했어.
+
+꼭짓점 메커니즘은 고차 제약 조건을 사용하는 국소적인 이동성 분석의 기본적인 단점을 보여줘. 그래서 우리는 Sabitov의 유한 알고리즘에서 영감을 받아, 다면체의 굴곡성을 테스트하는 데 사용할 수 있는 글로벌 접근 방식을 제안해. 이 방법을 통해 (a) 고차 굴곡을 가진 구성들을 반복적으로 계산하고, (b) 고차 유연성과 강성의 적절한 재정의를 할 수 있어.
+
+또한 굴곡 차수와 관련된 굴곡들을 계산하는 알고리즘도 제공해. 이 접근 방식은 여러 예제(더블 와트 메커니즘과 타르나이의 레오나르도 구조)에서 시연되었어. 게다가, 우리는 3-RPR 매니퓰레이터의 모든 구성에서 3차 굴곡을 결정하고, 해당하는 23차 굴곡 프레임워크를 제시해.
+
+================================================================================
+
