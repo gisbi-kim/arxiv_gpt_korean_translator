@@ -148,7 +148,8 @@ def main():
         if paper_date:
             paper_date_str = paper_date.strftime('%Y-%m-%d')
 
-        output_file = f"translated_abstracts_{args.subject}_{paper_date_str}_{args.model}.txt"
+        output_dir = "daily-db"
+        output_file = f"{output_dir}/translated_abstracts_{args.subject}_{paper_date_str}_{args.model}.txt"
 
         # 이미 번역된 파일이 존재하는지 확인
         if os.path.exists(output_file):

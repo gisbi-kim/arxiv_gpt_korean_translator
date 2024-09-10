@@ -112,9 +112,10 @@ def main():
 
         # 현재 시각을 파일명에 추가 (연-월-일 형식)
         current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-        output_file = f"translated_abstracts_{args.subject}_{args.model}_{current_time}.txt"
 
-        
+        output_dir = "daily-db"
+        output_file = f"{output_dir}/translated_abstracts_{args.subject}_{args.model}_{current_time}.txt"
+
         # 논문을 처리
         process_papers(base_url, output_file, args.model, args.num_max)
     except ValueError as e:
