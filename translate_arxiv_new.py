@@ -76,8 +76,11 @@ def translate_abstract(abstract, model):
 
 # 번역 결과를 텍스트 파일로 저장하는 함수
 def save_translation(filename, url, title, original_abstract, translated_abstract):
+    # abs 부분을 pdf로 변환
+    pdf_url = url.replace('/abs/', '/pdf/') + ".pdf"
+
     with open(filename, 'a', encoding='utf-8') as f:
-        f.write(f"URL: {url}\n")
+        f.write(f"URL:\n{pdf_url}\n\n")
         f.write(f"Title: {title}\n\n")
         f.write(f"Original Abstract:\n{original_abstract}\n\n")
         f.write(f"Translated Abstract:\n{translated_abstract}\n\n")
