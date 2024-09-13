@@ -1,0 +1,1045 @@
+URL:
+https://arxiv.org/pdf/2409.07560.pdf
+
+Title: Dynamic Fairness Perceptions in Human-Robot Interaction
+
+Original Abstract:
+People deeply care about how fairly they are treated by robots. The established paradigm for probing fairness in Human-Robot Interaction (HRI) involves measuring the perception of the fairness of a robot at the conclusion of an interaction. However, such an approach is limited as interactions vary over time, potentially causing changes in fairness perceptions as well. To validate this idea, we conducted a 2x2 user study with a mixed design (N=40) where we investigated two factors: the timing of unfair robot actions (early or late in an interaction) and the beneficiary of those actions (either another robot or the participant). Our results show that fairness judgments are not static. They can shift based on the timing of unfair robot actions. Further, we explored using perceptions of three key factors (reduced welfare, conduct, and moral transgression) proposed by a Fairness Theory from Organizational Justice to predict momentary perceptions of fairness in our study. Interestingly, we found that the reduced welfare and moral transgression factors were better predictors than all factors together. Our findings reinforce the idea that unfair robot behavior can shape perceptions of group dynamics and trust towards a robot and pave the path to future research directions on moment-to-moment fairness perceptions
+
+Translated Abstract:
+사람들은 로봇에게 공정하게 대우받는 것에 대해 정말 신경을 많이 써. 지금까지 인간-로봇 상호작용(HRI)에서 공정성을 조사하는 방법은 상호작용이 끝난 후 로봇의 공정성에 대한 인식을 측정하는 거였어. 하지만 이렇게 하면 한계가 있어. 상호작용이 시간이 지남에 따라 변하기 때문에 공정성 인식도 바뀔 수 있거든.
+
+그래서 이 아이디어를 검증하기 위해 2x2 사용자 연구를 진행했어. 총 40명이 참가했는데, 두 가지 요소를 조사했어: 로봇의 불공정한 행동이 발생하는 타이밍(상호작용 초반 또는 후반)과 그 행동의 수혜자(다른 로봇 또는 참가자)였어. 우리의 결과는 공정성 판단이 고정되지 않다는 걸 보여줘. 불공정한 로봇 행동의 타이밍에 따라 판단이 바뀔 수 있더라고.
+
+게다가, 우리는 조직 정의에서 제안된 세 가지 주요 요소(복지 감소, 행동, 도덕적 위반)에 대한 인식을 사용해서 연구에서 순간적인 공정성 인식을 예측해보려고 했어. 흥미롭게도, 복지 감소와 도덕적 위반 요소가 모든 요소를 합친 것보다 더 좋은 예측력을 가지고 있다는 걸 발견했어. 우리의 결과는 불공정한 로봇 행동이 집단 역학과 로봇에 대한 신뢰 인식에 영향을 줄 수 있다는 걸 강화해주고, 앞으로 순간적인 공정성 인식에 대한 연구 방향을 제시해 줘.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07591.pdf
+
+Title: CAVERNAUTE: a design and manufacturing pipeline of a rigid but foldable indoor airship aerial system for cave exploration
+
+Original Abstract:
+Airships, best recognized for their unique quality of payload/energy ratio, present a fascinating challenge for the field of engineering. Their construction and operation require a delicate balance of materials and rules, making them a compelling object of study. They embody a distinct intersection of physics, design, and innovation, offering a wide array of possibilities for future transportation and exploration. Thanks to their long-flight endurance, they are suited for long-term missions. To operate in complex environments such as indoor cluttered spaces, their membrane and mechatronics need to be protected from impacts. This paper presents a new indoor airship design inspired by origami and the Kresling pattern. The airship structure combines a carbon fiber exoskeleton and UV resin micro-lattices for shock absorption. Our design strengthens the robot while granting the ability to access narrow spaces by folding the structure - up to a volume expansion ratio of 19.8. To optimize the numerous parameters of the airship, we present a pipeline for design, manufacture, and assembly. It takes into account manufacturing constraints, dimensions of the target deployment area, and aerostatics, allowing for easy and quick testing of new configurations. We also present unique features made possible by combining origami with airship design, which reduces the chances of mission-compromising failures. We demonstrate the potential of the design with a complete simulation including an effective control strategy leveraging lightweight mechatronics to optimize flight autonomy in exploration missions of unstructured environments.
+
+Translated Abstract:
+열기구는 독특한 화물/에너지 비율로 잘 알려져 있는데, 이건 공학 분야에서 흥미로운 도전 과제를 제시해. 열기구를 만들고 운영하는 데는 재료와 규칙의 섬세한 균형이 필요해서 연구하기에 매력적인 대상이야. 물리학, 디자인, 혁신이 잘 혼합된 형태로, 미래의 운송과 탐험에 다양한 가능성을 제공하지.
+
+오랜 비행 지속력 덕분에 장기 임무에 적합해. 하지만 복잡한 환경, 특히 실내처럼 어수선한 공간에서 작동하려면 그 막과 메카트로닉스가 충격으로부터 보호받아야 해. 이 논문에서는 종이접기와 크레슬링 패턴에서 영감을 받은 새로운 실내 열기구 디자인을 제안해. 
+
+이 열기구 구조는 충격 흡수를 위해 탄소 섬유 외골격과 UV 수지 마이크로 격자를 결합했어. 이 디자인은 로봇을 강화하면서 구조를 접어서 좁은 공간에도 접근할 수 있게 해 - 최대 19.8배의 부피 확장 비율을 자랑해. 
+
+열기구의 다양한 매개변수를 최적화하기 위해, 디자인, 제조, 조립을 위한 파이프라인을 제시해. 이 과정은 제조 제약, 목표 배치 지역의 치수, 공기역학을 고려해서 새로운 구성을 쉽게 빠르게 테스트할 수 있게 해. 
+
+또한, 종이접기와 열기구 디자인을 결합함으로써 가능한 독특한 기능도 소개해. 이게 임무 실패 확률을 줄여주거든. 우리는 비구조적 환경에서 탐험 임무를 위한 비행 자율성을 최적화하는 효과적인 제어 전략을 포함한 완전한 시뮬레이션으로 이 디자인의 가능성을 보여줄 거야.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07623.pdf
+
+Title: Object Depth and Size Estimation using Stereo-vision and Integration with SLAM
+
+Original Abstract:
+Autonomous robots use simultaneous localization and mapping (SLAM) for efficient and safe navigation in various environments. LiDAR sensors are integral in these systems for object identification and localization. However, LiDAR systems though effective in detecting solid objects (e.g., trash bin, bottle, etc.), encounter limitations in identifying semitransparent or non-tangible objects (e.g., fire, smoke, steam, etc.) due to poor reflecting characteristics. Additionally, LiDAR also fails to detect features such as navigation signs and often struggles to detect certain hazardous materials that lack a distinct surface for effective laser reflection. In this paper, we propose a highly accurate stereo-vision approach to complement LiDAR in autonomous robots. The system employs advanced stereo vision-based object detection to detect both tangible and non-tangible objects and then uses simple machine learning to precisely estimate the depth and size of the object. The depth and size information is then integrated into the SLAM process to enhance the robot's navigation capabilities in complex environments. Our evaluation, conducted on an autonomous robot equipped with LiDAR and stereo-vision systems demonstrates high accuracy in the estimation of an object's depth and size. A video illustration of the proposed scheme is available at: \url{this https URL}.
+
+Translated Abstract:
+자율 로봇은 여러 환경에서 효율적이고 안전한 내비게이션을 위해 동시에 위치 추정과 맵 생성(SLAM)을 사용해. 이 시스템에서 LiDAR 센서는 물체를 인식하고 위치를 파악하는 데 중요한 역할을 해. 하지만 LiDAR 시스템은 고체 물체(예: 쓰레기통, 병 등)를 잘 감지하는 반면, 반투명하거나 비물체(예: 불, 연기, 증기 등)를 인식하는 데는 한계가 있어. 그 이유는 반사 특성이 좋지 않아서야. 게다가, LiDAR는 내비게이션 표지판 같은 특징을 감지하는 데도 실패하고, 레이저 반사가 잘 안 되는 특정 위험 물질을 탐지하는 데도 어려움을 겪어.
+
+이 논문에서는 자율 로봇의 LiDAR를 보완하기 위해 매우 정확한 스테레오 비전 접근 방식을 제안해. 이 시스템은 진짜 물체와 비물체를 모두 감지할 수 있는 고급 스테레오 비전 기반 물체 감지를 사용해. 그리고 간단한 머신러닝을 통해 물체의 깊이와 크기를 정밀하게 추정해. 이렇게 얻은 깊이와 크기 정보는 SLAM 과정에 통합되어 복잡한 환경에서 로봇의 내비게이션 능력을 향상시켜.
+
+우리가 평가한 결과는 LiDAR와 스테레오 비전 시스템이 장착된 자율 로봇에서 물체의 깊이와 크기를 높은 정확도로 추정하는 것을 보여줘. 제안된 방식을 보여주는 영상은 여기에서 확인할 수 있어: \url{this https URL}.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07662.pdf
+
+Title: An Open-Source Soft Robotic Platform for Autonomous Aerial Manipulation in the Wild
+
+Original Abstract:
+Aerial manipulation combines the versatility and speed of flying platforms with the functional capabilities of mobile manipulation, which presents significant challenges due to the need for precise localization and control. Traditionally, researchers have relied on offboard perception systems, which are limited to expensive and impractical specially equipped indoor environments. In this work, we introduce a novel platform for autonomous aerial manipulation that exclusively utilizes onboard perception systems. Our platform can perform aerial manipulation in various indoor and outdoor environments without depending on external perception systems. Our experimental results demonstrate the platform's ability to autonomously grasp various objects in diverse settings. This advancement significantly improves the scalability and practicality of aerial manipulation applications by eliminating the need for costly tracking solutions. To accelerate future research, we open source our ROS 2 software stack and custom hardware design, making our contributions accessible to the broader research community.
+
+Translated Abstract:
+공중 조작은 비행 플랫폼의 다양성과 속도, 그리고 이동 조작의 기능을 결합한 거야. 그런데 정밀한 위치 측정과 제어가 필요해서 어려운 점이 많아. 전통적으로 연구자들은 비싼 외부 인식 시스템에 의존해왔는데, 이건 특별히 장비가 갖춰진 실내 환경에서만 가능해서 실용성이 떨어져.
+
+이번 연구에서는 자율 공중 조작을 위한 새로운 플랫폼을 소개해. 이 플랫폼은 오직 탑재된 인식 시스템만 사용해서 작동해. 그래서 외부 인식 시스템에 의존하지 않고 다양한 실내와 실외 환경에서 공중 조작을 할 수 있어. 실험 결과로는 이 플랫폼이 여러 가지 물체를 자율적으로 잡을 수 있는 능력을 보여줬어. 
+
+이런 발전 덕분에 공중 조작 응용 프로그램의 확장성과 실용성이 많이 좋아져. 비싼 추적 솔루션이 필요 없으니까. 그리고 앞으로의 연구를 빠르게 진행할 수 있도록 우리 ROS 2 소프트웨어 스택과 커스텀 하드웨어 디자인을 오픈 소스로 공개했어. 이를 통해 더 많은 연구자들이 우리의 기여를 활용할 수 있게 됐어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07690.pdf
+
+Title: Characterization and Design of A Hollow Cylindrical Ultrasonic Motor
+
+Original Abstract:
+Piezoelectric ultrasonic motors perform the advantages of compact design, faster reaction time, and simpler setup compared to other motion units such as pneumatic and hydraulic motors, especially its non-ferromagnetic property makes it a perfect match in MRI-compatible robotics systems compared to traditional DC motors. Hollow shaft motors address the advantages of being lightweight and comparable to solid shafts of the same diameter, low rotational inertia, high tolerance to rotational imbalance due to low weight, and tolerance to high temperature due to low specific mass. This article presents a prototype of a hollow cylindrical ultrasonic motor (HCM) to perform direct drive, eliminate mechanical non-linearity, and reduce the size and complexity of the actuator or end effector assembly. Two equivalent HCMs are presented in this work, and under 50g prepressure on the rotor, it performed 383.3333rpm rotation speed and 57.3504mNm torque output when applying 282$V_{pp}$ driving voltage.
+
+Translated Abstract:
+압전 초음파 모터는 공압 및 유압 모터 같은 다른 모션 유닛에 비해 컴팩트한 디자인과 빠른 반응 시간, 간단한 설치 장점이 있어. 특히 비자성 특성 덕분에 MRI와 호환되는 로봇 시스템에서 전통적인 DC 모터보다 더 잘 어울려.
+
+이 논문에서는 가벼운 비중과 비슷한 직경의 고형 축에 비해 가벼우면서도 낮은 회전 관성, 회전 불균형에 대한 높은 내성, 높은 온도에 대한 내성을 가진 중공 축 모터의 장점을 언급해. 
+
+직접 구동을 수행하고, 기계적 비선형성을 없애며, 액추에이터나 말단 효과기 조립의 크기와 복잡성을 줄이기 위해 중공 원통형 초음파 모터(HCM) 프로토타입을 소개해. 
+
+이 연구에서는 두 개의 동등한 HCM을 소개하고, 로터에 50g의 압력이 가해졌을 때 383.3333rpm의 회전 속도와 57.3504mNm의 토크 출력을 보였어. 이때 282$V_{pp}$의 구동 전압이 적용되었어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07753.pdf
+
+Title: Relevance for Human Robot Collaboration
+
+Original Abstract:
+Effective human-robot collaboration (HRC) requires the robots to possess human-like intelligence. Inspired by the human's cognitive ability to selectively process and filter elements in complex environments, this paper introduces a novel concept and scene-understanding approach termed `relevance.' It identifies relevant components in a scene. To accurately and efficiently quantify relevance, we developed an event-based framework that selectively triggers relevance determination, along with a probabilistic methodology built on a structured scene representation. Simulation results demonstrate that the relevance framework and methodology accurately predict the relevance of a general HRC setup, achieving a precision of 0.99 and a recall of 0.94. Relevance can be broadly applied to several areas in HRC to improve task planning time by 79.56% compared with pure planning for a cereal task, reduce perception latency by up to 26.53% for an object detector, improve HRC safety by up to 13.50% and reduce the number of inquiries for HRC by 75.36%. A real-world demonstration showcases the relevance framework's ability to intelligently assist humans in everyday tasks.
+
+Translated Abstract:
+효과적인 인간-로봇 협업(HRC)을 위해서는 로봇이 인간처럼 지능을 가져야 해. 인간이 복잡한 환경에서 선택적으로 정보를 처리하고 필터링하는 능력에서 영감을 받아, 이 논문에서는 `관련성(relevance)`이라는 새로운 개념과 장면 이해 방식을 소개해. 이 개념은 장면에서 관련된 요소들을 찾아내는 거야.
+
+정확하고 효율적으로 관련성을 측정하기 위해, 우리는 이벤트 기반의 프레임워크를 개발했어. 이 프레임워크는 선택적으로 관련성을 결정하는 과정을 작동시키고, 구조화된 장면 표현을 기반으로 한 확률론적 방법론을 포함하고 있어. 시뮬레이션 결과는 이 관련성 프레임워크와 방법론이 일반적인 HRC 설정의 관련성을 정확하게 예측한다는 걸 보여줘. 정확도는 0.99, 재현율은 0.94에 달해.
+
+관련성은 HRC의 여러 분야에 널리 적용될 수 있어. 예를 들어, 시리얼 작업을 위한 순수 계획에 비해 작업 계획 시간을 79.56% 단축하고, 물체 감지기에서 인식 지연을 최대 26.53% 줄이며, HRC의 안전성을 최대 13.50% 향상시키고, HRC 관련 문의를 75.36% 줄일 수 있어. 그리고 실제 세계에서의 시연을 통해 관련성 프레임워크가 일상적인 작업에서 인간을 지능적으로 도와주는 능력을 보여줬어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07846.pdf
+
+Title: Learning Skateboarding for Humanoid Robots through Massively Parallel Reinforcement Learning
+
+Original Abstract:
+Learning-based methods have proven useful at generating complex motions for robots, including humanoids. Reinforcement learning (RL) has been used to learn locomotion policies, some of which leverage a periodic reward formulation. This work extends the periodic reward formulation of locomotion to skateboarding for the REEM-C robot. Brax/MJX is used to implement the RL problem to achieve fast training. Initial results in simulation are presented with hardware experiments in progress.
+
+Translated Abstract:
+학습 기반 방법은 로봇, 특히 휴머노이드의 복잡한 움직임을 생성하는 데 유용하다는 게 입증됐어. 강화 학습(RL)을 사용해서 이동 정책을 배우기도 하는데, 그중 일부는 주기적인 보상 형식을 활용해. 
+
+이 연구는 REEM-C 로봇을 위한 스케이트보드 이동에 주기적인 보상 형식을 확장했어. RL 문제를 빠르게 훈련하기 위해 Brax/MJX를 사용했지. 
+
+초기 시뮬레이션 결과가 나왔고, 하드웨어 실험도 진행 중이야.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07914.pdf
+
+Title: InterACT: Inter-dependency Aware Action Chunking with Hierarchical Attention Transformers for Bimanual Manipulation
+
+Original Abstract:
+We present InterACT: Inter-dependency aware Action Chunking with Hierarchical Attention Transformers, a novel imitation learning framework for bimanual manipulation that integrates hierarchical attention to capture inter-dependencies between dual-arm joint states and visual inputs. InterACT consists of a Hierarchical Attention Encoder and a Multi-arm Decoder, both designed to enhance information aggregation and coordination. The encoder processes multi-modal inputs through segment-wise and cross-segment attention mechanisms, while the decoder leverages synchronization blocks to refine individual action predictions, providing the counterpart's prediction as context. Our experiments on a variety of simulated and real-world bimanual manipulation tasks demonstrate that InterACT significantly outperforms existing methods. Detailed ablation studies validate the contributions of key components of our work, including the impact of CLS tokens, cross-segment encoders, and synchronization blocks.
+
+Translated Abstract:
+우리는 InterACT라는 새로운 모방 학습 프레임워크를 소개해. 이건 양손 조작을 위한 거고, 계층적 주의를 통해 두 팔의 관절 상태와 시각 입력 간의 상호 의존성을 잘 포착할 수 있도록 설계됐어.
+
+InterACT는 계층적 주의 인코더와 다중 팔 디코더로 구성되어 있어. 이 두 가지는 정보 집합과 조정을 더 잘할 수 있도록 돕는 역할을 해. 인코더는 여러 종류의 입력을 세그먼트별 및 크로스 세그먼트 주의 메커니즘을 통해 처리하고, 디코더는 동기화 블록을 이용해 개별 행동 예측을 다듬어. 여기서 상대방의 예측을 문맥으로 제공해.
+
+우리가 다양한 시뮬레이션과 실제 양손 조작 과제에서 실험해본 결과, InterACT가 기존 방법들보다 확실히 더 성능이 좋다는 걸 보여줬어. 자세한 제거 연구를 통해 CLS 토큰, 크로스 세그먼트 인코더, 동기화 블록 같은 주요 구성 요소의 기여도도 검증했어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07924.pdf
+
+Title: Universal Trajectory Optimization Framework for Differential-Driven Robot Class
+
+Original Abstract:
+Differential-driven robots are widely used in various scenarios thanks to their straightforward principle, from household service robots to disaster response field robots. There are several different types of deriving mechanisms considering the real-world applications, including two-wheeled, four-wheeled skid-steering, tracked robots, etc. The differences in the driving mechanism usually require specific kinematic modeling when precise controlling is desired. Furthermore, the nonholonomic dynamics and possible lateral slip lead to different degrees of difficulty in getting feasible and high-quality trajectories. Therefore, a comprehensive trajectory optimization framework to compute trajectories efficiently for various kinds of differential-driven robots is highly desirable. In this paper, we propose a universal trajectory optimization framework that can be applied to differential-driven robot class, enabling the generation of high-quality trajectories within a restricted computational timeframe. We introduce a novel trajectory representation based on polynomial parameterization of motion states or their integrals, such as angular and linear velocities, that inherently matching robots' motion to the control principle for differential-driven robot class. The trajectory optimization problem is formulated to minimize complexity while prioritizing safety and operational efficiency. We then build a full-stack autonomous planning and control system to show the feasibility and robustness. We conduct extensive simulations and real-world testing in crowded environments with three kinds of differential-driven robots to validate the effectiveness of our approach. We will release our method as an open-source package.
+
+Translated Abstract:
+차동 구동 로봇은 원리가 간단해서 가정용 서비스 로봇부터 재난 대응 로봇까지 다양한 상황에서 널리 사용돼. 실제 응용에 따라 두 바퀴, 네 바퀴 스키드 스티어링, 트랙 로봇 등 여러 가지 구동 메커니즘이 있어. 구동 메커니즘의 차이로 인해 정밀한 제어가 필요할 때 특정 운동학 모델링이 요구돼. 게다가 비홀로노믹 동역학과 가능한 측면 미끄럼으로 인해 실제로 유효하고 고품질 궤적을 얻는 게 어려워질 수 있어.
+
+그래서 다양한 차동 구동 로봇을 위해 궤적을 효율적으로 계산할 수 있는 포괄적인 궤적 최적화 프레임워크가 필요해. 이 논문에서는 차동 구동 로봇 클래스에 적용할 수 있는 범용 궤적 최적화 프레임워크를 제안해. 이 프레임워크는 제한된 계산 시간 내에 고품질 궤적을 생성할 수 있도록 해. 
+
+우리는 로봇의 운동 상태나 그 적분(각속도와 선속도 등)을 다항식으로 매개변수화한 새로운 궤적 표현법을 소개해. 이 방법은 차동 구동 로봇의 제어 원리에 맞춰져 있어. 궤적 최적화 문제는 복잡성을 최소화하면서 안전과 운영 효율성을 우선시하도록 설정돼. 
+
+그 다음에는 우리의 접근 방식의 가능성과 강인성을 보여주기 위해 전체 자율 계획 및 제어 시스템을 구축했어. 우리는 세 가지 종류의 차동 구동 로봇을 이용해 혼잡한 환경에서 광범위한 시뮬레이션과 실제 테스트를 수행해서 효과성을 검증했어. 이 방법은 오픈 소스 패키지로 공개할 예정이야.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08033.pdf
+
+Title: A three-dimensional force estimation method for the cable-driven soft robot based on monocular images
+
+Original Abstract:
+Soft manipulators are known for their superiority in coping with high-safety-demanding interaction tasks, e.g., robot-assisted surgeries, elderly caring, etc. Yet the challenges residing in real-time contact feedback have hindered further applications in precise manipulation. This paper proposes an end-to-end network to estimate the 3D contact force of the soft robot, with the aim of enhancing its capabilities in interactive tasks. The presented method features directly utilizing monocular images fused with multidimensional actuation information as the network inputs. This approach simplifies the preprocessing of raw data compared to related studies that utilize 3D shape information for network inputs, consequently reducing configuration reconstruction errors. The unified feature representation module is devised to elevate low-dimensional features from the system's actuation signals to the same level as image features, facilitating smoother integration of multimodal information. The proposed method has been experimentally validated in the soft robot testbed, achieving satisfying accuracy in 3D force estimation (with a mean relative error of 0.84% compared to the best-reported result of 2.2% in the related works).
+
+Translated Abstract:
+소프트 매니퓰레이터는 로봇 수술, 노인 돌봄 등 안전이 중요한 상호작용 작업을 잘 처리하는 것으로 알려져 있어. 하지만 실시간 접촉 피드백에서의 어려움 때문에 정밀한 조작에 더 많은 응용이 어려운 상황이야. 
+
+이 논문에서는 소프트 로봇의 3D 접촉 힘을 추정하기 위한 엔드 투 엔드 네트워크를 제안해. 이 방법은 상호작용 작업에서의 능력을 향상시키는 게 목표야. 제안된 방법은 단일 카메라 이미지와 다차원 작동 정보를 네트워크 입력으로 직접 활용하는 방식이야. 이 접근법은 관련 연구들이 3D 형태 정보를 네트워크 입력으로 사용하는 것보다 원시 데이터의 전처리를 간단하게 해주고, 설정 재구성 오류를 줄여줘.
+
+통합된 특징 표현 모듈이 시스템의 작동 신호에서 저차원 특징을 이미지 특징과 같은 수준으로 끌어올려서, 여러 모달 정보를 더 원활하게 통합할 수 있도록 해. 제안된 방법은 소프트 로봇 테스트베드에서 실험적으로 검증되었고, 3D 힘 추정에서 만족스러운 정확도를 달성했어 (관련 연구에서 보고된 최고 결과인 2.2%에 비해 평균 상대 오차가 0.84%였어).
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08078.pdf
+
+Title: MosquitoMiner: A Light Weight Rover for Detecting and Eliminating Mosquito Breeding Sites
+
+Original Abstract:
+In this paper, we present a novel approach to the development and deployment of an autonomous mosquito breeding place detector rover with the object and obstacle detection capabilities to control mosquitoes. Mosquito-borne diseases continue to pose significant health threats globally, with conventional control methods proving slow and inefficient. Amidst rising concerns over the rapid spread of these diseases, there is an urgent need for innovative and efficient strategies to manage mosquito populations and prevent disease transmission. To mitigate the limitations of manual labor and traditional methods, our rover employs autonomous control strategies. Leveraging our own custom dataset, the rover can autonomously navigate along a pre-defined path, identifying and mitigating potential breeding grounds with precision. It then proceeds to eliminate these breeding grounds by spraying a chemical agent, effectively eradicating mosquito habitats. Our project demonstrates the effectiveness that is absent in traditional ways of controlling and safeguarding public health. The code for this project is available on GitHub at - this https URL
+
+Translated Abstract:
+이 논문에서는 모기 번식지를 자동으로 탐지하는 로버를 개발하고 배치하는 새로운 접근 방식을 소개해. 이 로버는 물체와 장애물을 감지할 수 있는 기능이 있어서 모기를 제어하는 데 도움을 줘. 
+
+모기가 전파하는 질병은 전 세계적으로 큰 건강 위협이 되고 있는데, 기존의 제어 방법들은 느리고 비효율적이야. 이런 질병의 빠른 확산에 대한 우려가 커지면서, 모기 개체수를 관리하고 질병 전파를 막기 위한 혁신적이고 효율적인 전략이 필요해. 
+
+수작업과 전통적인 방법의 한계를 극복하기 위해, 우리 로버는 자율 제어 전략을 사용해. 우리만의 맞춤형 데이터셋을 활용해서, 로버는 미리 정의된 경로를 따라 자율적으로 이동하면서 잠재적인 번식지를 정확하게 찾아내고 없애. 그런 다음 화학제를 뿌려서 이 번식지를 없애버려, 모기 서식지를 효과적으로 제거해. 
+
+우리 프로젝트는 전통적인 방법에서 부족했던 효과성을 보여줘. 이 프로젝트의 코드는 GitHub에서 확인할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08166.pdf
+
+Title: Collaborating for Success: Optimizing System Efficiency and Resilience Under Agile Industrial Settings
+
+Original Abstract:
+Designing an efficient and resilient human-robot collaboration strategy that not only upholds the safety and ergonomics of shared workspace but also enhances the performance and agility of collaborative setup presents significant challenges concerning environment perception and robot control. In this research, we introduce a novel approach for collaborative environment monitoring and robot motion regulation to address this multifaceted problem. Our study proposes novel computation and division of safety monitoring zones, adhering to ISO 13855 and TS 15066 standards, utilizing 2D lasers information. These zones are not only configured in the standard three-layer arrangement but are also expanded into two adjacent quadrants, thereby enhancing system uptime and preventing unnecessary deadlocks. Moreover, we also leverage 3D visual information to track dynamic human articulations and extended intrusions. Drawing upon the fused sensory data from 2D and 3D perceptual spaces, our proposed hierarchical controller stably regulates robot velocity, validated using Lasalle in-variance principle. Empirical evaluations demonstrate that our approach significantly reduces task execution time and system response delay, resulting in improved efficiency and resilience within collaborative settings.
+
+Translated Abstract:
+효율적이고 강인한 인간-로봇 협업 전략을 설계하는 건 안전과 인체 공학을 지키면서도 협업 성능과 민첩성을 높이는 데 큰 도전이 돼. 이 연구에서는 이런 문제를 해결하기 위해 새로운 협력 환경 모니터링과 로봇 동작 조절 방법을 제안해.
+
+우리는 안전 모니터링 구역을 계산하고 나누는 새로운 방식을 제안하는데, 이건 ISO 13855와 TS 15066 기준을 따르면서 2D 레이저 정보를 활용해. 이 구역들은 표준 세 겹 배열로 설정되지만, 두 개의 인접한 사분면으로도 확장돼서 시스템 가동 시간을 늘리고 불필요한 교착 상태를 방지해. 게다가, 3D 시각 정보를 활용해서 동적인 인간의 움직임과 침입을 추적해.
+
+2D와 3D 감각 데이터를 융합한 우리의 계층적 컨트롤러는 로봇의 속도를 안정적으로 조절하는데, 이는 라살 불변 원리를 통해 검증됐어. 실제 평가 결과, 우리의 접근 방식이 작업 실행 시간을 크게 줄이고 시스템 응답 지연을 개선해서 협업 환경에서 효율성과 강인성을 높인다는 걸 보여줬어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08195.pdf
+
+Title: Composing Option Sequences by Adaptation: Initial Results
+
+Original Abstract:
+Robot manipulation in real-world settings often requires adapting the robot's behavior to the current situation, such as by changing the sequences in which policies execute to achieve the desired task. Problematically, however, we show that composing a novel sequence of five deep RL options to perform a pick-and-place task is unlikely to successfully complete, even if their initiation and termination conditions align. We propose a framework to determine whether sequences will succeed a priori, and examine three approaches that adapt options to sequence successfully if they will not. Crucially, our adaptation methods consider the actual subset of points that the option is trained from or where it ends: (1) trains the second option to start where the first ends; (2) trains the first option to reach the centroid of where the second starts; and (3) trains the first option to reach the median of where the second starts. Our results show that our framework and adaptation methods have promise in adapting options to work in novel sequences.
+
+Translated Abstract:
+로봇이 실제 환경에서 작업을 할 땐, 현재 상황에 맞게 로봇의 행동을 조정해야 해. 예를 들어, 원하는 작업을 수행하기 위해 정책들이 실행되는 순서를 바꿔야 할 수도 있어. 그런데 문제는, 새로운 다섯 개의 딥 RL 옵션을 조합해서 물건을 집고 놓는 작업을 시도해도 성공하기 어려워. 이 옵션들이 시작과 끝 조건이 맞아도 말이야.
+
+우리는 어떤 순서가 성공할지를 미리 판단할 수 있는 프레임워크를 제안해. 그리고 만약 순서가 성공하지 못할 경우, 옵션을 성공적으로 조정하는 세 가지 방법도 살펴봤어. 이 조정 방법들은 옵션이 훈련된 실제 포인트 집합이나 끝나는 위치를 고려해. 
+
+첫 번째 방법은 두 번째 옵션이 시작하는 곳에서 첫 번째가 끝나도록 훈련하는 거고, 두 번째 방법은 첫 번째 옵션이 두 번째 옵션이 시작하는 중심점에 도달하도록 훈련하는 거야. 마지막으로 세 번째 방법은 첫 번째 옵션이 두 번째 옵션이 시작하는 중간값에 도달하도록 훈련하는 거지.
+
+우리의 결과는 이 프레임워크와 조정 방법들이 새로운 순서에서 옵션이 잘 작동하도록 조정하는 데 가능성이 있다는 걸 보여줘.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08212.pdf
+
+Title: Adaptive Language-Guided Abstraction from Contrastive Explanations
+
+Original Abstract:
+Many approaches to robot learning begin by inferring a reward function from a set of human demonstrations. To learn a good reward, it is necessary to determine which features of the environment are relevant before determining how these features should be used to compute reward. End-to-end methods for joint feature and reward learning (e.g., using deep networks or program synthesis techniques) often yield brittle reward functions that are sensitive to spurious state features. By contrast, humans can often generalizably learn from a small number of demonstrations by incorporating strong priors about what features of a demonstration are likely meaningful for a task of interest. How do we build robots that leverage this kind of background knowledge when learning from new demonstrations? This paper describes a method named ALGAE (Adaptive Language-Guided Abstraction from [Contrastive] Explanations) which alternates between using language models to iteratively identify human-meaningful features needed to explain demonstrated behavior, then standard inverse reinforcement learning techniques to assign weights to these features. Experiments across a variety of both simulated and real-world robot environments show that ALGAE learns generalizable reward functions defined on interpretable features using only small numbers of demonstrations. Importantly, ALGAE can recognize when features are missing, then extract and define those features without any human input -- making it possible to quickly and efficiently acquire rich representations of user behavior.
+
+Translated Abstract:
+로봇 학습의 많은 접근 방식은 인간의 시연을 통해 보상 함수를 추론하는 것에서 시작해. 좋은 보상을 배우려면 환경에서 어떤 특성이 중요한지를 먼저 파악해야 해. 그 다음에 이 특성을 어떻게 사용해 보상을 계산할지 결정하는 거지. 
+
+엔드 투 엔드 방식으로 특성과 보상을 함께 배우는 방법(예를 들어, 딥 네트워크나 프로그램 합성 기법 사용)은 종종 불안정한 보상 함수를 만들어내. 이런 보상 함수는 불필요한 상태 특성에 민감해. 반면에, 인간은 시연의 수가 적더라도 어떤 특성이 작업에 의미가 있을지에 대한 강한 선입견을 가지고 일반화하여 학습할 수 있어. 
+
+그럼 새로운 시연에서 이러한 배경 지식을 활용하는 로봇을 어떻게 만들 수 있을까? 이 논문에서는 ALGAE라는 방법을 설명해. 이 방법은 언어 모델을 사용해서 인간에게 의미 있는 특성을 반복적으로 찾아내고, 그런 다음 일반적인 역 강화 학습 기법을 이용해 이 특성에 가중치를 부여하는 과정을 번갈아 진행해. 
+
+여러 가지 시뮬레이션과 실제 로봇 환경에서 실험을 해본 결과, ALGAE는 소수의 시연만으로도 해석 가능한 특성에 기반한 일반화 가능한 보상 함수를 배울 수 있다는 것을 보여줬어. 중요한 건, ALGAE가 특성이 누락된 것을 인식하고, 인간의 도움 없이도 그 특성을 추출하고 정의할 수 있다는 거야. 이렇게 하면 사용자 행동의 풍부한 표현을 빠르고 효율적으로 습득할 수 있게 돼.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08219.pdf
+
+Title: Graph Inspection for Robotic Motion Planning: Do Arithmetic Circuits Help?
+
+Original Abstract:
+We investigate whether algorithms based on arithmetic circuits are a viable alternative to existing solvers for Graph Inspection, a problem with direct application in robotic motion planning. Specifically, we seek to address the high memory usage of existing solvers. Aided by novel theoretical results enabling fast solution recovery, we implement a circuit-based solver for Graph Inspection which uses only polynomial space and test it on several realistic robotic motion planning datasets. In particular, we provide a comprehensive experimental evaluation of a suite of engineered algorithms for three key subroutines. While this evaluation demonstrates that circuit-based methods are not yet practically competitive for our robotics application, it also provides insights which may guide future efforts to bring circuit-based algorithms from theory to practice.
+
+Translated Abstract:
+우리는 산술 회로 기반 알고리즘이 로봇 모션 계획에 직접 적용되는 그래프 검사 문제에 대한 기존 솔버의 대안이 될 수 있는지 조사했어. 특히, 기존 솔버의 높은 메모리 사용량 문제를 해결하려고 해.
+
+새로운 이론적 결과를 바탕으로 빠르게 솔루션을 회복할 수 있는 방법을 찾고, 그래프 검사를 위한 회로 기반 솔버를 구현했어. 이 솔버는 다항식 공간만 사용하고, 여러 현실적인 로봇 모션 계획 데이터셋에서 테스트해봤어.
+
+특히, 우리는 세 가지 주요 서브루틴을 위한 여러 알고리즘의 종합적인 실험 평가를 제공했어. 이 평가 결과, 회로 기반 방법이 우리의 로봇 응용 프로그램에선 아직 실질적으로 경쟁력이 없다는 걸 보여줬지만, 이 연구가 향후 회로 기반 알고리즘을 이론에서 실제로 적용하는 데 도움이 될 수 있는 통찰력을 제공해.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08233.pdf
+
+Title: Towards Online Safety Corrections for Robotic Manipulation Policies
+
+Original Abstract:
+Recent successes in applying reinforcement learning (RL) for robotics has shown it is a viable approach for constructing robotic controllers. However, RL controllers can produce many collisions in environments where new obstacles appear during execution. This poses a problem in safety-critical settings. We present a hybrid approach, called iKinQP-RL, that uses an Inverse Kinematics Quadratic Programming (iKinQP) controller to correct actions proposed by an RL policy at runtime. This ensures safe execution in the presence of new obstacles not present during training. Preliminary experiments illustrate our iKinQP-RL framework completely eliminates collisions with new obstacles while maintaining a high task success rate.
+
+Translated Abstract:
+최근 로봇에 강화 학습(RL)을 적용한 성공 사례들이 많아지면서, 이 방법이 로봇 제어기를 만드는 데 효과적이라는 것이 입증되었어. 하지만 RL 제어기는 실행 중에 새로운 장애물이 나타나는 환경에서 많은 충돌을 일으킬 수 있어. 이건 안전이 중요한 상황에서는 문제가 될 수 있지.
+
+우리는 iKinQP-RL이라는 하이브리드 접근 방식을 제안하는데, 이건 역운동학 이차 프로그래밍(iKinQP) 제어기를 사용해서 RL 정책이 제안한 행동을 실행 중에 수정하는 방법이야. 이렇게 하면 훈련 중에 없었던 새로운 장애물이 생겨도 안전하게 작업을 수행할 수 있어.
+
+초기 실험 결과에 따르면, 우리의 iKinQP-RL 프레임워크는 새로운 장애물과의 충돌을 완전히 없애면서도 높은 작업 성공률을 유지하고 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08249.pdf
+
+Title: Quantifying Aleatoric and Epistemic Dynamics Uncertainty via Local Conformal Calibration
+
+Original Abstract:
+Whether learned, simulated, or analytical, approximations of a robot's dynamics can be inaccurate when encountering novel environments. Many approaches have been proposed to quantify the aleatoric uncertainty of such methods, i.e. uncertainty resulting from stochasticity, however these estimates alone are not enough to properly estimate the uncertainty of a model in a novel environment, where the actual dynamics can change. Such changes can induce epistemic uncertainty, i.e. uncertainty due to a lack of information/data. Accounting for both epistemic and aleatoric dynamics uncertainty in a theoretically-grounded way remains an open problem. We introduce Local Uncertainty Conformal Calibration (LUCCa), a conformal prediction-based approach that calibrates the aleatoric uncertainty estimates provided by dynamics models to generate probabilistically-valid prediction regions of the system's state. We account for both epistemic and aleatoric uncertainty non-asymptotically, without strong assumptions about the form of the true dynamics or how it changes. The calibration is performed locally in the state-action space, leading to uncertainty estimates that are useful for planning. We validate our method by constructing probabilistically-safe plans for a double-integrator under significant changes in dynamics.
+
+Translated Abstract:
+로봇의 동역학을 학습하거나 시뮬레이션하거나 분석할 때, 새로운 환경에 들어가면 정확하지 않을 수 있어. 많은 방법들이 이런 불확실성을 측정하려고 제안되었는데, 여기서 불확실성은 랜덤성에서 오는 거야. 하지만 이런 추정만으로는 새로운 환경에서 모델의 불확실성을 제대로 평가하기에는 부족해. 실제 동역학이 바뀔 수 있기 때문이지. 이런 변화는 정보나 데이터 부족으로 인한 인지적 불확실성을 초래할 수 있어. 
+
+인지적 불확실성과 랜덤적 불확실성을 이론적으로 잘 고려하는 방법이 여전히 해결되지 않은 문제야. 우리는 Local Uncertainty Conformal Calibration (LUCCa)라는 방법을 소개해. 이건 동역학 모델이 제공하는 랜덤적 불확실성 추정을 조정해서 시스템 상태의 확률적으로 유효한 예측 영역을 만드는 방법이야. 우리는 인지적 불확실성과 랜덤적 불확실성을 강한 가정 없이 비대칭적으로 고려해. 
+
+조정은 상태-행동 공간에서 로컬하게 진행돼서, 계획하는 데 유용한 불확실성 추정을 만들어. 우리는 동역학이 크게 변하는 상황에서 더블 인테그레이터에 대해 확률적으로 안전한 계획을 세우는 방법으로 우리의 방식을 검증했어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08269.pdf
+
+Title: Touch2Touch: Cross-Modal Tactile Generation for Object Manipulation
+
+Original Abstract:
+Today's touch sensors come in many shapes and sizes. This has made it challenging to develop general-purpose touch processing methods since models are generally tied to one specific sensor design. We address this problem by performing cross-modal prediction between touch sensors: given the tactile signal from one sensor, we use a generative model to estimate how the same physical contact would be perceived by another sensor. This allows us to apply sensor-specific methods to the generated signal. We implement this idea by training a diffusion model to translate between the popular GelSlim and Soft Bubble sensors. As a downstream task, we perform in-hand object pose estimation using GelSlim sensors while using an algorithm that operates only on Soft Bubble signals. The dataset, the code, and additional details can be found at this https URL.
+
+Translated Abstract:
+오늘날의 터치 센서는 다양한 형태와 크기로 존재해. 이 때문에 일반적인 터치 처리 방법을 개발하는 게 어려워졌어. 왜냐면 모델이 특정 센서 디자인에 맞춰져 있기 때문이야.
+
+우리는 이 문제를 해결하기 위해 터치 센서 간의 크로스 모달 예측을 수행해. 한 센서에서 받은 촉각 신호를 바탕으로, 다른 센서가 같은 물리적 접촉을 어떻게 인식할지를 생성 모델을 통해 추정하는 거야. 이렇게 하면 생성된 신호에 센서별 방법을 적용할 수 있어.
+
+이 아이디어를 구현하기 위해, 우리는 인기 있는 GelSlim과 Soft Bubble 센서 간의 변환을 위한 확산 모델을 훈련했어. 그리고 후속 작업으로는 GelSlim 센서를 사용해 손에서 물체의 자세를 추정하면서, Soft Bubble 신호에서만 작동하는 알고리즘을 사용했어. 데이터셋, 코드, 그리고 추가적인 세부사항은 이 https URL에서 확인할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08273.pdf
+
+Title: Hand-Object Interaction Pretraining from Videos
+
+Original Abstract:
+We present an approach to learn general robot manipulation priors from 3D hand-object interaction trajectories. We build a framework to use in-the-wild videos to generate sensorimotor robot trajectories. We do so by lifting both the human hand and the manipulated object in a shared 3D space and retargeting human motions to robot actions. Generative modeling on this data gives us a task-agnostic base policy. This policy captures a general yet flexible manipulation prior. We empirically demonstrate that finetuning this policy, with both reinforcement learning (RL) and behavior cloning (BC), enables sample-efficient adaptation to downstream tasks and simultaneously improves robustness and generalizability compared to prior approaches. Qualitative experiments are available at: \url{this https URL}.
+
+Translated Abstract:
+우리는 3D 손-물체 상호작용 궤적에서 일반적인 로봇 조작 우선순위를 배우는 방법을 제안해. 우리는 실제 환경에서 찍힌 비디오를 사용해서 감각-운동 로봇 궤적을 생성하는 프레임워크를 만들었어. 이 과정에서 사람의 손과 조작되는 물체를 같은 3D 공간에 올리고, 사람의 동작을 로봇의 행동으로 변환해.
+
+이 데이터에 대한 생성 모델링을 통해 우리는 특정 작업에 구애받지 않는 기본 정책을 얻었어. 이 정책은 일반적이지만 유연한 조작 우선순위를 포착해. 우리는 이 정책을 강화 학습(RL)과 행동 복제(BC)로 미세 조정하면, 다운스트림 작업에 샘플 효율적으로 적응할 수 있고, 이전 접근 방식보다 강인성과 일반화 능력이 동시에 개선된다는 것을 실험적으로 보여주었어.
+
+정성적 실험 결과는 이 링크에서 확인할 수 있어: \url{this https URL}.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08276.pdf
+
+Title: AnySkin: Plug-and-play Skin Sensing for Robotic Touch
+
+Original Abstract:
+While tactile sensing is widely accepted as an important and useful sensing modality, its use pales in comparison to other sensory modalities like vision and proprioception. AnySkin addresses the critical challenges that impede the use of tactile sensing -- versatility, replaceability, and data reusability. Building on the simplistic design of ReSkin, and decoupling the sensing electronics from the sensing interface, AnySkin simplifies integration making it as straightforward as putting on a phone case and connecting a charger. Furthermore, AnySkin is the first uncalibrated tactile-sensor with cross-instance generalizability of learned manipulation policies. To summarize, this work makes three key contributions: first, we introduce a streamlined fabrication process and a design tool for creating an adhesive-free, durable and easily replaceable magnetic tactile sensor; second, we characterize slip detection and policy learning with the AnySkin sensor; and third, we demonstrate zero-shot generalization of models trained on one instance of AnySkin to new instances, and compare it with popular existing tactile solutions like DIGIT and ReSkin.this https URL
+
+Translated Abstract:
+촉각 감지는 중요한 감지 방식으로 널리 인정받고 있지만, 시각이나 고유 감각 같은 다른 감지 방식에 비하면 사용이 많이 부족해. AnySkin은 촉각 감지의 사용을 방해하는 중요한 문제들인 다재다능성, 교체 가능성, 데이터 재사용성을 해결해. ReSkin의 간단한 디자인을 바탕으로, 감지 전자기기를 감지 인터페이스와 분리해서 AnySkin은 통합을 쉽게 만들어. 마치 핸드폰 케이스를 끼우고 충전기를 연결하는 것처럼 간단해.
+
+게다가 AnySkin은 학습된 조작 정책의 교차 인스턴스 일반화를 가진 최초의 비보정 촉각 센서야. 요약하자면, 이 연구는 세 가지 주요 기여를 해: 첫째, 접착제가 필요 없고 내구성이 뛰어나며 쉽게 교체할 수 있는 자석 촉각 센서를 만들기 위한 간소화된 제작 과정과 디자인 도구를 소개해; 둘째, AnySkin 센서를 사용한 미끄러짐 감지와 정책 학습을 특징지어; 셋째, AnySkin의 한 인스턴스에서 훈련된 모델이 새로운 인스턴스에 대해 제로샷 일반화를 보여주는 것을 입증하고, DIGIT와 ReSkin 같은 기존의 인기 있는 촉각 솔루션과 비교해.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07558.pdf
+
+Title: Unsupervised Point Cloud Registration with Self-Distillation
+
+Original Abstract:
+Rigid point cloud registration is a fundamental problem and highly relevant in robotics and autonomous driving. Nowadays deep learning methods can be trained to match a pair of point clouds, given the transformation between them. However, this training is often not scalable due to the high cost of collecting ground truth poses. Therefore, we present a self-distillation approach to learn point cloud registration in an unsupervised fashion. Here, each sample is passed to a teacher network and an augmented view is passed to a student network. The teacher includes a trainable feature extractor and a learning-free robust solver such as RANSAC. The solver forces consistency among correspondences and optimizes for the unsupervised inlier ratio, eliminating the need for ground truth labels. Our approach simplifies the training procedure by removing the need for initial hand-crafted features or consecutive point cloud frames as seen in related methods. We show that our method not only surpasses them on the RGB-D benchmark 3DMatch but also generalizes well to automotive radar, where classical features adopted by others fail. The code is available at this https URL .
+
+Translated Abstract:
+강체 포인트 클라우드 등록은 로봇 공학과 자율주행에서 매우 중요한 문제야. 요즘 딥러닝 방법을 사용해서 서로 변환된 포인트 클라우드 쌍을 맞추는 훈련을 할 수 있어. 그런데, 실제 위치 데이터를 모으는 데 드는 비용 때문에 이 훈련이 잘 확장되지 않아.
+
+그래서 우리는 자가 증류(self-distillation) 접근 방식을 제안해. 이 방법은 비지도 학습(unsupervised)으로 포인트 클라우드 등록을 배우는 거야. 여기서 각 샘플은 교사 네트워크(teacher network)로 가고, 증강된 뷰는 학생 네트워크(student network)로 가. 교사 네트워크는 훈련 가능한 특징 추출기와 RANSAC 같은 학습이 필요 없는 강력한 해결책을 포함하고 있어. 이 해결책은 대응 관계 간의 일관성을 유지하도록 강제하고, 비지도 인라이어 비율을 최적화해서 실제 레이블이 필요 없게 만들어.
+
+우리 접근 방식은 초기 수작업으로 만든 특징이나 연속적인 포인트 클라우드 프레임이 필요 없어서 훈련 절차를 간소화해. 우리는 우리 방법이 RGB-D 벤치마크 3DMatch에서 기존 방법들을 능가할 뿐만 아니라 자동차 레이더에 잘 일반화된다는 걸 보여줘. 다른 사람들이 사용한 전통적인 특징들로는 잘 작동하지 않는 곳에서 말이야. 코드도 이 URL에서 확인할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07563.pdf
+
+Title: MPPI-Generic: A CUDA Library for Stochastic Optimization
+
+Original Abstract:
+This paper introduces a new C++/CUDA library for GPU-accelerated stochastic optimization called MPPI-Generic. It provides implementations of Model Predictive Path Integral control, Tube-Model Predictive Path Integral Control, and Robust Model Predictive Path Integral Control, and allows for these algorithms to be used across many pre-existing dynamics models and cost functions. Furthermore, researchers can create their own dynamics models or cost functions following our API definitions without needing to change the actual Model Predictive Path Integral Control code. Finally, we compare computational performance to other popular implementations of Model Predictive Path Integral Control over a variety of GPUs to show the real-time capabilities our library can allow for. Library code can be found at: this https URL .
+
+Translated Abstract:
+이 논문은 GPU 가속 확률 최적화를 위한 새로운 C++/CUDA 라이브러리인 MPPI-Generic을 소개해. 이 라이브러리는 모델 예측 경로 적분 제어(Model Predictive Path Integral Control), 튜브 모델 예측 경로 적분 제어(Tube-Model Predictive Path Integral Control), 그리고 강건 모델 예측 경로 적분 제어(Robust Model Predictive Path Integral Control)의 구현을 제공해. 
+
+또한, 기존의 다이나믹스 모델과 비용 함수들에 이 알고리즘을 적용할 수 있어. 연구자들은 실제 모델 예측 경로 적분 제어 코드를 변경하지 않고도 우리의 API 정의를 따라서 자신만의 다이나믹스 모델이나 비용 함수를 만들 수 있어. 
+
+마지막으로, 우리는 다양한 GPU에서 모델 예측 경로 적분 제어의 다른 인기 있는 구현들과 비교하여 우리 라이브러리가 제공하는 실시간 성능을 보여줘. 라이브러리 코드는 이 URL에서 확인할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07571.pdf
+
+Title: FaVoR: Features via Voxel Rendering for Camera Relocalization
+
+Original Abstract:
+Camera relocalization methods range from dense image alignment to direct camera pose regression from a query image. Among these, sparse feature matching stands out as an efficient, versatile, and generally lightweight approach with numerous applications. However, feature-based methods often struggle with significant viewpoint and appearance changes, leading to matching failures and inaccurate pose estimates. To overcome this limitation, we propose a novel approach that leverages a globally sparse yet locally dense 3D representation of 2D features. By tracking and triangulating landmarks over a sequence of frames, we construct a sparse voxel map optimized to render image patch descriptors observed during tracking. Given an initial pose estimate, we first synthesize descriptors from the voxels using volumetric rendering and then perform feature matching to estimate the camera pose. This methodology enables the generation of descriptors for unseen views, enhancing robustness to view changes. We extensively evaluate our method on the 7-Scenes and Cambridge Landmarks datasets. Our results show that our method significantly outperforms existing state-of-the-art feature representation techniques in indoor environments, achieving up to a 39% improvement in median translation error. Additionally, our approach yields comparable results to other methods for outdoor scenarios while maintaining lower memory and computational costs.
+
+Translated Abstract:
+카메라 재위치 파악 방법에는 밀집 이미지 정렬부터 쿼리 이미지에서 카메라 자세를 직접 회귀하는 방법까지 다양해. 그 중에서도 희소 특징 매칭이 효율적이고 다용도로 쓰이는 가벼운 접근법으로 주목받고 있어. 하지만 특징 기반 방법은 시점 변화나 외관 변화가 클 경우에 문제가 생기고, 매칭 실패나 부정확한 자세 추정이 나올 수 있어. 
+
+이런 한계를 극복하기 위해 우리는 새로운 접근법을 제안해. 이 방법은 2D 특징의 전역적으로 희소하면서도 지역적으로 밀집한 3D 표현을 활용해. 여러 프레임에 걸쳐 랜드마크를 추적하고 삼각 측량을 통해, 추적하는 동안 관찰된 이미지 패치 설명자를 렌더링하기 위해 최적화된 희소 복셀 맵을 만들어. 초기 자세 추정이 주어지면, 먼저 복셀에서 체적 렌더링을 사용해 설명자를 합성하고 나서 특징 매칭을 통해 카메라 자세를 추정해. 이 방법론은 보지 못한 시점에 대한 설명자를 생성할 수 있게 해줘서 시점 변화에 대한 강인성을 높여줘. 
+
+우리는 이 방법을 7-Scenes와 Cambridge Landmarks 데이터셋에서 광범위하게 평가했어. 결과적으로 우리의 방법이 실내 환경에서 기존 최첨단 특징 표현 기법들보다 크게 더 나은 성능을 보여주었고, 중앙 이동 오차에서 최대 39% 향상을 이뤘어. 또한, 이 접근법은 야외 시나리오에서도 다른 방법들과 비슷한 결과를 내면서도 메모리와 계산 비용은 낮게 유지할 수 있었어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07645.pdf
+
+Title: Feature Importance in Pedestrian Intention Prediction: A Context-Aware Review
+
+Original Abstract:
+Recent advancements in predicting pedestrian crossing intentions for Autonomous Vehicles using Computer Vision and Deep Neural Networks are promising. However, the black-box nature of DNNs poses challenges in understanding how the model works and how input features contribute to final predictions. This lack of interpretability delimits the trust in model performance and hinders informed decisions on feature selection, representation, and model optimisation; thereby affecting the efficacy of future research in the field. To address this, we introduce Context-aware Permutation Feature Importance (CAPFI), a novel approach tailored for pedestrian intention prediction. CAPFI enables more interpretability and reliable assessments of feature importance by leveraging subdivided scenario contexts, mitigating the randomness of feature values through targeted shuffling. This aims to reduce variance and prevent biased estimations in importance scores during permutations. We divide the Pedestrian Intention Estimation (PIE) dataset into 16 comparable context sets, measure the baseline performance of five distinct neural network architectures for intention prediction in each context, and assess input feature importance using CAPFI. We observed nuanced differences among models across various contextual characteristics. The research reveals the critical role of pedestrian bounding boxes and ego-vehicle speed in predicting pedestrian intentions, and potential prediction biases due to the speed feature through cross-context permutation evaluation. We propose an alternative feature representation by considering proximity change rate for rendering dynamic pedestrian-vehicle locomotion, thereby enhancing the contributions of input features to intention prediction. These findings underscore the importance of contextual features and their diversity to develop accurate and robust intent-predictive models.
+
+Translated Abstract:
+최근 자율주행차의 보행자 횡단 의도를 예측하는 데 컴퓨터 비전과 딥 뉴럴 네트워크(DNN)를 사용하는 기술이 발전하고 있어. 하지만 DNN의 블랙박스 특성 때문에 모델이 어떻게 작동하는지 이해하기 어렵고, 입력 특징이 최종 예측에 어떻게 기여하는지 알기 힘들어. 이런 해석 가능성 부족은 모델 성능에 대한 신뢰를 제한하고, 특징 선택, 표현, 모델 최적화에 대한 정보에 기반한 결정을 방해해. 결국 이게 미래 연구의 효과성에도 영향을 미치게 돼.
+
+이 문제를 해결하기 위해 우리는 Context-aware Permutation Feature Importance (CAPFI)라는 새로운 접근 방식을 제안해. CAPFI는 보행자 의도 예측을 위해 설계된 방법으로, 구분된 상황(context) 맥락을 활용해서 특징 중요성을 더 해석 가능하고 신뢰성 있게 평가할 수 있게 해. 특정한 방식으로 특징 값을 섞어서 무작위성을 줄이려는 거야. 이걸 통해 변동성을 줄이고 중요도 점수가 편향되게 추정되는 걸 방지하려고 해.
+
+우리는 보행자 의도 추정(PIE) 데이터셋을 16개의 비교 가능한 상황 세트로 나누고, 각 상황에서 의도를 예측하기 위해 다섯 가지 다른 뉴럴 네트워크 아키텍처의 기본 성능을 측정했어. 그리고 CAPFI를 사용해서 입력 특징의 중요성을 평가했지. 여러 상황적 특성에 따라 모델 간의 미세한 차이를 관찰할 수 있었어. 연구 결과, 보행자의 경계 상자와 자차 속도가 보행자 의도를 예측하는 데 중요한 역할을 하고, 속도 특징으로 인해 예측 편향이 발생할 수 있다는 걸 알게 됐어.
+
+우리는 보행자-차량의 동적 운동을 묘사하기 위해 근접 변화율을 고려한 대체 특징 표현을 제안해, 입력 특징이 의도 예측에 기여하는 방식을 향상시키려 해. 이 연구 결과는 정확하고 강력한 의도 예측 모델을 개발하기 위해 상황적 특징과 그 다양성이 중요하다는 걸 강조해.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07700.pdf
+
+Title: Disturbance-Robust Backup Control Barrier Functions: Safety Under Uncertain Dynamics
+
+Original Abstract:
+Obtaining a controlled invariant set is crucial for safety-critical control with control barrier functions (CBFs) but is non-trivial for complex nonlinear systems and constraints. Backup control barrier functions allow such sets to be constructed online in a computationally tractable manner by examining the evolution (or flow) of the system under a known backup control law. However, for systems with unmodeled disturbances, this flow cannot be directly computed, making the current methods inadequate for assuring safety in these scenarios. To address this gap, we leverage bounds on the nominal and disturbed flow to compute a forward invariant set online by ensuring safety of an expanding norm ball tube centered around the nominal system evolution. We prove that this set results in robust control constraints which guarantee safety of the disturbed system via our Disturbance-Robust Backup Control Barrier Function (DR-BCBF) solution. Additionally, the efficacy of the proposed framework is demonstrated in simulation, applied to a double integrator problem and a rigid body spacecraft rotation problem with rate constraints.
+
+Translated Abstract:
+안전-critical 제어를 위해 제어 장벽 함수(CBFs)를 사용할 때, 제어 불변 집합을 얻는 게 중요해. 하지만 복잡한 비선형 시스템과 제약 조건에서는 쉽지 않아. 
+
+백업 제어 장벽 함수는 알려진 백업 제어 법칙 아래에서 시스템의 흐름을 살펴보면서 이런 집합을 온라인으로 만들 수 있게 해줘. 하지만 모델링되지 않은 외란이 있는 시스템에서는 이 흐름을 직접 계산할 수 없어서 현재 방법으로는 안전성을 보장하기 어려워.
+
+이 문제를 해결하기 위해, 우리는 정상 흐름과 외란 흐름에 대한 경계를 이용해 정상 시스템의 흐름을 중심으로 하는 확장된 노름 공 튜브의 안전성을 보장하며 온라인으로 전방 불변 집합을 계산해. 이 집합은 외란 시스템의 안전성을 보장하는 강력한 제어 제약 조건을 만들어내는 걸 증명했어. 이건 우리의 외란 강인 백업 제어 장벽 함수(DR-BCBF) 해결책을 통해 가능해.
+
+또한, 제안한 프레임워크의 효능은 시뮬레이션을 통해 입증되었고, 이중 적분기 문제와 비율 제약이 있는 강체 우주선 회전 문제에 적용되었어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07715.pdf
+
+Title: FIReStereo: Forest InfraRed Stereo Dataset for UAS Depth Perception in Visually Degraded Environments
+
+Original Abstract:
+Robust depth perception in visually-degraded environments is crucial for autonomous aerial systems. Thermal imaging cameras, which capture infrared radiation, are robust to visual degradation. However, due to lack of a large-scale dataset, the use of thermal cameras for unmanned aerial system (UAS) depth perception has remained largely unexplored. This paper presents a stereo thermal depth perception dataset for autonomous aerial perception applications. The dataset consists of stereo thermal images, LiDAR, IMU and ground truth depth maps captured in urban and forest settings under diverse conditions like day, night, rain, and smoke. We benchmark representative stereo depth estimation algorithms, offering insights into their performance in degraded conditions. Models trained on our dataset generalize well to unseen smoky conditions, highlighting the robustness of stereo thermal imaging for depth perception. We aim for this work to enhance robotic perception in disaster scenarios, allowing for exploration and operations in previously unreachable areas. The dataset and source code are available at this https URL.
+
+Translated Abstract:
+자율 항공 시스템에서 시각적으로 좋지 않은 환경에서도 깊이를 잘 인식하는 게 정말 중요해. 열화상 카메라는 적외선 방사를 포착해서 이런 시각적 저하에 강한데, 대규모 데이터셋이 부족해서 무인 항공 시스템(UAS)에서 깊이 인식에 대한 연구는 거의 이루어지지 않았어. 
+
+이 논문에서는 자율 항공 인식에 사용할 수 있는 스테레오 열 깊이 인식 데이터셋을 소개해. 이 데이터셋은 도시와 숲 환경에서 다양한 조건(낮, 밤, 비, 연기 등)에서 촬영된 스테레오 열 이미지, LiDAR, IMU, 그리고 실제 깊이 맵으로 구성되어 있어. 
+
+우리는 대표적인 스테레오 깊이 추정 알고리즘을 테스트해서 좋지 않은 조건에서의 성능을 살펴봤어. 우리 데이터셋으로 훈련된 모델은 보지 못한 연기 조건에서도 잘 작동하는 걸 보여주면서, 깊이 인식에서 스테레오 열 영상의 강점을 강조했어. 
+
+우리는 이 연구가 재난 상황에서 로봇 인식을 향상시켜서, 이전에는 접근할 수 없던 지역을 탐색하고 작업할 수 있는 가능성을 높이길 바라. 데이터셋과 소스 코드는 이 링크에 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07830.pdf
+
+Title: ReGentS: Real-World Safety-Critical Driving Scenario Generation Made Stable
+
+Original Abstract:
+Machine learning based autonomous driving systems often face challenges with safety-critical scenarios that are rare in real-world data, hindering their large-scale deployment. While increasing real-world training data coverage could address this issue, it is costly and dangerous. This work explores generating safety-critical driving scenarios by modifying complex real-world regular scenarios through trajectory optimization. We propose ReGentS, which stabilizes generated trajectories and introduces heuristics to avoid obvious collisions and optimization problems. Our approach addresses unrealistic diverging trajectories and unavoidable collision scenarios that are not useful for training robust planner. We also extend the scenario generation framework to handle real-world data with up to 32 agents. Additionally, by using a differentiable simulator, our approach simplifies gradient descent-based optimization involving a simulator, paving the way for future advancements. The code is available at this https URL.
+
+Translated Abstract:
+기계 학습 기반 자율주행 시스템은 실제 데이터에서 드문 안전-critical 상황에서 어려움을 겪고 있어, 대규모 배포에 방해가 되고 있어. 실제 훈련 데이터의 범위를 늘리는 것이 이 문제를 해결할 수 있지만, 비용이 많이 들고 위험할 수 있어. 
+
+이 연구는 복잡한 실제 일반 상황을 수정해서 안전-critical 주행 시나리오를 생성하는 방법을 탐구해. 우리는 ReGentS라는 방법을 제안하는데, 이 방법은 생성된 경로를 안정화하고 명백한 충돌과 최적화 문제를 피하기 위한 휴리스틱을 도입해. 
+
+우리 접근법은 비현실적인 분기 경로와 훈련에 유용하지 않은 피할 수 없는 충돌 상황을 해결해. 또한, 최대 32개의 에이전트를 다룰 수 있는 실제 데이터에 대한 시나리오 생성 프레임워크를 확대했어. 
+
+덧붙여, 미분 가능한 시뮬레이터를 사용함으로써, 시뮬레이터를 포함한 경량 하강 최적화를 단순화할 수 있었고, 이는 미래의 발전을 위한 길을 열어줘. 코드도 이 URL에서 사용할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07843.pdf
+
+Title: Real-time Multi-view Omnidirectional Depth Estimation System for Robots and Autonomous Driving on Real Scenes
+
+Original Abstract:
+Omnidirectional Depth Estimation has broad application prospects in fields such as robotic navigation and autonomous driving. In this paper, we propose a robotic prototype system and corresponding algorithm designed to validate omnidirectional depth estimation for navigation and obstacle avoidance in real-world scenarios for both robots and vehicles. The proposed HexaMODE system captures 360$^\circ$ depth maps using six surrounding arranged fisheye cameras. We introduce a combined spherical sweeping method and optimize the model architecture for proposed RtHexa-OmniMVS algorithm to achieve real-time omnidirectional depth estimation. To ensure high accuracy, robustness, and generalization in real-world environments, we employ a teacher-student self-training strategy, utilizing large-scale unlabeled real-world data for model training. The proposed algorithm demonstrates high accuracy in various complex real-world scenarios, both indoors and outdoors, achieving an inference speed of 15 fps on edge computing platforms.
+
+Translated Abstract:
+전방위 깊이 추정은 로봇 내비게이션과 자율주행 같은 분야에서 큰 활용 가능성이 있어. 이 논문에서는 로봇과 차량의 실제 상황에서 내비게이션과 장애물 회피를 위한 전방위 깊이 추정을 검증할 로봇 프로토타입 시스템과 알고리즘을 제안해.
+
+제안된 HexaMODE 시스템은 주변에 배치된 6대의 어안 카메라를 사용해서 360도 깊이 맵을 캡처해. 우리는 결합된 구형 스위핑 방법을 도입하고, 제안된 RtHexa-OmniMVS 알고리즘을 위해 모델 아키텍처를 최적화해서 실시간 전방위 깊이 추정을 가능하게 해.
+
+정확도, 강건성, 일반화를 높이기 위해, 우리는 교사-학생 자기 훈련 전략을 사용하고, 대규모의 레이블 없는 실제 데이터를 모델 훈련에 활용해. 제안된 알고리즘은 실내외 다양한 복잡한 실제 상황에서 높은 정확도를 보여주며, 엣지 컴퓨팅 플랫폼에서 15fps의 추론 속도를 달성해.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08031.pdf
+
+Title: LED: Light Enhanced Depth Estimation at Night
+
+Original Abstract:
+Nighttime camera-based depth estimation is a highly challenging task, especially for autonomous driving applications, where accurate depth perception is essential for ensuring safe navigation. We aim to improve the reliability of perception systems at night time, where models trained on daytime data often fail in the absence of precise but costly LiDAR sensors. In this work, we introduce Light Enhanced Depth (LED), a novel cost-effective approach that significantly improves depth estimation in low-light environments by harnessing a pattern projected by high definition headlights available in modern vehicles. LED leads to significant performance boosts across multiple depth-estimation architectures (encoder-decoder, Adabins, DepthFormer) both on synthetic and real datasets. Furthermore, increased performances beyond illuminated areas reveal a holistic enhancement in scene understanding. Finally, we release the Nighttime Synthetic Drive Dataset, a new synthetic and photo-realistic nighttime dataset, which comprises 49,990 comprehensively annotated images.
+
+Translated Abstract:
+야간 카메라 기반 깊이 추정은 자율 주행 같은 분야에서 정말 어려운 작업이야. 안전한 내비게이션을 위해서는 정확한 깊이 인지가 필수적이거든. 우리는 야간의 인식 시스템 신뢰성을 높이려고 해. 낮에 훈련된 모델들이 조명이 없는 상황에서는 잘 작동하지 않거든. 게다가 비쌀 수 있는 LiDAR 센서 없이도 말이야.
+
+이번 연구에서는 Light Enhanced Depth (LED)라는 새로운 접근 방식을 소개해. 이 방법은 현대 차량의 고해상도 헤드라이트가 비추는 패턴을 이용해서 저조도 환경에서 깊이 추정을 크게 개선해. LED는 여러 깊이 추정 아키텍처(인코더-디코더, Adabins, DepthFormer)에서 합성 데이터와 실제 데이터 세트 모두에서 성능을 크게 향상시켜.
+
+조명이 있는 지역을 넘어서도 성능이 향상된다는 것은 장면 이해 전반에 걸쳐 개선이 이루어졌다는 걸 의미해. 마지막으로, 우리는 49,990개의 상세하게 주석된 이미지를 포함한 새로운 합성 및 포토리얼리스틱 야간 데이터 세트인 Nighttime Synthetic Drive Dataset을 공개해.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08062.pdf
+
+Title: Q-value Regularized Decision ConvFormer for Offline Reinforcement Learning
+
+Original Abstract:
+As a data-driven paradigm, offline reinforcement learning (Offline RL) has been formulated as sequence modeling, where the Decision Transformer (DT) has demonstrated exceptional capabilities. Unlike previous reinforcement learning methods that fit value functions or compute policy gradients, DT adjusts the autoregressive model based on the expected returns, past states, and actions, using a causally masked Transformer to output the optimal action. However, due to the inconsistency between the sampled returns within a single trajectory and the optimal returns across multiple trajectories, it is challenging to set an expected return to output the optimal action and stitch together suboptimal trajectories. Decision ConvFormer (DC) is easier to understand in the context of modeling RL trajectories within a Markov Decision Process compared to DT. We propose the Q-value Regularized Decision ConvFormer (QDC), which combines the understanding of RL trajectories by DC and incorporates a term that maximizes action values using dynamic programming methods during training. This ensures that the expected returns of the sampled actions are consistent with the optimal returns. QDC achieves excellent performance on the D4RL benchmark, outperforming or approaching the optimal level in all tested environments. It particularly demonstrates outstanding competitiveness in trajectory stitching capability.
+
+Translated Abstract:
+오프라인 강화 학습(Offline RL)은 데이터 기반 패러다임으로, 시퀀스 모델링으로 구성되어 있어. Decision Transformer(DT)는 이런 부분에서 정말 뛰어난 능력을 보여줬어. 이전의 강화 학습 방법들이 가치 함수나 정책 기울기를 계산하는 것과는 달리, DT는 기대 보상, 과거 상태, 행동에 따라 자기 회귀 모델을 조정하고, 원인 마스킹된 트랜스포머를 사용해 최적의 행동을 출력해.
+
+하지만 한 경로 안에서 샘플링된 보상과 여러 경로에서의 최적 보상 사이에 일관성이 없어서, 기대 보상을 설정하고 최적의 행동을 출력하기가 어려워. 그래서 비최적 경로를 이어 붙이는 것도 힘들어. Decision ConvFormer(DC)는 DT보다 마르코프 결정 과정 내에서 RL 경로를 모델링하는 게 더 이해하기 쉬워. 
+
+우리는 Q-값 정규화된 Decision ConvFormer(QDC)를 제안하는데, 이건 DC가 RL 경로를 이해하는 방식을 결합하고, 훈련 중에 동적 프로그래밍 방법을 사용해 행동 값 최대화하는 항을 포함해. 이게 샘플링된 행동의 기대 보상이 최적 보상과 일치하도록 해줘. QDC는 D4RL 벤치마크에서 뛰어난 성능을 보여주고, 테스트한 모든 환경에서 최적 수준을 초과하거나 근접했어. 특히 경로 이어 붙이는 능력에서 정말 경쟁력이 뛰어나.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08222.pdf
+
+Title: Multi-Robot Coordination Induced in Hazardous Environments through an Adversarial Graph-Traversal Game
+
+Original Abstract:
+This paper presents a game theoretic formulation of a graph traversal problem, with applications to robots moving through hazardous environments in the presence of an adversary, as in military and security applications. The blue team of robots moves in an environment modeled by a time-varying graph, attempting to reach some goal with minimum cost, while the red team controls how the graph changes to maximize the cost. The problem is formulated as a stochastic game, so that Nash equilibrium strategies can be computed numerically. Bounds are provided for the game value, with a guarantee that it solves the original problem. Numerical simulations demonstrate the results and the effectiveness of this method, particularly showing the benefit of mixing actions for both players, as well as beneficial coordinated behavior, where blue robots split up and/or synchronize to traverse risky edges.
+
+Translated Abstract:
+이 논문은 그래프 탐색 문제를 게임 이론적으로 풀어낸 내용인데, 로봇들이 위험한 환경에서 적과 마주하면서 움직이는 상황에 적용할 수 있어. 주로 군사나 보안 분야에서 활용될 수 있어. 
+
+파란 팀 로봇들은 시간에 따라 변하는 그래프에서 최소 비용으로 목표에 도달하려고 하고, 빨간 팀은 그래프가 어떻게 변하는지를 조정해서 비용을 최대화하려고 해. 이 문제는 확률적 게임으로 설정되서, 내쉬 균형 전략을 수치적으로 계산할 수 있게 돼. 
+
+게임 값에 대한 경계도 제시되는데, 이게 원래 문제를 해결한다는 보장이 있어. 수치 시뮬레이션을 통해 결과와 이 방법의 효과를 보여주고, 특히 두 팀이 행동을 섞어서 하는 것이나, 파란 로봇들이 위험한 구간을 지나기 위해 나눠서 가거나 동기화하는 조정된 행동이 유리하다는 것도 보여줘.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.08253.pdf
+
+Title: The Design of Informative Take-Over Requests for Semi-Autonomous Cyber-Physical Systems: Combining Spoken Language and Visual Icons in a Drone-Controller Setting
+
+Original Abstract:
+The question of how cyber-physical systems should interact with human partners that can take over control or exert oversight is becoming more pressing, as these systems are deployed for an ever larger range of tasks. Drawing on the literatures on handing over control during semi-autonomous driving and human-robot interaction, we propose a design of a take-over request that combines an abstract pre-alert with an informative TOR: Relevant sensor information is highlighted on the controller's display, while a spoken message verbalizes the reason for the TOR. We conduct our study in the context of a semi-autonomous drone control scenario as our testbed. The goal of our online study is to assess in more detail what form a language-based TOR should take. Specifically, we compare a full sentence condition to shorter fragments, and test whether the visual highlighting should be done synchronously or asynchronously with the speech. Participants showed a higher accuracy in choosing the correct solution with our bi-modal TOR and felt that they were better able to recognize the critical situation. Using only fragments in the spoken message rather than full sentences did not lead to improved accuracy or faster reactions. Also, synchronizing the visual highlighting with the spoken message did not result in better accuracy and response times were even increased in this condition.
+
+Translated Abstract:
+사이버-물리 시스템이 인간 파트너와 어떻게 상호작용해야 하는지는 점점 더 중요해지고 있어. 특히 이 시스템들이 다양한 작업에 사용되면서 그런 질문이 더 많이 제기되고 있어. 우리는 반자동 주행과 인간-로봇 상호작용에 대한 연구를 바탕으로, 인수 요청을 디자인해봤어. 이 요청은 추상적인 사전 경고와 정보가 포함된 인수 요청(TOR)을 결합한 거야. 컨트롤러의 화면에는 관련 센서 정보가 강조되고, 음성 메시지는 TOR의 이유를 설명해줘.
+
+우리는 반자동 드론 제어 시나리오를 테스트베드로 사용해서 연구를 진행했어. 온라인 연구의 목표는 언어 기반 TOR의 형태를 더 자세히 평가하는 거야. 구체적으로, 우리는 전체 문장 조건과 짧은 조각을 비교하고, 시각적 강조가 음성과 동시에 이루어져야 하는지 아니면 비동기적으로 이루어져야 하는지를 실험했어. 참가자들은 우리가 제시한 이중 모달 TOR를 사용할 때 올바른 해결책을 선택하는 정확도가 더 높았고, 상황을 더 잘 인식했다고 느꼈어.
+
+음성 메시지에서 전체 문장 대신 조각만 사용하는 것은 정확도나 반응 속도를 개선하지 않았어. 그리고 시각적 강조를 음성과 동기화했을 때도 정확도가 더 높아지지 않았고, 오히려 반응 시간이 더 늘어났어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/1906.01868.pdf
+
+Title: A Survey of Behavior Learning Applications in Robotics -- State of the Art and Perspectives
+
+Original Abstract:
+Recent success of machine learning in many domains has been overwhelming, which often leads to false expectations regarding the capabilities of behavior learning in robotics. In this survey, we analyze the current state of machine learning for robotic behaviors. We will give a broad overview of behaviors that have been learned and used on real robots. Our focus is on kinematically or sensorially complex robots. That includes humanoid robots or parts of humanoid robots, for example, legged robots or robotic arms. We will classify presented behaviors according to various categories and we will draw conclusions about what can be learned and what should be learned. Furthermore, we will give an outlook on problems that are challenging today but might be solved by machine learning in the future and argue that classical robotics and other approaches from artificial intelligence should be integrated more with machine learning to form complete, autonomous systems.
+
+Translated Abstract:
+최근 머신러닝이 여러 분야에서 엄청난 성공을 거두면서 로봇의 행동 학습 능력에 대한 잘못된 기대가 생기는 경우가 많아. 이 설문에서는 로봇 행동을 위한 머신러닝의 현재 상태를 분석해볼 거야. 실제 로봇에서 배워지고 사용된 행동들에 대한 폭넓은 개요를 제공할 거야.
+
+우리는 운동학적으로나 감각적으로 복잡한 로봇에 초점을 맞출 거야. 여기에는 인간형 로봇이나 그 부품들, 예를 들어 다리가 있는 로봇이나 로봇 팔이 포함되지. 우리가 제시할 행동들을 여러 카테고리로 분류하고, 무엇을 배울 수 있는지, 무엇을 배워야 하는지에 대한 결론을 내릴 거야.
+
+그리고 현재 해결하기 어려운 문제들에 대한 전망도 제시할 건데, 이 문제들은 앞으로 머신러닝으로 해결될 가능성이 있어. 또한 고전적인 로봇공학과 인공지능의 다른 접근 방식들이 머신러닝과 더 통합되어 완전하고 자율적인 시스템을 형성해야 한다고 주장할 거야.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2302.10769.pdf
+
+Title: A comparative study of human inverse kinematics techniques for lower limbs
+
+Original Abstract:
+Inverse Kinematics (IK) remains a dynamic field of research, with various methods striving for speed and precision. Despite advancements, many IK techniques face significant challenges, including high computational demands and the risk of generating unrealistic joint configurations. This paper conducts a comprehensive comparative analysis of leading IK methods applied to the human leg, aiming to identify the most effective approach. We evaluate each method based on computational efficiency and its ability to produce realistic postures, while adhering to the natural range of motion and comfort zones of the joints. The findings provide insights into optimizing IK solutions for practical applications in biomechanics and animation.
+
+Translated Abstract:
+역운동학(IK)은 여전히 활발한 연구 분야로, 여러 방법들이 속도와 정밀도를 높이기 위해 노력하고 있어. 하지만 발전에도 불구하고 많은 IK 기술들은 높은 계산 요구사항과 비현실적인 관절 구성을 생성할 위험 같은 큰 도전에 직면해 있어.
+
+이 논문에서는 인간의 다리에 적용된 주요 IK 방법들을 종합적으로 비교 분석해. 목표는 가장 효과적인 접근 방식을 찾는 거야. 우리는 각 방법을 계산 효율성과 현실적인 자세를 만들어내는 능력에 따라 평가해. 그리고 관절의 자연스러운 움직임 범위와 편안한 구역을 지키는 것도 고려해.
+
+이 연구 결과는 생체역학과 애니메이션 같은 실제 응용을 위한 IK 솔루션 최적화에 대한 통찰을 제공해.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2305.19075.pdf
+
+Title: Language-Conditioned Imitation Learning with Base Skill Priors under Unstructured Data
+
+Original Abstract:
+The growing interest in language-conditioned robot manipulation aims to develop robots capable of understanding and executing complex tasks, with the objective of enabling robots to interpret language commands and manipulate objects accordingly. While language-conditioned approaches demonstrate impressive capabilities for addressing tasks in familiar environments, they encounter limitations in adapting to unfamiliar environment settings. In this study, we propose a general-purpose, language-conditioned approach that combines base skill priors and imitation learning under unstructured data to enhance the algorithm's generalization in adapting to unfamiliar environments. We assess our model's performance in both simulated and real-world environments using a zero-shot setting. In the simulated environment, the proposed approach surpasses previously reported scores for CALVIN benchmark, especially in the challenging Zero-Shot Multi-Environment setting. The average completed task length, indicating the average number of tasks the agent can continuously complete, improves more than 2.5 times compared to the state-of-the-art method HULC. In addition, we conduct a zero-shot evaluation of our policy in a real-world setting, following training exclusively in simulated environments without additional specific adaptations. In this evaluation, we set up ten tasks and achieved an average 30% improvement in our approach compared to the current state-of-the-art approach, demonstrating a high generalization capability in both simulated environments and the real world. For further details, including access to our code and videos, please refer to this https URL
+
+Translated Abstract:
+언어에 맞춰 로봇 조작을 연구하는 것에 대한 관심이 점점 커지고 있어. 목표는 로봇이 복잡한 작업을 이해하고 수행할 수 있게 만드는 거야. 즉, 로봇이 언어 명령을 해석하고 그에 따라 물체를 조작할 수 있도록 하려는 거지. 
+
+언어 기반 접근 방식은 익숙한 환경에서 작업을 처리하는 데는 아주 좋은 성능을 보여주지만, 낯선 환경에서는 적응하는 데 한계가 있어. 이 연구에서는 기본 기술을 활용하고 모방 학습을 결합한 일반 목적의 언어 기반 접근 방식을 제안해. 이렇게 하면 알고리즘이 낯선 환경에 적응하는 데 더 잘 일반화될 수 있어.
+
+우리는 우리 모델의 성능을 시뮬레이션된 환경과 실제 환경에서 제로샷 설정으로 평가했어. 시뮬레이션 환경에서는 제안한 접근 방식이 CALVIN 벤치마크에서 이전에 보고된 점수를 초과했어. 특히 어려운 제로샷 다중 환경 설정에서 더 효과적이었지. 에이전트가 연속적으로 수행할 수 있는 평균 작업 수치가 최신 방법인 HULC에 비해 2.5배 이상 향상됐어.
+
+또한, 우리는 시뮬레이션 환경에서만 훈련하고 추가적인 특별한 조정 없이 실제 환경에서 우리 정책을 제로샷으로 평가했어. 이 평가에서는 10개의 작업을 설정하고, 현재의 최신 방법에 비해 평균 30% 개선된 성과를 거두었어. 이는 시뮬레이션 환경과 실제 환경 모두에서 높은 일반화 능력을 보여주는 거야.
+
+더 자세한 내용이나 코드, 비디오에 대한 정보는 이 https URL을 참고해.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2310.06074.pdf
+
+Title: Momentum-Aware Trajectory Optimisation using Full-Centroidal Dynamics and Implicit Inverse Kinematics
+
+Original Abstract:
+The current state-of-the-art gradient-based optimisation frameworks are able to produce impressive dynamic manoeuvres such as linear and rotational jumps. However, these methods, which optimise over the full rigid-body dynamics of the robot, often require precise foothold locations apriori, while real-time performance is not guaranteed without elaborate regularisation and tuning of the cost function. In contrast, we investigate the advantages of a task-space optimisation framework, with special focus on acrobatic motions. Our proposed formulation exploits the system's high-order nonlinearities, such as the nonholonomy of the angular momentum, in order to produce feasible, high-acceleration manoeuvres. By leveraging the full-centroidal dynamics of the quadruped ANYmal C and directly optimising its footholds and contact forces, the framework is capable of producing efficient motion plans with low computational overhead. Finally, we deploy our proposed framework on the ANYmal C platform, and demonstrate its true capabilities through real-world experiments, with the successful execution of high-acceleration motions, such as linear and rotational jumps. Extensive analysis of these shows that the robot's dynamics can be exploited to surpass its hardware limitations of having a high mass and low-torque limits.
+
+Translated Abstract:
+현재의 최첨단 그래디언트 기반 최적화 프레임워크는 선형 점프와 회전 점프 같은 인상적인 동적 동작을 만들어낼 수 있어. 하지만 이런 방법들은 로봇의 전체 강체 동역학을 최적화해야 하므로, 미리 정확한 발판 위치가 필요해. 그리고 실시간 성능을 보장하려면 복잡한 정규화와 비용 함수 조정이 필요해. 
+
+반면에 우리는 재주 넘기 같은 동작에 집중해서 작업 공간 최적화 프레임워크의 장점을 살펴봤어. 우리가 제안한 방법은 각운동량의 비보존성과 같은 시스템의 고차 비선형성을 활용해서 실현 가능한 고가속도 동작을 만들어내. 
+
+ANYmal C라는 네발 로봇의 전체 중심 동역학을 활용하고 발판과 접촉 힘을 직접 최적화함으로써, 이 프레임워크는 낮은 계산 부담으로 효율적인 동작 계획을 만들어낼 수 있어. 마지막으로, 우리는 제안한 프레임워크를 ANYmal C 플랫폼에 적용하고, 실제 실험을 통해 고속 동작, 예를 들어 선형 점프와 회전 점프 같은 것을 성공적으로 수행함으로써 그 진정한 능력을 보여줬어. 
+
+이 실험에 대한 광범위한 분석 결과, 로봇의 동역학을 활용하면 높은 질량과 낮은 토크 한계를 넘어설 수 있다는 걸 알게 되었어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2403.00381.pdf
+
+Title: Structured Deep Neural Network-Based Backstepping Trajectory Tracking Control for Lagrangian Systems
+
+Original Abstract:
+Deep neural networks (DNN) are increasingly being used to learn controllers due to their excellent approximation capabilities. However, their black-box nature poses significant challenges to closed-loop stability guarantees and performance analysis. In this paper, we introduce a structured DNN-based controller for the trajectory tracking control of Lagrangian systems using backing techniques. By properly designing neural network structures, the proposed controller can ensure closed-loop stability for any compatible neural network parameters. In addition, improved control performance can be achieved by further optimizing neural network parameters. Besides, we provide explicit upper bounds on tracking errors in terms of controller parameters, which allows us to achieve the desired tracking performance by properly selecting the controller parameters. Furthermore, when system models are unknown, we propose an improved Lagrangian neural network (LNN) structure to learn the system dynamics and design the controller. We show that in the presence of model approximation errors and external disturbances, the closed-loop stability and tracking control performance can still be guaranteed. The effectiveness of the proposed approach is demonstrated through simulations.
+
+Translated Abstract:
+딥 뉴럴 네트워크(DNN)는 뛰어난 근사 능력 덕분에 제어기를 학습하는 데 점점 더 많이 사용되고 있어. 하지만 이걸 블랙박스처럼 다루다 보니 폐쇄 루프 안정성 보장이나 성능 분석에서 큰 문제가 생겨. 
+
+이 논문에서는 라그랑지안 시스템의 궤적 추적 제어를 위해 구조화된 DNN 기반 제어기를 소개해. 뒷받침 기법을 사용해서 신경망 구조를 잘 설계하면, 제안한 제어기가 호환되는 신경망 매개변수에 대해 폐쇄 루프 안정성을 보장할 수 있어. 게다가 신경망 매개변수를 더 최적화하면 제어 성능도 개선할 수 있어.
+
+또한, 우리는 제어기 매개변수에 대한 추적 오차의 명시적인 상한을 제공하는데, 이를 통해 적절한 제어기 매개변수를 선택함으로써 원하는 추적 성능을 달성할 수 있어. 게다가, 시스템 모델이 알려져 있지 않을 때는 시스템 동역학을 학습하고 제어기를 설계하기 위해 개선된 라그랑지안 신경망(LNN) 구조를 제안해. 모델 근사 오차와 외부 방해가 있을 때에도 폐쇄 루프 안정성과 추적 제어 성능을 여전히 보장할 수 있음을 보여줘. 
+
+제안한 방법의 효과는 시뮬레이션을 통해 입증해.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2403.05136.pdf
+
+Title: DeRO: Dead Reckoning Based on Radar Odometry With Accelerometers Aided for Robot Localization
+
+Original Abstract:
+In this paper, we propose a radar odometry structure that directly utilizes radar velocity measurements for dead reckoning while maintaining its ability to update estimations within the Kalman filter framework. Specifically, we employ the Doppler velocity obtained by a 4D Frequency Modulated Continuous Wave (FMCW) radar in conjunction with gyroscope data to calculate poses. This approach helps mitigate high drift resulting from accelerometer biases and double integration. Instead, tilt angles measured by gravitational force are utilized alongside relative distance measurements from radar scan matching for the filter's measurement update. Additionally, to further enhance the system's accuracy, we estimate and compensate for the radar velocity scale factor. The performance of the proposed method is verified through five real-world open-source datasets. The results demonstrate that our approach reduces position error by 62% and rotation error by 66% on average compared to the state-of-the-art radar-inertial fusion method in terms of absolute trajectory error.
+
+Translated Abstract:
+이 논문에서는 레이더 속도 측정을 직접 활용하는 레이더 오도메트리 구조를 제안해. 이 구조는 사전 경로 추정(데드 레코닝)을 하면서도 칼만 필터 프레임워크 내에서 추정값을 업데이트할 수 있어.
+
+구체적으로, 우리는 4D 주파수 변조 연속파(FMCW) 레이더에서 얻은 도플러 속도와 자이로스코프 데이터를 함께 사용해서 위치를 계산해. 이렇게 하면 가속도계의 편향이나 이중 적분으로 인한 큰 드리프트 문제를 줄일 수 있어. 대신, 중력으로 측정한 기울기 각도와 레이더 스캔 매칭을 통해 얻은 상대 거리 측정을 이용해서 필터의 측정 업데이트를 해.
+
+또한, 시스템의 정확성을 높이기 위해 레이더 속도 스케일 팩터를 추정하고 보정해. 제안한 방법의 성능은 다섯 개의 실제 오픈 소스 데이터셋을 통해 검증했어. 결과적으로, 우리의 접근 방식이 최신 레이더-관성 융합 방법에 비해 위치 오류를 평균 62% 줄이고 회전 오류를 평균 66% 줄인다는 걸 보여줬어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2404.02515.pdf
+
+Title: Tightly-Coupled LiDAR-IMU-Wheel Odometry with Online Calibration of a Kinematic Model for Skid-Steering Robots
+
+Original Abstract:
+Tunnels and long corridors are challenging environments for mobile robots because a LiDAR point cloud should degenerate in these environments. To tackle point cloud degeneration, this study presents a tightly-coupled LiDAR-IMU-wheel odometry algorithm with an online calibration for skid-steering robots. We propose a full linear wheel odometry factor, which not only serves as a motion constraint but also performs the online calibration of kinematic models for skid-steering robots. Despite the dynamically changing kinematic model (e.g., wheel radii changes caused by tire pressures) and terrain conditions, our method can address the model error via online calibration. Moreover, our method enables an accurate localization in cases of degenerated environments, such as long and straight corridors, by calibration while the LiDAR-IMU fusion sufficiently operates. Furthermore, we estimate the uncertainty (i.e., covariance matrix) of the wheel odometry online for creating a reasonable constraint. The proposed method is validated through three experiments. The first indoor experiment shows that the proposed method is robust in severe degeneracy cases (long corridors) and changes in the wheel radii. The second outdoor experiment demonstrates that our method accurately estimates the sensor trajectory despite being in rough outdoor terrain owing to online uncertainty estimation of wheel odometry. The third experiment shows the proposed online calibration enables robust odometry estimation in changing terrains.
+
+Translated Abstract:
+터널과 긴 복도는 모바일 로봇에게 도전적인 환경이야. 왜냐하면 이런 환경에서는 LiDAR 포인트 클라우드가 저하되기 때문이지. 이 문제를 해결하기 위해, 이 연구에서는 스키드 스티어링 로봇을 위한 온라인 보정을 포함한 긴밀하게 결합된 LiDAR-IMU-휠 오도메트리 알고리즘을 제안해. 
+
+우리는 전체 선형 휠 오도메트리 팩터를 제안하는데, 이건 단순히 움직임 제약으로 기능할 뿐만 아니라 스키드 스티어링 로봇의 운동 모델을 온라인으로 보정해. 휠 반지름의 변화처럼 동적으로 바뀌는 운동 모델이나 지형 조건에도 불구하고, 우리의 방법은 온라인 보정을 통해 모델 오류를 해결할 수 있어. 게다가, 우리의 방법은 LiDAR-IMU 융합이 충분히 작동하는 동안 보정을 통해 긴 직선 복도 같은 저하된 환경에서도 정확한 위치 추정을 가능하게 해.
+
+더 나아가, 우리는 합리적인 제약을 만들기 위해 휠 오도메트리의 불확실성(즉, 공분산 행렬)을 온라인으로 추정해. 제안된 방법은 세 가지 실험을 통해 검증됐어. 첫 번째 실내 실험에서는 제안된 방법이 심각한 저하 상황(긴 복도)과 휠 반지름의 변화에서도 강력하다는 걸 보여줬어. 두 번째 야외 실험에서는 우리의 방법이 거친 야외 지형에서도 센서 궤적을 정확하게 추정하는 걸 입증했어. 세 번째 실험에서는 제안된 온라인 보정이 변화하는 지형에서 강력한 오도메트리 추정을 가능하게 한다는 걸 보여줬어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2404.03325.pdf
+
+Title: Embodied Neuromorphic Artificial Intelligence for Robotics: Perspectives, Challenges, and Research Development Stack
+
+Original Abstract:
+Robotic technologies have been an indispensable part for improving human productivity since they have been helping humans in completing diverse, complex, and intensive tasks in a fast yet accurate and efficient way. Therefore, robotic technologies have been deployed in a wide range of applications, ranging from personal to industrial use-cases. However, current robotic technologies and their computing paradigm still lack embodied intelligence to efficiently interact with operational environments, respond with correct/expected actions, and adapt to changes in the environments. Toward this, recent advances in neuromorphic computing with Spiking Neural Networks (SNN) have demonstrated the potential to enable the embodied intelligence for robotics through bio-plausible computing paradigm that mimics how the biological brain works, known as "neuromorphic artificial intelligence (AI)". However, the field of neuromorphic AI-based robotics is still at an early stage, therefore its development and deployment for solving real-world problems expose new challenges in different design aspects, such as accuracy, adaptability, efficiency, reliability, and security. To address these challenges, this paper will discuss how we can enable embodied neuromorphic AI for robotic systems through our perspectives: (P1) Embodied intelligence based on effective learning rule, training mechanism, and adaptability; (P2) Cross-layer optimizations for energy-efficient neuromorphic computing; (P3) Representative and fair benchmarks; (P4) Low-cost reliability and safety enhancements; (P5) Security and privacy for neuromorphic computing; and (P6) A synergistic development for energy-efficient and robust neuromorphic-based robotics. Furthermore, this paper identifies research challenges and opportunities, as well as elaborates our vision for future research development toward embodied neuromorphic AI for robotics.
+
+Translated Abstract:
+로봇 기술은 인간의 생산성을 높이는 데 필수적인 역할을 해왔어. 다양한 복잡하고 힘든 일을 빠르고 정확하게 도와주니까. 그래서 로봇 기술은 개인적인 용도부터 산업용까지 여러 분야에서 사용되고 있어.
+
+하지만 현재 로봇 기술과 그 컴퓨팅 방식은 환경과 효율적으로 상호작용하고, 올바른 행동을 하고, 변화에 적응하는 '체화된 지능'이 부족해. 최근에는 스파이킹 신경망(SNN)과 같은 신경형 컴퓨팅의 발전 덕분에 생물학적 뇌의 작동 방식을 모방한 '신경형 인공지능(AI)'이 로봇에 체화된 지능을 가능하게 할 잠재력을 보여주고 있어. 하지만 신경형 AI 기반 로봇 분야는 아직 초기 단계라서 실제 문제를 해결하는 데는 새로운 도전 과제가 있어. 여기에는 정확성, 적응성, 효율성, 신뢰성, 보안 같은 다양한 디자인 측면이 포함돼.
+
+이 논문에서는 이러한 도전 과제를 해결하기 위해 체화된 신경형 AI를 로봇 시스템에 적용할 수 있는 방법을 논의할 거야. 여기에는 (P1) 효과적인 학습 규칙, 훈련 메커니즘, 적응성에 기반한 체화된 지능; (P2) 에너지 효율적인 신경형 컴퓨팅을 위한 크로스 레이어 최적화; (P3) 대표적이고 공정한 벤치마크; (P4) 저비용 신뢰성 및 안전성 향상; (P5) 신경형 컴퓨팅을 위한 보안 및 개인 정보 보호; (P6) 에너지 효율적이고 강력한 신경형 기반 로봇 개발의 시너지 등 여러 관점이 포함돼 있어.
+
+또한 이 논문은 연구의 도전 과제와 기회를 식별하고, 로봇을 위한 체화된 신경형 AI의 미래 연구 발전에 대한 비전을 자세히 설명할 거야.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2404.04193.pdf
+
+Title: ToolEENet: Tool Affordance 6D Pose Estimation
+
+Original Abstract:
+The exploration of robotic dexterous hands utilizing tools has recently attracted considerable attention. A significant challenge in this field is the precise awareness of a tool's pose when grasped, as occlusion by the hand often degrades the quality of the estimation. Additionally, the tool's overall pose often fails to accurately represent the contact interaction, thereby limiting the effectiveness of vision-guided, contact-dependent activities. To overcome this limitation, we present the innovative TOOLEE dataset, which, to the best of our knowledge, is the first to feature affordance segmentation of a tool's end-effector (EE) along with its defined 6D pose based on its usage. Furthermore, we propose the ToolEENet framework for accurate 6D pose estimation of the tool's EE. This framework begins by segmenting the tool's EE from raw RGBD data, then uses a diffusion model-based pose estimator for 6D pose estimation at a category-specific level. Addressing the issue of symmetry in pose estimation, we introduce a symmetry-aware pose representation that enhances the consistency of pose estimation. Our approach excels in this field, demonstrating high levels of precision and generalization. Furthermore, it shows great promise for application in contact-based manipulation scenarios. All data and codes are available on the project website: this https URL
+
+Translated Abstract:
+로봇의 정교한 손이 도구를 사용하는 연구가 최근에 많은 관심을 받고 있어. 이 분야의 큰 도전 중 하나는 도구를 잡았을 때의 자세를 정확히 파악하는 건데, 손이 도구를 가리면 측정 품질이 떨어져. 게다가 도구의 전체 자세가 실제 접촉 상호작용을 잘 나타내지 않아서, 비전 기반의 접촉 의존 활동의 효과가 제한돼.
+
+이런 한계를 극복하기 위해 우리는 TOOLEE 데이터셋을 새롭게 소개해. 우리가 아는 한, 이 데이터셋은 도구의 끝단(EE)의 유용성 분할(affordance segmentation)과 그 사용에 따른 6D 자세를 정의하는 첫 번째 데이터셋이야. 그리고 ToolEENet 프레임워크를 제안해서 도구의 EE의 6D 자세를 정확하게 추정할 수 있어. 이 프레임워크는 원본 RGBD 데이터에서 도구의 EE를 분할하는 것부터 시작해, 카테고리별로 6D 자세를 추정하는 확산 모델 기반 자세 추정기를 사용해.
+
+자세 추정의 대칭성 문제를 해결하기 위해, 대칭성을 인식하는 자세 표현을 도입해서 자세 추정의 일관성을 높였어. 우리의 접근 방식은 이 분야에서 뛰어난 성능을 보이며, 높은 정확도와 일반화 능력을 보여줘. 게다가 접촉 기반 조작 시나리오에 적용할 수 있는 가능성도 있어. 모든 데이터와 코드는 프로젝트 웹사이트에서 확인할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2406.04858.pdf
+
+Title: Auto-Multilift: Distributed Learning and Control for Cooperative Load Transportation With Quadrotors
+
+Original Abstract:
+Designing motion control and planning algorithms for multilift systems remains challenging due to the complexities of dynamics, collision avoidance, actuator limits, and scalability. Existing methods that use optimization and distributed techniques effectively address these constraints and scalability issues. However, they often require substantial manual tuning, leading to suboptimal performance. This paper proposes Auto-Multilift, a novel framework that automates the tuning of model predictive controllers (MPCs) for multilift systems. We model the MPC cost functions with deep neural networks (DNNs), enabling fast online adaptation to various scenarios. We develop a distributed policy gradient algorithm to train these DNNs efficiently in a closed-loop manner. Central to our algorithm is distributed sensitivity propagation, which is built on fully exploiting the unique dynamic couplings within the multilift system. It parallelizes gradient computation across quadrotors and focuses on actual system state sensitivities relative to key MPC parameters. Extensive simulations demonstrate favorable scalability to a large number of quadrotors. Our method outperforms a state-of-the-art open-loop MPC tuning approach by effectively learning adaptive MPCs from trajectory tracking errors. It also excels in learning an adaptive reference for reconfiguring the system when traversing multiple narrow slots.
+
+Translated Abstract:
+다중 리프트 시스템의 모션 제어 및 계획 알고리즘을 설계하는 건 여전히 어려워. 동역학의 복잡성, 충돌 회피, 액추에이터의 한계, 그리고 확장성 같은 문제들이 있거든. 기존의 최적화와 분산 기법을 사용하는 방법들은 이러한 제약과 확장성 문제를 잘 해결하긴 하지만, 보통 많은 수동 조정이 필요해서 성능이 최적이 아닐 때가 많아.
+
+이 논문에서는 Auto-Multilift라는 새로운 프레임워크를 제안해. 이건 다중 리프트 시스템을 위한 모델 예측 제어기(MPC)의 조정을 자동으로 해줘. 우리는 MPC 비용 함수를 심층 신경망(DNN)으로 모델링해서 다양한 상황에 빠르게 적응할 수 있도록 했어. 그리고 이 DNN을 효율적으로 훈련시키기 위해 분산 정책 기울기 알고리즘을 개발했어.
+
+우리 알고리즘의 핵심은 분산 민감도 전파인데, 이건 다중 리프트 시스템 내의 독특한 동적 결합을 완전히 활용해. 쿼드로터 간의 기울기 계산을 병렬로 처리하고, 주요 MPC 매개변수에 대한 실제 시스템 상태의 민감도에 초점을 맞춰.
+
+광범위한 시뮬레이션 결과, 많은 수의 쿼드로터에 대해 좋은 확장성을 보여줬어. 우리 방법은 궤적 추적 오류로부터 적응형 MPC를 효과적으로 학습해서 최신 오픈 루프 MPC 조정 방법보다 성능이 더 뛰어나. 또한, 여러 좁은 슬롯을 통과할 때 시스템을 재구성하기 위한 적응형 기준을 학습하는 데도 잘 작동해.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2406.11548.pdf
+
+Title: AIC MLLM: Autonomous Interactive Correction MLLM for Robust Robotic Manipulation
+
+Original Abstract:
+The ability to reflect on and correct failures is crucial for robotic systems to interact stably with real-life objects.Observing the generalization and reasoning capabilities of Multimodal Large Language Models (MLLMs), previous approaches have aimed to utilize these models to enhance robotic systems accordingly.However, these methods typically focus on high-level planning corrections using an additional MLLM, with limited utilization of failed samples to correct low-level contact poses. To address this gap, we propose an Autonomous Interactive Correction (AIC) MLLM, which makes use of previous low-level interaction experiences to correct SE(3) pose predictions. Specifically, AIC MLLM is initially fine-tuned to acquire both pose prediction and feedback prompt comprehension abilities.We carefully design two types of prompt instructions through interactions with objects: 1) visual masks to highlight unmovable parts for position correction, and 2)textual descriptions to indicate potential directions for rotation correction.During inference, a Feedback Information Extraction module is introduced to recognize the failure cause, allowing AIC MLLM to adaptively correct the pose prediction using the corresponding prompts. To further enhance manipulation stability, we devise a Test Time Adaptation strategy that enables AIC MLLM to better adapt to the current scene configuration.Finally, extensive experiments are conducted in both simulated and real-world environments to evaluate the proposed method. The results demonstrate that our AIC MLLM can efficiently correct failure samples by leveraging interaction experience prompts.Real-world demonstration can be found at this https URL
+
+Translated Abstract:
+로봇 시스템이 실제 물체와 안정적으로 상호작용하기 위해서는 실패를 반성하고 수정하는 능력이 정말 중요해. 멀티모달 대형 언어 모델(MLLM)의 일반화 및 추론 능력을 관찰한 결과, 이전 연구들은 이런 모델을 활용해 로봇 시스템을 개선하려고 했어. 하지만 이런 방법들은 보통 추가적인 MLLM을 사용해서 고수준 계획 수정에만 집중하고, 실패한 샘플을 활용해 저수준 접촉 자세를 수정하는 데는 한계가 있었지.
+
+이 문제를 해결하기 위해 우리는 자율적 상호작용 수정(AIC) MLLM을 제안해. 이 모델은 이전의 저수준 상호작용 경험을 활용해서 SE(3) 자세 예측을 수정해. 구체적으로, AIC MLLM은 처음에 자세 예측과 피드백 프롬프트 이해 능력을 함께 학습해. 우리는 물체와의 상호작용을 통해 두 가지 종류의 프롬프트 지침을 신중하게 설계했어: 1) 위치 수정을 위해 움직이지 않는 부분을 강조하는 시각적 마스크, 2) 회전 수정을 위한 잠재적 방향을 나타내는 텍스트 설명이야.
+
+추론 중에는 피드백 정보 추출 모듈을 도입해서 실패 원인을 인식할 수 있도록 해, 그러면 AIC MLLM이 해당 프롬프트를 사용해 적응적으로 자세 예측을 수정할 수 있어. 조작의 안정성을 더욱 향상시키기 위해, 우리는 AIC MLLM이 현재 장면 구성에 더 잘 적응할 수 있도록 테스트 시간 적응 전략을 개발했어. 
+
+마지막으로, 제안한 방법을 평가하기 위해 시뮬레이션 환경과 실제 환경 모두에서 광범위한 실험을 진행했어. 결과적으로, 우리 AIC MLLM은 상호작용 경험 프롬프트를 활용해서 실패한 샘플을 효율적으로 수정할 수 있다는 걸 보여줬어. 실제 데모는 이 URL에서 확인할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2406.14634.pdf
+
+Title: Adaptive Manipulation using Behavior Trees
+
+Original Abstract:
+Many manipulation tasks pose a challenge since they depend on non-visual environmental information that can only be determined after sustained physical interaction has already begun. This is particularly relevant for effort-sensitive, dynamics-dependent tasks such as tightening a valve. To perform these tasks safely and reliably, robots must be able to quickly adapt in response to unexpected changes during task execution. Humans can intuitively respond and adapt their manipulation strategy to suit such problems, but representing and implementing such behaviors for robots remains an open question. We present the adaptive behavior tree, which enables a robot to quickly adapt to both visual and non-visual observations during task execution, preempting task failure or switching to a different strategy based on data from previous attempts. We test our approach on a number of tasks commonly found in industrial settings. Our results demonstrate safety, robustness (100% success rate for all but one experiment) and efficiency in task completion (eg, an overall task speedup of 46% on average for valve tightening), and would reduce dependency on human supervision and intervention.
+
+Translated Abstract:
+많은 조작 작업은 시각 정보 외에도 환경의 비가시적 정보에 의존해서 어려움을 겪어. 이런 정보는 실제로 물리적인 상호작용이 시작된 후에야 알 수 있어. 특히 밸브 조이기 같은 힘에 민감하고 동역학에 의존하는 작업에서 이 문제가 더 중요해져. 로봇이 이런 작업을 안전하고 신뢰성 있게 수행하려면, 작업 실행 중에 예상치 못한 변화에 빠르게 적응할 수 있어야 해.
+
+사람들은 이런 문제에 대해 직관적으로 반응하고 조작 전략을 조정할 수 있지만, 로봇이 이런 행동을 어떻게 표현하고 구현할지는 여전히 해결해야 할 문제야. 우리는 '적응형 행동 트리'를 제안하는데, 이걸 통해 로봇이 작업 실행 중에 시각적 및 비시각적 관찰에 빠르게 적응할 수 있어. 이로 인해 작업 실패를 미리 방지하거나 이전 시도에서 얻은 데이터를 기반으로 다른 전략으로 전환할 수 있어.
+
+우리는 산업 환경에서 자주 볼 수 있는 여러 작업에 우리 접근 방식을 테스트했어. 결과는 안전하고, 강력하며 (모든 실험 중 하나를 제외하고 100% 성공률) 작업 완료 효율성도 높았어 (예를 들어, 밸브 조이기를 평균 46% 빠르게 완료했어). 이렇게 하면 사람의 감독이나 개입에 대한 의존도를 줄일 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2406.18977.pdf
+
+Title: RoboUniView: Visual-Language Model with Unified View Representation for Robotic Manipulation
+
+Original Abstract:
+Utilizing Vision-Language Models (VLMs) for robotic manipulation represents a novel paradigm, aiming to enhance the model's ability to generalize to new objects and instructions. However, due to variations in camera specifications and mounting positions, existing methods exhibit significant performance disparities across different robotic platforms. To address this challenge, we propose RoboUniView in this paper, an innovative approach that decouples visual feature extraction from action learning. We first learn a unified view representation from multi-perspective views by pre-training on readily accessible data, and then derive actions from this unified view representation to control robotic manipulation. This unified view representation more accurately mirrors the physical world and is not constrained by the robotic platform's camera parameters. Thanks to this methodology, we achieve state-of-the-art performance on the demanding CALVIN benchmark, enhancing the success rate in the $D \to D$ setting from 93.0% to 96.2%, and in the $ABC \to D$ setting from 92.2% to 94.2%. Moreover, our model exhibits outstanding adaptability and flexibility: it maintains high performance under unseen camera parameters, can utilize multiple datasets with varying camera parameters, and is capable of joint cross-task learning across datasets. Code is provided for re-implementation. this https URL
+
+Translated Abstract:
+로봇 조작을 위한 비전-언어 모델(VLMs)을 사용하는 것은 새로운 접근 방식으로, 모델이 새로운 물체와 지시에 잘 적응하도록 하는 걸 목표로 해. 하지만 카메라 사양과 장착 위치의 차이 때문에 기존 방법들은 다양한 로봇 플랫폼에서 성능 차이가 커. 이 문제를 해결하기 위해 우리는 RoboUniView라는 새로운 방법을 제안해. 이 방법은 시각적 특징 추출과 행동 학습을 분리해.
+
+먼저, 여러 관점에서 본 통합 뷰 표현을 쉽게 접근할 수 있는 데이터를 이용해 사전 학습으로 배우고, 그 후 이 통합 뷰 표현을 통해 로봇 조작을 위한 행동을 도출해. 이 통합 뷰 표현은 실제 세계를 더 정확하게 반영하고, 로봇 플랫폼의 카메라 매개변수에 제약을 받지 않아.
+
+이 방법 덕분에 우리는 CALVIN 벤치마크에서 최신 성능을 달성했어. $D \to D$ 설정에서 성공률이 93.0%에서 96.2%로, $ABC \to D$ 설정에서는 92.2%에서 94.2%로 향상됐어. 게다가 우리 모델은 뛰어난 적응력과 유연성을 보여줘: 보지 못한 카메라 매개변수에서도 높은 성능을 유지하고, 다양한 카메라 매개변수를 가진 여러 데이터셋을 사용할 수 있으며, 데이터셋 간의 공동 크로스-태스크 학습도 가능해. 코드도 제공하니, 재구현하고 싶다면 이 링크를 확인해.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2407.10789.pdf
+
+Title: Tailoring Solution Accuracy for Fast Whole-body Model Predictive Control of Legged Robots
+
+Original Abstract:
+Thanks to recent advancements in accelerating non-linear model predictive control (NMPC), it is now feasible to deploy whole-body NMPC at real-time rates for humanoid robots. However, enforcing inequality constraints in real time for such high-dimensional systems remains challenging due to the need for additional iterations. This paper presents an implementation of whole-body NMPC for legged robots that provides low-accuracy solutions to NMPC with general equality and inequality constraints. Instead of aiming for highly accurate optimal solutions, we leverage the alternating direction method of multipliers to rapidly provide low-accuracy solutions to quadratic programming subproblems. Our extensive simulation results indicate that real robots often cannot benefit from highly accurate solutions due to dynamics discretization errors, inertial modeling errors and delays. We incorporate control barrier functions (CBFs) at the initial timestep of the NMPC for the self-collision constraints, resulting in up to a 26-fold reduction in the number of self-collisions without adding computational burden. The controller is reliably deployed on hardware at 90 Hz for a problem involving 32 timesteps, 2004 variables, and 3768 constraints. The NMPC delivers sufficiently accurate solutions, enabling the MIT Humanoid to plan complex crossed-leg and arm motions that enhance stability when walking and recovering from significant disturbances.
+
+Translated Abstract:
+최근 비선형 모델 예측 제어(NMPC)의 발전 덕분에, 이제 휴머노이드 로봇을 위해 전체 신체 NMPC를 실시간으로 사용할 수 있게 됐어. 하지만 고차원 시스템에서 실시간으로 불평등 제약 조건을 적용하는 건 여전히 어려운 문제야. 이 연구에서는 다리 로봇을 위한 전체 신체 NMPC 구현을 제안하는데, 일반적인 평등 및 불평등 제약 조건에 대해 낮은 정확도의 솔루션을 제공해.
+
+우리는 높은 정확도의 최적 솔루션을 목표로 하기보다는, 대체 방향 방법을 이용해 빠르게 저정확도의 솔루션을 제공해. 시뮬레이션 결과를 보면, 실제 로봇은 동역학 이산화 오류, 관성 모델링 오류, 지연 때문에 높은 정확도의 솔루션을 제대로 활용하지 못해.
+
+우리는 NMPC의 초기 시간 단계에서 자기 충돌 제약 조건을 위해 제어 장벽 함수(CBF)를 포함했어. 이렇게 해서 자기 충돌 횟수를 최대 26배 줄일 수 있었고, 계산 부담도 늘리지 않았어. 이 컨트롤러는 32개의 시간 단계, 2004개의 변수, 3768개의 제약 조건이 있는 문제에 대해 90Hz로 하드웨어에서 안정적으로 작동해. NMPC는 충분히 정확한 솔루션을 제공하며, MIT 휴머노이드가 걷거나 큰 방해에서 회복할 때 안정성을 높이는 복잡한 다리 교차 및 팔 움직임을 계획할 수 있게 해줘.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2408.02319.pdf
+
+Title: Self-centering 3-DoF feet controller for hands-free locomotion control in telepresence and virtual reality
+
+Original Abstract:
+We present a novel seated feet controller for handling 3-DoF aimed to control locomotion for telepresence robotics and virtual reality environments. Tilting the feet on two axes yields in forward, backward and sideways motion. In addition, a separate rotary joint allows for rotation around the vertical axis. Attached springs on all joints self-center the controller. The HTC Vive tracker is used to translate the trackers' orientation into locomotion commands. The proposed self-centering feet controller was used successfully for the ANA Avatar XPRIZE competition, where a naive operator traversed the robot through a longer distance, surpassing obstacles while solving various interaction and manipulation tasks in between. We publicly provide the models of the mostly 3D-printed feet controller for reproduction.
+
+Translated Abstract:
+우리는 원거리 로봇과 가상 현실 환경에서 이동을 조정할 수 있는 새로운 앉은 발 컨트롤러를 소개해. 이 컨트롤러는 3개의 자유도를 가지고 있어. 발을 두 축으로 기울이면 앞으로, 뒤로, 그리고 옆으로 움직일 수 있어.
+
+또한, 별도의 회전 관절이 있어서 수직 축을 중심으로 회전할 수 있어. 모든 관절에는 스프링이 달려 있어서 컨트롤러가 자동으로 중앙으로 돌아와. HTC Vive 트래커를 사용해서 트래커의 방향을 이동 명령으로 변환해.
+
+이 자가 중앙 정렬 발 컨트롤러는 ANA Avatar XPRIZE 대회에서 성공적으로 사용되었어. 여기서 한 초보자가 로봇을 더 긴 거리로 이동시키면서 장애물을 넘고 다양한 상호작용과 조작 작업도 해결했어. 우리는 주로 3D 프린팅으로 제작된 발 컨트롤러 모델을 공개하니까, 재현할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2408.11665.pdf
+
+Title: Online state vector reduction during model predictive control with gradient-based trajectory optimisation
+
+Original Abstract:
+Non-prehensile manipulation in high-dimensional systems is challenging for a variety of reasons. One of the main reasons is the computationally long planning times that come with a large state space. Trajectory optimisation algorithms have proved their utility in a wide variety of tasks, but, like most methods struggle scaling to the high dimensional systems ubiquitous to non-prehensile manipulation in clutter as well as deformable object manipulation. We reason that, during manipulation, different degrees of freedom will become more or less important to the task over time as the system evolves. We leverage this idea to reduce the number of degrees of freedom considered in a trajectory optimisation problem, to reduce planning times. This idea is particularly relevant in the context of model predictive control (MPC) where the cost landscape of the optimisation problem is constantly evolving. We provide simulation results under asynchronous MPC and show our methods are capable of achieving better overall performance due to the decreased policy lag whilst still being able to optimise trajectories effectively.
+
+Translated Abstract:
+고차원 시스템에서 비잡기 조작(non-prehensile manipulation)은 여러 가지 이유로 도전적이야. 그 중 하나는 큰 상태 공간 때문에 계획 시간이 길어지는 거야. 경로 최적화 알고리즘은 다양한 작업에서 유용하다는 걸 증명했지만, 대부분의 방법들은 복잡한 환경에서 비잡기 조작이나 변형 가능한 물체 조작에 적합하게 확장하는 데 어려움을 겪고 있어.
+
+우리는 조작 중에 시스템이 발전함에 따라 작업에 따라 서로 다른 자유도가 중요해지거나 덜 중요해진다고 생각해. 이 아이디어를 활용해서 경로 최적화 문제에서 고려해야 할 자유도 수를 줄여서 계획 시간을 단축하려고 해. 이 접근법은 모델 예측 제어(MPC)와 관련이 깊은데, 이곳에서는 최적화 문제의 비용 구조가 지속적으로 변화하거든.
+
+우리는 비동기 MPC 하에서 시뮬레이션 결과를 제공하고, 정책 지연이 줄어들면서도 경로를 효과적으로 최적화할 수 있어서 전반적인 성능이 더 좋아졌다는 걸 보여줘.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2408.12093.pdf
+
+Title: LLM-enhanced Scene Graph Learning for Household Rearrangement
+
+Original Abstract:
+The household rearrangement task involves spotting misplaced objects in a scene and accommodate them with proper places. It depends both on common-sense knowledge on the objective side and human user preference on the subjective side. In achieving such task, we propose to mine object functionality with user preference alignment directly from the scene itself, without relying on human intervention. To do so, we work with scene graph representation and propose LLM-enhanced scene graph learning which transforms the input scene graph into an affordance-enhanced graph (AEG) with information-enhanced nodes and newly discovered edges (relations). In AEG, the nodes corresponding to the receptacle objects are augmented with context-induced affordance which encodes what kind of carriable objects can be placed on it. New edges are discovered with newly discovered non-local relations. With AEG, we perform task planning for scene rearrangement by detecting misplaced carriables and determining a proper placement for each of them. We test our method by implementing a tiding robot in simulator and perform evaluation on a new benchmark we build. Extensive evaluations demonstrate that our method achieves state-of-the-art performance on misplacement detection and the following rearrangement planning.
+
+Translated Abstract:
+가정에서 물건을 재배치하는 작업은 장면에서 잘못 놓인 물건을 찾아서 적절한 장소에 올바르게 배치하는 거야. 이 작업은 물건의 기능에 대한 일반적인 지식과 사용자의 개인적인 선호도를 모두 고려해야 해.
+
+우리는 이 작업을 위해 인간의 개입 없이 장면 자체에서 물건의 기능과 사용자 선호를 직접 추출하는 방법을 제안해. 이를 위해 장면 그래프 표현을 사용하고, LLM(대규모 언어 모델)을 활용한 장면 그래프 학습을 제안해. 이 방법은 입력된 장면 그래프를 정보가 강화된 노드와 새롭게 발견된 엣지(관계)가 포함된 기능 강화 그래프(AEG)로 변환해.
+
+AEG에서는 용기(object)와 관련된 노드가 맥락에 따라 어떤 물건을 올릴 수 있는지를 나타내는 정보로 강화돼. 새롭게 발견된 비지역적 관계를 통해 새로운 엣지도 발견돼. AEG를 사용해서 우리는 잘못 놓인 물건을 감지하고 각각의 적절한 배치를 결정하면서 장면 재배치 작업을 계획해.
+
+우리는 시뮬레이터에서 정리 로봇을 구현하고, 새로 만든 벤치마크에서 평가를 통해 우리의 방법을 테스트했어. 다양한 평가 결과, 우리의 방법이 잘못 놓인 물건 감지와 그에 따른 재배치 계획에서 최첨단 성능을 달성했다는 걸 보여줬어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.03166.pdf
+
+Title: Continual Skill and Task Learning via Dialogue
+
+Original Abstract:
+Continual and interactive robot learning is a challenging problem as the robot is present with human users who expect the robot to learn novel skills to solve novel tasks perpetually with sample efficiency. In this work we present a framework for robots to query and learn visuo-motor robot skills and task relevant information via natural language dialog interactions with human users. Previous approaches either focus on improving the performance of instruction following agents, or passively learn novel skills or concepts. Instead, we used dialog combined with a language-skill grounding embedding to query or confirm skills and/or tasks requested by a user. To achieve this goal, we developed and integrated three different components for our agent. Firstly, we propose a novel visual-motor control policy ACT with Low Rank Adaptation (ACT-LoRA), which enables the existing SoTA ACT model to perform few-shot continual learning. Secondly, we develop an alignment model that projects demonstrations across skill embodiments into a shared embedding allowing us to know when to ask questions and/or demonstrations from users. Finally, we integrated an existing LLM to interact with a human user to perform grounded interactive continual skill learning to solve a task. Our ACT-LoRA model learns novel fine-tuned skills with a 100% accuracy when trained with only five demonstrations for a novel skill while still maintaining a 74.75% accuracy on pre-trained skills in the RLBench dataset where other models fall significantly short. We also performed a human-subjects study with 8 subjects to demonstrate the continual learning capabilities of our combined framework. We achieve a success rate of 75% in the task of sandwich making with the real robot learning from participant data demonstrating that robots can learn novel skills or task knowledge from dialogue with non-expert users using our approach.
+
+Translated Abstract:
+로봇의 지속적이고 상호작용적인 학습은 어려운 문제야. 로봇이 인간 사용자와 함께 있을 때, 사용자들은 로봇이 새로운 기술을 배워서 새로운 작업을 계속해서 효율적으로 해결하기를 기대해. 
+
+이번 연구에서는 로봇이 자연어 대화를 통해 인간 사용자와 상호작용하면서 시각-운동 로봇 기술과 작업 관련 정보를 질의하고 배우는 프레임워크를 제안해. 이전의 방법들은 주로 지시를 잘 따르는 에이전트의 성능을 높이거나, 수동적으로 새로운 기술이나 개념을 배우는 데 초점을 맞췄어. 대신, 우리는 대화와 언어-기술 연계 임베딩을 결합해서 사용자가 요청한 기술이나 작업을 확인하거나 질의하는 방식을 사용했어. 
+
+이 목표를 달성하기 위해, 우리는 에이전트를 위한 세 가지 다른 구성 요소를 개발하고 통합했어. 첫째, 우리는 ACT 모델이 몇 번의 예시만으로도 지속적 학습을 할 수 있게 해주는 새로운 시각-운동 제어 정책인 ACT-LoRA를 제안했어. 둘째, 우리는 기술 구현 간의 시연을 공유 임베딩으로 투영하는 정렬 모델을 개발했어. 이 모델은 질문이나 시연을 언제 요청해야 할지를 알 수 있게 해줘. 마지막으로, 우리는 기존의 대형 언어 모델(LLM)을 통합해 인간 사용자와 상호작용하면서 기반이 되는 지속적 기술 학습을 통해 작업을 수행하도록 했어. 
+
+우리의 ACT-LoRA 모델은 새로운 기술에 대해 다섯 번의 시연만으로 100% 정확도로 새로운 기술을 학습할 수 있어. 동시에, RLBench 데이터셋에서 이전에 학습한 기술에 대해서는 74.75%의 정확도를 유지하고 있어. 다른 모델들이 많이 부족한 것과 달리 말이야. 우리는 또한 8명의 참가자를 대상으로 한 인간 대상 연구를 수행해서 우리의 통합 프레임워크의 지속적 학습 능력을 입증했어. 샌드위치 만들기 작업에서 75%의 성공률을 달성하며, 로봇이 비전문가 사용자와의 대화를 통해 새로운 기술이나 작업 지식을 배울 수 있음을 보여줬어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.05344.pdf
+
+Title: GOPT: Generalizable Online 3D Bin Packing via Transformer-based Deep Reinforcement Learning
+
+Original Abstract:
+Robotic object packing has broad practical applications in the logistics and automation industry, often formulated by researchers as the online 3D Bin Packing Problem (3D-BPP). However, existing DRL-based methods primarily focus on enhancing performance in limited packing environments while neglecting the ability to generalize across multiple environments characterized by different bin dimensions. To this end, we propose GOPT, a generalizable online 3D Bin Packing approach via Transformer-based deep reinforcement learning (DRL). First, we design a Placement Generator module to yield finite subspaces as placement candidates and the representation of the bin. Second, we propose a Packing Transformer, which fuses the features of the items and bin, to identify the spatial correlation between the item to be packed and available sub-spaces within the bin. Coupling these two components enables GOPT's ability to perform inference on bins of varying dimensions. We conduct extensive experiments and demonstrate that GOPT not only achieves superior performance against the baselines, but also exhibits excellent generalization capabilities. Furthermore, the deployment with a robot showcases the practical applicability of our method in the real world. The source code will be publicly available at this https URL.
+
+Translated Abstract:
+로봇 물체 포장은 물류 및 자동화 산업에서 널리 쓰이는 기술인데, 연구자들은 이를 온라인 3D 빈 포장 문제(3D-BPP)로 정의해. 하지만 기존의 심층 강화 학습(DRL) 기반 방법들은 주로 제한된 포장 환경에서 성능을 높이는 데 집중하고, 서로 다른 빈 크기를 가진 여러 환경에서의 일반화 능력은 무시하고 있어.
+
+그래서 우리는 GOPT라는 방법을 제안해. 이건 변환기 기반의 심층 강화 학습을 통해 일반화 가능한 온라인 3D 빈 포장 접근 방식이야. 먼저, 우리는 배치 생성기 모듈을 설계해서 유한한 서브 공간을 배치 후보로 만들고 빈의 표현을 생성해. 그 다음, 우리는 아이템과 빈의 특징을 융합하는 패킹 변환기를 제안해. 이걸 통해 포장할 아이템과 빈의 가용 서브 공간 간의 공간적 상관관계를 파악할 수 있어.
+
+이 두 가지 요소를 결합하면 GOPT가 다양한 크기의 빈에서도 추론을 할 수 있는 능력을 갖추게 돼. 우리는 광범위한 실험을 진행했고, GOPT가 기본 모델들보다 뛰어난 성능을 보여줄 뿐만 아니라 아주 좋은 일반화 능력도 갖추고 있다는 걸 입증했어. 게다가 로봇에 배치했을 때, 우리의 방법이 실제로 어떻게 적용될 수 있는지도 보여줘. 소스 코드는 이 URL에서 공개될 예정이야.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.06990.pdf
+
+Title: SIS: Seam-Informed Strategy for T-shirt Unfolding
+
+Original Abstract:
+Seams are information-rich components of garments. The presence of different types of seams and their combinations helps to select grasping points for garment handling. In this paper, we propose a new Seam-Informed Strategy (SIS) for finding actions for handling a garment, such as grasping and unfolding a T-shirt. Candidates for a pair of grasping points for a dual-arm manipulator system are extracted using the proposed Seam Feature Extraction Method (SFEM). A pair of grasping points for the robot system is selected by the proposed Decision Matrix Iteration Method (DMIM). The decision matrix is first computed by multiple human demonstrations and updated by the robot execution results to improve the grasping and unfolding performance of the robot. Note that the proposed scheme is trained on real data without relying on simulation. Experimental results demonstrate the effectiveness of the proposed strategy. The project video is available at this https URL.
+
+Translated Abstract:
+옷의 솔기는 정보가 가득한 부분이야. 다양한 종류의 솔기와 그 조합이 옷을 다룰 때 잡는 지점을 정하는 데 도움이 돼. 이 논문에서는 T셔츠를 잡거나 펼치는 같은 옷 다루기 동작을 찾기 위해 새로운 솔기 정보 기반 전략(SIS)을 제안해.
+
+이 전략을 사용해서 이중 팔 로봇 시스템을 위한 잡는 지점 후보를 추출하는 방법인 솔기 특징 추출 방법(SFEM)을 사용해. 그리고 제안된 결정 행렬 반복 방법(DMIM)을 통해 로봇 시스템에 적합한 잡는 지점을 선택해. 결정 행렬은 여러 사람의 시연을 통해 먼저 계산되고, 로봇이 실행한 결과를 바탕으로 업데이트돼서 로봇의 잡고 펼치는 성능을 향상시키는 거야.
+
+여기서 중요한 점은 제안된 방법이 시뮬레이션에 의존하지 않고 실제 데이터를 기반으로 훈련된다는 거야. 실험 결과는 이 전략의 효과성을 보여줘. 프로젝트 비디오는 이 URL에서 확인할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.07409.pdf
+
+Title: Robust Robot Walker: Learning Agile Locomotion over Tiny Traps
+
+Original Abstract:
+Quadruped robots must exhibit robust walking capabilities in practical applications. In this work, we propose a novel approach that enables quadruped robots to pass various small obstacles, or "tiny traps". Existing methods often rely on exteroceptive sensors, which can be unreliable for detecting such tiny traps. To overcome this limitation, our approach focuses solely on proprioceptive inputs. We introduce a two-stage training framework incorporating a contact encoder and a classification head to learn implicit representations of different traps. Additionally, we design a set of tailored reward functions to improve both the stability of training and the ease of deployment for goal-tracking tasks. To benefit further research, we design a new benchmark for tiny trap task. Extensive experiments in both simulation and real-world settings demonstrate the effectiveness and robustness of our method. Project Page: this https URL
+
+Translated Abstract:
+사족 로봇은 실제 응용에서 강력한 걷기 능력을 보여야 해. 이번 연구에서는 사족 로봇이 다양한 작은 장애물, 즉 "작은 함정"을 넘을 수 있는 새로운 접근 방식을 제안해.
+
+기존 방법들은 보통 외부 센서에 의존하는데, 이런 센서는 작은 함정을 감지하는 데 신뢰성이 떨어질 수 있어. 그래서 우리는 이 한계를 극복하기 위해 오직 자신의 감각 입력만을 사용해. 우리는 접촉 인코더와 분류 헤드를 포함한 두 단계 훈련 프레임워크를 도입해서 다양한 함정의 암시적 표현을 학습해.
+
+또한, 훈련의 안정성과 목표 추적 작업의 배치 용이성을 높이기 위해 맞춤형 보상 함수를 설계했어. 추가 연구를 위해 작은 함정 작업을 위한 새로운 기준도 만들었어. 시뮬레이션과 실제 환경에서의 광범위한 실험을 통해 우리의 방법이 효과적이고 강력하다는 걸 보여줬어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2309.07808.pdf
+
+Title: What Matters to Enhance Traffic Rule Compliance of Imitation Learning for End-to-End Autonomous Driving
+
+Original Abstract:
+End-to-end autonomous driving, where the entire driving pipeline is replaced with a single neural network, has recently gained research attention because of its simpler structure and faster inference time. Despite this appealing approach largely reducing the complexity in the driving pipeline, it also leads to safety issues because the trained policy is not always compliant with the traffic rules. In this paper, we proposed P-CSG, a penalty-based imitation learning approach with contrastive-based cross semantics generation sensor fusion technologies to increase the overall performance of end-to-end autonomous driving. In this method, we introduce three penalties - red light, stop sign, and curvature speed penalty to make the agent more sensitive to traffic rules. The proposed cross semantics generation helps to align the shared information of different input modalities. We assessed our model's performance using the CARLA Leaderboard - Town 05 Long Benchmark and Longest6 Benchmark, achieving 8.5% and 2.0% driving score improvement compared to the baselines. Furthermore, we conducted robustness evaluations against adversarial attacks like FGSM and Dot attacks, revealing a substantial increase in robustness compared to other baseline models. More detailed information can be found at this https URL.
+
+Translated Abstract:
+최근에 엔드 투 엔드 자율 주행, 즉 전체 주행 과정을 하나의 신경망으로 대체하는 방식이 주목받고 있어. 이 방법은 구조가 간단하고 추론 속도가 빨라서 매력적이지만, 훈련된 정책이 항상 교통 법규를 준수하지 않기 때문에 안전 문제도 발생해. 
+
+우리는 이 문제를 해결하기 위해 P-CSG라는 방법을 제안했어. 이건 페널티 기반 모방 학습 방식으로, 대조 기반의 교차 의미 생성 센서 융합 기술을 사용해 엔드 투 엔드 자율 주행의 전반적인 성능을 높이는 거야. 이 방법에서는 교통 법규에 더 민감하게 반응하도록 세 가지 페널티 - 빨간 신호, 정지 신호, 그리고 곡선 속도 페널티를 도입했어. 제안된 교차 의미 생성 기술은 서로 다른 입력 방식에서 공유 정보를 정렬하는 데 도움을 줘.
+
+우리는 CARLA 리더보드의 Town 05 Long Benchmark와 Longest6 Benchmark를 사용해서 모델의 성능을 평가했어. 그 결과, 기준 모델에 비해 각각 8.5%와 2.0%의 주행 점수 향상을 이뤘어. 또, FGSM과 Dot 공격 같은 적대적 공격에 대한 강건성 평가도 했는데, 다른 기준 모델들에 비해 강건성이 크게 향상된 걸 보여줬어. 더 자세한 정보는 이 URL에서 확인할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2309.14660.pdf
+
+Title: CoFiI2P: Coarse-to-Fine Correspondences for Image-to-Point Cloud Registration
+
+Original Abstract:
+Image-to-point cloud (I2P) registration is a fundamental task for robots and autonomous vehicles to achieve cross-modality data fusion and localization. Current I2P registration methods primarily focus on estimating correspondences at the point or pixel level, often neglecting global alignment. As a result, I2P matching can easily converge to a local optimum if it lacks high-level guidance from global constraints. To improve the success rate and general robustness, this paper introduces CoFiI2P, a novel I2P registration network that extracts correspondences in a coarse-to-fine manner. First, the image and point cloud data are processed through a two-stream encoder-decoder network for hierarchical feature extraction. Second, a coarse-to-fine matching module is designed to leverage these features and establish robust feature correspondences. Specifically, In the coarse matching phase, a novel I2P transformer module is employed to capture both homogeneous and heterogeneous global information from the image and point cloud data. This enables the estimation of coarse super-point/super-pixel matching pairs with discriminative descriptors. In the fine matching module, point/pixel pairs are established with the guidance of super-point/super-pixel correspondences. Finally, based on matching pairs, the transform matrix is estimated with the EPnP-RANSAC algorithm. Experiments conducted on the KITTI Odometry dataset demonstrate that CoFiI2P achieves impressive results, with a relative rotation error (RRE) of 1.14 degrees and a relative translation error (RTE) of 0.29 meters, while maintaining real-time speed.Additional experiments on the Nuscenes datasets confirm our method's generalizability. The project page is available at \url{this https URL}.
+
+Translated Abstract:
+이미지-포인트 클라우드(I2P) 등록은 로봇과 자율주행차가 서로 다른 데이터 형식을 결합하고 위치를 파악하는 데 중요한 작업이야. 현재 I2P 등록 방법들은 주로 포인트나 픽셀 수준에서 대응 관계를 추정하는 데 집중하고, 전반적인 정렬은 종종 무시해. 그래서 I2P 매칭은 글로벌 제약의 고급 지침이 없으면 쉽게 지역 최적점에 수렴할 수 있어.
+
+이 논문에서는 CoFiI2P라는 새로운 I2P 등록 네트워크를 소개해. 이 네트워크는 대응 관계를 거칠게부터 세밀하게 추출하는 방식으로 작동해. 먼저, 이미지와 포인트 클라우드 데이터를 두 개의 스트림으로 구성된 인코더-디코더 네트워크를 통해 처리해서 계층적 특징을 추출해. 둘째로, 이러한 특징을 활용해 강력한 특징 대응 관계를 설정하는 거칠게부터 세밀하게 매칭하는 모듈을 설계했어.
+
+구체적으로, 거칠게 매칭하는 단계에서는 새로운 I2P 변환 모듈을 사용해서 이미지와 포인트 클라우드 데이터에서 동질적이거나 이질적인 글로벌 정보를 캡처해. 이걸 통해 구별 가능한 설명자를 가진 거친 슈퍼 포인트/슈퍼 픽셀 매칭 쌍을 추정할 수 있어. 세밀하게 매칭하는 모듈에서는 슈퍼 포인트/슈퍼 픽셀 대응 관계의 지침을 받아 포인트/픽셀 쌍을 설정해. 마지막으로, 매칭 쌍을 기반으로 EPnP-RANSAC 알고리즘을 사용해 변환 행렬을 추정해.
+
+KITTI 오도메트리 데이터셋에서 진행된 실험 결과, CoFiI2P는 상대 회전 오차(RRE)가 1.14도, 상대 변환 오차(RTE)가 0.29미터로 인상적인 결과를 달성하면서 실시간 속도를 유지했어. Nuscenes 데이터셋에서의 추가 실험도 우리 방법의 일반화를 확인해 줬어. 프로젝트 페이지는 이 URL에서 확인할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2403.00564.pdf
+
+Title: EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data
+
+Original Abstract:
+Sample efficiency remains a crucial challenge in applying Reinforcement Learning (RL) to real-world tasks. While recent algorithms have made significant strides in improving sample efficiency, none have achieved consistently superior performance across diverse domains. In this paper, we introduce EfficientZero V2, a general framework designed for sample-efficient RL algorithms. We have expanded the performance of EfficientZero to multiple domains, encompassing both continuous and discrete actions, as well as visual and low-dimensional inputs. With a series of improvements we propose, EfficientZero V2 outperforms the current state-of-the-art (SOTA) by a significant margin in diverse tasks under the limited data setting. EfficientZero V2 exhibits a notable advancement over the prevailing general algorithm, DreamerV3, achieving superior outcomes in 50 of 66 evaluated tasks across diverse benchmarks, such as Atari 100k, Proprio Control, and Vision Control.
+
+Translated Abstract:
+샘플 효율성은 강화 학습(RL)을 실제 작업에 적용하는 데 여전히 큰 도전 과제야. 최근 알고리즘들이 샘플 효율성을 개선하는 데 많은 진전을 이뤘지만, 다양한 분야에서 지속적으로 우수한 성능을 보인 건 없어.
+
+이 논문에서는 샘플 효율적인 RL 알고리즘을 위해 설계된 일반적인 프레임워크인 EfficientZero V2를 소개해. EfficientZero의 성능을 여러 분야로 확장했어. 여기엔 연속 동작과 이산 동작은 물론, 시각적 입력과 저차원 입력도 포함돼. 우리가 제안하는 일련의 개선 덕분에, EfficientZero V2는 제한된 데이터 환경에서 다양한 작업에서 현재의 최첨단(SOTA)을 상당히 초월하는 성능을 보여줘.
+
+EfficientZero V2는 기존의 일반 알고리즘인 DreamerV3에 비해 눈에 띄는 발전을 이루었고, Atari 100k, Proprio Control, Vision Control 같은 다양한 벤치마크에서 평가한 66개 작업 중 50개에서 더 나은 결과를 달성했어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2403.18209.pdf
+
+Title: Long and Short-Term Constraints Driven Safe Reinforcement Learning for Autonomous Driving
+
+Original Abstract:
+Reinforcement learning (RL) has been widely used in decision-making and control tasks, but the risk is very high for the agent in the training process due to the requirements of interaction with the environment, which seriously limits its industrial applications such as autonomous driving systems. Safe RL methods are developed to handle this issue by constraining the expected safety violation costs as a training objective, but the occurring probability of an unsafe state is still high, which is unacceptable in autonomous driving tasks. Moreover, these methods are difficult to achieve a balance between the cost and return expectations, which leads to learning performance degradation for the algorithms. In this paper, we propose a novel algorithm based on the long and short-term constraints (LSTC) for safe RL. The short-term constraint aims to enhance the short-term state safety that the vehicle explores, while the long-term constraint enhances the overall safety of the vehicle throughout the decision-making process, both of which are jointly used to enhance the vehicle safety in the training process. In addition, we develop a safe RL method with dual-constraint optimization based on the Lagrange multiplier to optimize the training process for end-to-end autonomous driving. Comprehensive experiments were conducted on the MetaDrive simulator. Experimental results demonstrate that the proposed method achieves higher safety in continuous state and action tasks, and exhibits higher exploration performance in long-distance decision-making tasks compared with state-of-the-art methods.
+
+Translated Abstract:
+강화 학습(RL)은 의사결정과 제어 작업에서 널리 사용되지만, 환경과의 상호작용 때문에 훈련 과정에서 에이전트에게 위험이 크고, 이로 인해 자율주행 시스템 같은 산업적 응용에 제약이 있어. 안전한 RL 방법이 이 문제를 해결하기 위해 기대되는 안전 위반 비용을 훈련 목표로 제한하는 방식으로 개발되었지만, 여전히 불안전한 상태가 발생할 확률이 높아서 자율주행 작업에는 받아들일 수 없어. 게다가, 이 방법들은 비용과 수익 기대치 간의 균형을 맞추기 어려워서 알고리즘의 학습 성능이 저하되는 결과를 낳아.
+
+이 논문에서는 안전한 RL을 위한 새로운 알고리즘, 즉 장기 및 단기 제약(LSTC) 기반의 알고리즘을 제안해. 단기 제약은 차량이 탐색하는 단기 상태의 안전성을 높이는 것을 목표로 하고, 장기 제약은 의사결정 과정 전반에 걸쳐 차량의 전반적인 안전성을 높이는 데 도움을 줘. 이 두 가지를 함께 사용해서 훈련 과정에서 차량의 안전성을 향상시키는 거야. 
+
+또한, 우리는 라그랑주 승수를 기반으로 하는 이중 제약 최적화를 통해 엔드 투 엔드 자율주행의 훈련 과정을 최적화하는 안전한 RL 방법을 개발했어. 메타드라이브 시뮬레이터에서 종합적인 실험을 진행했어. 실험 결과, 제안한 방법이 연속 상태와 행동 작업에서 더 높은 안전성을 달성하고, 최신 방법에 비해 장거리 의사결정 작업에서 더 나은 탐색 성능을 보이는 걸 확인했어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2408.16322.pdf
+
+Title: BEVal: A Cross-dataset Evaluation Study of BEV Segmentation Models for Autonomous Driving
+
+Original Abstract:
+Current research in semantic bird's-eye view segmentation for autonomous driving focuses solely on optimizing neural network models using a single dataset, typically nuScenes. This practice leads to the development of highly specialized models that may fail when faced with different environments or sensor setups, a problem known as domain shift. In this paper, we conduct a comprehensive cross-dataset evaluation of state-of-the-art BEV segmentation models to assess their performance across different training and testing datasets and setups, as well as different semantic categories. We investigate the influence of different sensors, such as cameras and LiDAR, on the models' ability to generalize to diverse conditions and scenarios. Additionally, we conduct multi-dataset training experiments that improve models' BEV segmentation performance compared to single-dataset training. Our work addresses the gap in evaluating BEV segmentation models under cross-dataset validation. And our findings underscore the importance of enhancing model generalizability and adaptability to ensure more robust and reliable BEV segmentation approaches for autonomous driving applications. The code for this paper available at this https URL .
+
+Translated Abstract:
+현재 자율주행을 위한 의미론적 조감도(segment) 분할 연구는 주로 nuScenes라는 단일 데이터셋을 사용해 신경망 모델을 최적화하는 데만 집중하고 있어. 이런 방식은 특정 환경이나 센서 설정에 맞춘 아주 특화된 모델이 만들어지게 되는데, 이게 다른 환경에선 잘 작동하지 않는 문제, 즉 도메인 시프트(domain shift)가 발생할 수 있어.
+
+이 논문에서는 최신 BEV 분할 모델들을 다양한 훈련 및 테스트 데이터셋, 환경, 그리고 의미론적 카테고리에서 평가해봤어. 다양한 센서, 예를 들어 카메라와 LiDAR가 모델의 일반화 능력에 미치는 영향을 조사했어. 
+
+또한, 여러 데이터셋을 사용한 훈련 실험도 진행했는데, 이게 단일 데이터셋으로 훈련한 것보다 BEV 분할 성능을 더 개선하는 결과를 가져왔어. 우리 연구는 교차 데이터셋 검증 하에서 BEV 분할 모델을 평가하는 데 필요한 부분을 다루고 있어. 그리고 우리의 결과는 모델의 일반화 능력과 적응력을 향상시키는 게 자율주행 응용을 위한 더 견고하고 신뢰할 수 있는 BEV 분할 접근 방식을 보장하는 데 중요하다는 걸 강조하고 있어. 
+
+이 논문의 코드는 이 URL에서 확인할 수 있어.
+
+================================================================================
+
+URL:
+https://arxiv.org/pdf/2409.04086.pdf
+
+Title: Introducing a Class-Aware Metric for Monocular Depth Estimation: An Automotive Perspective
+
+Original Abstract:
+The increasing accuracy reports of metric monocular depth estimation models lead to a growing interest from the automotive domain. Current model evaluations do not provide deeper insights into the models' performance, also in relation to safety-critical or unseen classes. Within this paper, we present a novel approach for the evaluation of depth estimation models. Our proposed metric leverages three components, a class-wise component, an edge and corner image feature component, and a global consistency retaining component. Classes are further weighted on their distance in the scene and on criticality for automotive applications. In the evaluation, we present the benefits of our metric through comparison to classical metrics, class-wise analytics, and the retrieval of critical situations. The results show that our metric provides deeper insights into model results while fulfilling safety-critical requirements. We release the code and weights on the following repository: this https URL
+
+Translated Abstract:
+단일 카메라 깊이 추정 모델의 정확성이 높아지면서 자동차 분야에서도 많은 관심을 받고 있어. 현재 모델 평가가 모델 성능에 대한 깊은 통찰을 제공하지 못하고, 특히 안전과 관련된 중요한 클래스나 보지 못한 클래스에 대해서도 부족해. 이 논문에서는 깊이 추정 모델을 평가하기 위한 새로운 접근 방식을 제안해.
+
+우리가 제안하는 평가는 세 가지 요소를 활용해. 첫째, 클래스별 요소, 둘째, 엣지와 코너 이미지 특징 요소, 셋째, 전반적인 일관성을 유지하는 요소야. 클래스는 장면에서의 거리와 자동차 응용에 대한 중요성을 바탕으로 가중치가 부여돼. 평가에서는 우리 지표의 장점을 전통적인 지표와 비교하고, 클래스별 분석과 중요한 상황을 찾아내는 방식으로 보여줄 거야.
+
+결과적으로, 우리 지표는 모델 결과에 대한 더 깊은 통찰을 제공하면서 안전과 관련된 요구사항도 충족해. 코드는 다음 저장소에서 공개할 예정이야: 이 https URL
+
+================================================================================
+
